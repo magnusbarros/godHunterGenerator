@@ -1,0 +1,21 @@
+.menu-logo {
+    height: 50px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.drawer-logo {
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+.menu-title {
+    position: absolute;
+    top: 18px;
+    left: 170px;
+
+}
+
+.menu-toolbar {
+    background-color: brown;
+}
