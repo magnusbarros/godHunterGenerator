@@ -1,0 +1,35 @@
+.talent-list .explanation-card {
+    margin: 20px;
+}
+
+.talent-list .explanation-card.disabled {
+    display: none;
+}
+
+.talent-list .explanation-card .inner-explanation-card {
+    margin: 5px
+}
+
+.inner-explanation-card .talent-icon {
+    float: left
+}
+
+.talent-grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.talent-list .helpBtn {
+    float: right;
+    color: brown;
+}
+
+.talent-list .closeBtn {
+    float: right;
+    color: brown;
+}
+
+.talent-list .helpBtn.disabled {
+    display: none;
+}

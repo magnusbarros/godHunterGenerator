@@ -1,9 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
 import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
@@ -44,7 +42,7 @@ export const Main = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              <img src={logo} className='menu-logo' />
+              <img src={logo} alt='KamiGakari Logo' className='menu-logo' />
               <div className='menu-title' >God Hunter Generator</div>
             </Typography>
           </Toolbar>
@@ -74,7 +72,7 @@ export const Main = () => {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <img src={logo} className='drawer-logo' />
+      <img src={logo} alt='KamiGakari Logo' className='drawer-logo' />
       <List>
         {menuItems.map(([text, link], index) => (
           <ListItem key={text} disablePadding>

@@ -3,19 +3,21 @@ import {
     createBrowserRouter
 } from "react-router-dom";
 import "./index.css";
+import Characters from './pages/characters/Characters'
+import TalentCompendium from "./pages/talentCompendium/TalentCompendium";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <div></div>,
+        element: <Characters />,
     },
     {
         path: "characters",
-        element: <div>Work In Progress</div>
+        element: <Characters />
     },
     {
         path: "talent-compendium",
-        element: <div>Work In Progress</div>
+        element: <TalentCompendium />
     },
     {
         path: "options",

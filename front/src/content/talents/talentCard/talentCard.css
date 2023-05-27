@@ -1,0 +1,70 @@
+.talent-card {
+    flex: 1;
+    max-width: 280px;
+    min-width: 280px;
+    height: 350px;
+    max-height: 350px;
+    overflow-y: scroll;
+    margin: 10px;
+}
+
+.talent-card .title {
+    font-size: 20px;
+    margin: 10px 15px 10px 15px;
+}
+
+.talent-card .subtitle {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.effect {
+    height: 100%;
+    max-height: 120px;
+    overflow-y: scroll;
+}
+
+.talent-card .tldr {
+    margin: 10px 15px 10px 15px;
+}
+
+.talent-card .talent-icon {
+    float: left;
+}
+
+.talent-card .rules {
+    margin: 10px;
+}
+
+.talent-inner-modal .talent-icon {
+    float: left;
+}
+
+.talent-inner-modal .modal-text {
+    margin-bottom: 5px;
+}
+
+/* width */
+.talent-card::-webkit-scrollbar,
+.effect::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.talent-card::-webkit-scrollbar-track,
+.effect::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.talent-card::-webkit-scrollbar-thumb,
+.effect::-webkit-scrollbar-thumb {
+    background: #b9b9b9;
+}
+
+/* Handle on hover */
+.talent-card::-webkit-scrollbar-thumb:hover,
+.effect::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
