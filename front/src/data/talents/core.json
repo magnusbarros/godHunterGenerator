@@ -10,7 +10,6 @@
         "cost": [
             "o"
         ],
-        "numbers": null,
         "damageTypes": [
             "mpd",
             "rpd"

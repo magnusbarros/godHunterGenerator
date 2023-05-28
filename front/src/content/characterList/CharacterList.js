@@ -8,7 +8,15 @@ import ListItemButton from '@mui/material/ListItemButton';
 
 export const CharacterList = (props) => {
 
-    const [selectedCharacter, setSelectedCharacter] = useState()
+    const emptyCharacter = {
+        id: 0,
+        name: "",
+        level: 0,
+        mainClass: "",
+        secondaryClass: ""
+    }
+
+    const [selectedCharacter, setSelectedCharacter] = useState(emptyCharacter);
 
     const characterSelect = (ev, characterId) => {
         props.content.forEach(character => {
@@ -41,12 +49,12 @@ export const CharacterList = (props) => {
             <Box className="character-preview">
                 {
                     selectedCharacter ?
-                    <>
-                        <h1>Name: {selectedCharacter.name}</h1>
-                        <h3>Level: {selectedCharacter.level}</h3>
-                        <h4>Primary Class: {selectedCharacter.mainClass}</h4>
-                        <h4>Secondary Class: {selectedCharacter.secondaryClass}</h4>
-                    </>:""
+                        <>
+                            <h1>Name: {selectedCharacter.name}</h1>
+                            <h3>Level: {selectedCharacter.level}</h3>
+                            <h4>Primary Class: {selectedCharacter.mainClass}</h4>
+                            <h4>Secondary Class: {selectedCharacter.secondaryClass}</h4>
+                        </> : ""
                 }
             </Box>
         </Box>

@@ -24,7 +24,8 @@ export const TalentCard = (props) => {
         effect: null,
         damageTypes: [],
         description: null,
-        origin: null
+        origin: null,
+        category: null
     };
 
     const style = {
@@ -46,42 +47,42 @@ export const TalentCard = (props) => {
     const getTiming = (timing, modal) => {
         switch (timing) {
             case Timing.ATTACK:
-                return <Typography className={modal ? "modal-text" : "rules"} color="red"><AccessTimeIcon className="talent-icon" /> Attack</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="red"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Attack</Typography>
             case Timing.DEFENSE:
-                return <Typography className={modal ? "modal-text" : "rules"} color="blue"><AccessTimeIcon className="talent-icon" /> Defense</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="blue"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Defense</Typography>
             case Timing.CONSTANT:
-                return <Typography className={modal ? "modal-text" : "rules"} color="orange"><AccessTimeIcon className="talent-icon" /> Constant</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="orange"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Constant</Typography>
             case Timing.START:
-                return <Typography className={modal ? "modal-text" : "rules"} color="green"><AccessTimeIcon className="talent-icon" /> Start</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="green"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Start</Typography>
             case Timing.END:
-                return <Typography className={modal ? "modal-text" : "rules"} color="brown"><AccessTimeIcon className="talent-icon" /> End</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="brown"><AccessTimeIcon className="talent-icon" /> {modal ? "Timing: " : ""}End</Typography>
             case Timing.PREP:
-                return <Typography className={modal ? "modal-text" : "rules"} color="yellow"><AccessTimeIcon className="talent-icon" /> Prep</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="yellow"><AccessTimeIcon className="talent-icon" /> {modal ? "Timing: " : ""}Prep</Typography>
             case Timing.FREE:
-                return <Typography className={modal ? "modal-text" : "rules"} color="magenta"><AccessTimeIcon className="talent-icon" /> Free</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="magenta"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Free</Typography>
             case Timing.UNIQUE:
-                return <Typography className={modal ? "modal-text" : "rules"} color="pink"><AccessTimeIcon className="talent-icon" /> Unique</Typography>
-            case Timing.OTHER:
-                return <Typography className={modal ? "modal-text" : "rules"} color="gray"><AccessTimeIcon className="talent-icon" /> Other</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="pink"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Unique</Typography>
+            default:
+                return <Typography className={modal ? "modal-text" : "rules"} color="gray"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Other</Typography>
         }
     }
 
     const getRange = (range, squares, modal) => {
         switch (range) {
             case Range.USER:
-                return <Typography className={modal ? "modal-text" : "rules"} color="blue"><TrackChangesIcon className="talent-icon" /> User</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="blue"><TrackChangesIcon className="talent-icon" />{modal ? "Range: " : ""} User</Typography>
             case Range.CHARGE:
-                return <Typography className={modal ? "modal-text" : "rules"} color="green"><TrackChangesIcon className="talent-icon" /> Charge</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="green"><TrackChangesIcon className="talent-icon" />{modal ? "Range: " : ""} Charge</Typography>
             case Range.COMBAT_ZONE:
-                return <Typography className={modal ? "modal-text" : "rules"} color="yellow"><TrackChangesIcon className="talent-icon" /> Combat Zone</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="yellow"><TrackChangesIcon className="talent-icon" />{modal ? "Range: " : ""} Combat Zone</Typography>
             case Range.ENGAGED:
-                return <Typography className={modal ? "modal-text" : "rules"} color="red"><TrackChangesIcon className="talent-icon" /> Engaged</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="red"><TrackChangesIcon className="talent-icon" />{modal ? "Range: " : ""} Engaged</Typography>
             case Range.ITEM:
-                return <Typography className={modal ? "modal-text" : "rules"} color="magenta"><TrackChangesIcon className="talent-icon" /> Item</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="magenta"><TrackChangesIcon className="talent-icon" />{modal ? "Range: " : ""} Item</Typography>
             case Range.SQUARE:
-                return <Typography className={modal ? "modal-text" : "rules"} color="red"><TrackChangesIcon className="talent-icon" /> {squares} Square(s)</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="red"><TrackChangesIcon className="talent-icon" />{modal ? "Range: " : ""} {squares} Square(s)</Typography>
             default:
-                return <Typography className={modal ? "modal-text" : "rules"} color="gray"><TrackChangesIcon className="talent-icon" /> Other</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="gray"><TrackChangesIcon className="talent-icon" /> {modal ? "Range: " : ""}Other</Typography>
         }
     }
 
@@ -106,9 +107,41 @@ export const TalentCard = (props) => {
                 return "Ancestry"
             case Origin.FACET:
                 return "Facet"
-            case Origin.OTHER:
+            default:
                 return "Other"
         }
+    }
+
+    const getDiceValue = (input) => {
+        switch (input) {
+            case Cost.ODD:
+                return "Odds"
+            case Cost.EVEN:
+                return "Evens"
+            case Cost.DOUBLES:
+                return "Doubles"
+            case Cost.STEPS:
+                return "STEPS"
+            case "1":
+            case "2":
+            case "3":
+            case "4":
+            case "5":
+            case "6":
+                return input;
+            default:
+                return "None"
+        }
+    }
+
+    const getDice = (costs, modal) => {
+        let dieValue = null;
+        let numbers = "";
+        costs.forEach((n) => {
+            numbers = numbers + " [" + getDiceValue(n) + "] "
+        })
+        dieValue = <Typography className={modal ? "modal-text" : "rules"} color="black"><CasinoIcon className="talent-icon" />{numbers}</Typography>
+        return dieValue;
     }
 
     return (
@@ -131,27 +164,7 @@ export const TalentCard = (props) => {
                     </Typography>
                     {getTiming(talent.timing, true)}
                     {getRange(talent.range, talent.squares, true)}
-                    {talent.cost.map((item) => {
-                        switch (item) {
-                            case Cost.ODD:
-                                return <Typography className="modal-text" color="blue"><CasinoIcon className="talent-icon" />Odds</Typography>
-                            case Cost.EVEN:
-                                return <Typography className="modal-text" color="red"><CasinoIcon className="talent-icon" />Evens</Typography>
-                            case Cost.DOUBLES:
-                                <Typography className="modal-text" color="yellow"><CasinoIcon className="talent-icon" />Doubles</Typography>
-                                break;
-                            case Cost.NUMBER:
-                                let numbers = "";
-                                talent.numbers.forEach((n) => {
-                                    numbers = numbers + " [" + n + "] "
-                                })
-                                return <Typography className="modal-text" color="black"><CasinoIcon className="talent-icon" />{numbers}</Typography>
-                            case Cost.STEPS:
-                                return <Typography className="modal-text" color="orange"><CasinoIcon className="talent-icon" />Steps</Typography>
-                            default:
-                                return <Typography className="modal-text" color="gray"><CasinoIcon className="talent-icon" />None</Typography>
-                        }
-                    })}
+                    {getDice(talent.cost, true)}
                     <Typography className="modal-text" >
                         <NotesIcon className="talent-icon" />Description: {talent.description}
                     </Typography>
@@ -173,27 +186,7 @@ export const TalentCard = (props) => {
             </Typography>
             {getTiming(talent.timing)}
             {getRange(talent.range, talent.squares)}
-            {talent.cost.map((item) => {
-                switch (item) {
-                    case Cost.ODD:
-                        return <Typography className="rules" color="blue"><CasinoIcon className="talent-icon" />Odds</Typography>
-                    case Cost.EVEN:
-                        return <Typography className="rules" color="red"><CasinoIcon className="talent-icon" />Evens</Typography>
-                    case Cost.DOUBLES:
-                        <Typography className="rules" color="yellow"><CasinoIcon className="talent-icon" />Doubles</Typography>
-                        break;
-                    case Cost.NUMBER:
-                        let numbers = "";
-                        talent.numbers.forEach((n) => {
-                            numbers = numbers + " [" + n + "] "
-                        })
-                        return <Typography className="rules" color="black"><CasinoIcon className="talent-icon" />{numbers}</Typography>
-                    case Cost.STEPS:
-                        return <Typography className="rules" color="orange"><CasinoIcon className="talent-icon" />Steps</Typography>
-                    default:
-                        return <Typography className="rules" color="gray"><CasinoIcon className="talent-icon" />None</Typography>
-                }
-            })}
+            {getDice(talent.cost)}
             <Box className="effect">
                 <Typography className="rules">
                     <AnnouncementIcon className="talent-icon" /> {talent.effect}

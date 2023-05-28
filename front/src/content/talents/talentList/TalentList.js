@@ -16,7 +16,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 
 import CoreTalents from '../../../data/talents/core.json';
-import { Cost, Timing, Range, Origin, Facet, Ancestry, Damage_Type } from "../../../data/constants/TalentConstants";
+import { Timing, Range, Origin, Facet, Ancestry, Damage_Type } from "../../../data/constants/TalentConstants";
 
 export const TalentList = (props) => {
 
@@ -128,6 +128,8 @@ export const TalentList = (props) => {
                             case "6":
                                 _selectedDie.push(die)
                                 break;
+                            default:
+                                console.log("Invalid value " + die + ". Skipping...")
                         }
                     })
                     setSelectedDice(_selectedDie);
@@ -145,7 +147,10 @@ export const TalentList = (props) => {
             return false;
         }
 
-        return arr1.every((item, index) => item === arr2[index]);
+        var sortedArr1 = arr1.slice().sort();
+        var sortedArr2 = arr2.slice().sort();
+
+        return sortedArr1.every((item, index) => item === sortedArr2[index]);
     }
 
     const filterOptions = (item) => {

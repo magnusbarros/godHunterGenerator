@@ -21,7 +21,10 @@
 }
 
 .talent-list .helpBtn {
+    position: absolute;
     float: right;
+    right: 0;
+    top: 85px;
     color: brown;
 }
 
