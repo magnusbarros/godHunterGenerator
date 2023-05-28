@@ -33,3 +33,43 @@
 .talent-list .helpBtn.disabled {
     display: none;
 }
+
+.talent-icon-label {
+    float: left;
+}
+
+.talent-filter {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.talent-select {
+    width: 100%;
+    min-width: 200px;
+}
+
+.talent-filter-box {
+    margin: 5px;
+    flex: 1;
+}
+
+.talent-filter-box.disabled {
+    display: none;
+}
+
+.talent-filter-button-box {
+    flex: 1;
+}
+
+.talent-filter-button {
+    color: brown;
+}
+
+.talent-facet.disabled {
+    display: none;
+}
+
+.talent-type-select {
+    max-width: 100px;
+}

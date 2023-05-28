@@ -1,0 +1,23 @@
+[
+    {
+        "id": "core_1",
+        "name": "Keen Strike",
+        "source": 1,
+        "tldr": "Physical attack with sword or range form weapon.",
+        "timing": "a",
+        "range": "i",
+        "squares": null,
+        "cost": [
+            "o"
+        ],
+        "numbers": null,
+        "damageTypes": [
+            "mpd",
+            "rpd"
+        ],
+        "effect": "Make a physical attack using a sword-form weapon or ranged-form weapon. When you calculate the attack's damage, add any one of your main stats.",
+        "description": "You strike with a piercing scream, drawing out the effectiveness of certain weapons to their fullest.",
+        "origin": 1,
+        "category": null
+    }
+]
