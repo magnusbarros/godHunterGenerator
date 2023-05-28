@@ -107,6 +107,10 @@ export const TalentCard = (props) => {
                 return "Ancestry"
             case Origin.FACET:
                 return "Facet"
+            case Origin.GENERAL:
+                return "General"
+            case Origin.HIGH:
+                return "High"
             default:
                 return "Other"
         }

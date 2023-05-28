@@ -30,6 +30,9 @@ export const TalentList = (props) => {
     const [loading, setLoading] = useState(true);
     const [facet, setFacet] = useState(false);
     const [ancestry, setAncestry] = useState(false);
+    const [general, setGeneral] = useState(false);
+    const [high, setHigh] = useState(false);
+    const [other, setOther] = useState(false);
     const [selectedFacet, setSelectedFacet] = useState(0);
     const [selectedAncestry, setSelectedAncestry] = useState(0);
     const [damageType, setDamageType] = useState("*");
@@ -56,7 +59,7 @@ export const TalentList = (props) => {
         data.forEach((item) => {
             _talentNames.push(item.name);
         })
-        setTalentNames(_talentNames);
+        setTalentNames(_talentNames.sort());
     }
 
     const changeFilter = (ev, value, inputId) => {
@@ -137,6 +140,15 @@ export const TalentList = (props) => {
 
                 setDiceInput(ev.target.value);
                 break;
+            case "talent-general":
+                setGeneral(value);
+                break;
+            case "talent-high":
+                setHigh(value);
+                break;
+            case "talent-other":
+                setOther(value);
+                break;
             default:
                 break;
         }
@@ -158,10 +170,9 @@ export const TalentList = (props) => {
         let filterTiming = true;
         let filterRange = true;
         let filterSquare = true;
-        let filterFacet = true;
-        let filterAncestry = true;
         let filterDamageType = true;
         let filterDice = true;
+        let filterOrigin = true;
 
         //Name
         if (name !== "" && name !== null) {
@@ -190,25 +201,35 @@ export const TalentList = (props) => {
             } else filterSquare = false;
         }
 
-        //Facet and/or Ancestry
+        //Origin
         if (facet) {
-            if (item.source === selectedFacet) {
-                filterFacet = true;
-            } else if (selectedFacet === 0) {
-                filterFacet = true;
-            } else filterFacet = false;
-        } else if (!facet && ancestry && item.origin === Origin.FACET) {
-            filterFacet = false;
-        }
-
-        if (ancestry) {
-            if (item.source === selectedAncestry) {
-                filterAncestry = true;
-            } else if (selectedAncestry === 0) {
-                filterAncestry = true;
-            } else filterAncestry = false;
-        } else if (!ancestry && facet && item.origin === Origin.ANCESTRY) {
-            filterFacet = false;
+            if (item.origin === Origin.FACET) {
+                if (item.source === selectedFacet) {
+                    filterOrigin = true;
+                } else if (selectedFacet === 0) {
+                    filterOrigin = true;
+                } else filterOrigin = false;
+            } else filterOrigin = false;
+        } else if (ancestry) {
+            if (item.origin === Origin.ANCESTRY) {
+                if (item.source === selectedAncestry) {
+                    filterOrigin = true;
+                } else if (selectedAncestry === 0) {
+                    filterOrigin = true;
+                } else filterOrigin = false;
+            } else filterOrigin = false;
+        } else if (general) {
+            if (item.origin === Origin.GENERAL) {
+                filterOrigin = true;
+            } else filterOrigin = false;
+        } else if (high) {
+            if (item.origin === Origin.HIGH) {
+                filterOrigin = true;
+            } else filterOrigin = false;
+        } else if (other) {
+            if (item.origin === Origin.OTHER) {
+                filterOrigin = true;
+            } else filterOrigin = false;
         }
 
         //Damage Type
@@ -233,8 +254,7 @@ export const TalentList = (props) => {
             filterTiming &&
             filterRange &&
             filterSquare &&
-            filterFacet &&
-            filterAncestry &&
+            filterOrigin &&
             filterDamageType &&
             filterDice;
     }
@@ -282,7 +302,7 @@ export const TalentList = (props) => {
 
     return (
         <Box className="talent-list">
-            <Card id="explanationCard" className="explanation-card">
+            <Card id="explanationCard" className="explanation-card disabled">
                 <Box className="inner-explanation-card">
                     <Button variant="text" className="closeBtn" onClick={closeExplanationCard}><CloseIcon /></Button>
                     <Typography color={'text.primary'}>Explanation:</Typography>
@@ -293,7 +313,7 @@ export const TalentList = (props) => {
                     <Typography color={'text.secondary'}><NotesIcon className="talent-icon" />Description: Flavor text to describe what an attack looks like. Does not necessarily represent the effect. (Core Rulebook, Pg 71) </Typography>
                 </Box>
             </Card>
-            <Button variant="text" id="help" className="helpBtn disabled" onClick={openExplanationCard}>
+            <Button variant="text" id="help" className="helpBtn" onClick={openExplanationCard}>
                 <HelpIcon />
             </Button>
             <Box className="talent-filter">
@@ -391,6 +411,15 @@ export const TalentList = (props) => {
                         <FormControlLabel control={<Checkbox checked={ancestry} onChange={(ev, value) => changeFilter(ev, value, "talent-ancestry")} />} label="Ancestry" />
                         <FormControlLabel control={<Checkbox checked={facet} onChange={(ev, value) => changeFilter(ev, value, "talent-facet")} />} label="Facet" />
                     </FormGroup>
+                </Box>
+                <Box className="talent-filter-box talent-type-select">
+                    <FormGroup>
+                        <FormControlLabel control={<Checkbox checked={general} onChange={(ev, value) => changeFilter(ev, value, "talent-general")} />} label="General" />
+                        <FormControlLabel control={<Checkbox checked={high} onChange={(ev, value) => changeFilter(ev, value, "talent-high")} />} label="High" />
+                    </FormGroup>
+                </Box>
+                <Box className="talent-filter-box talent-type-select">
+                    <FormControlLabel control={<Checkbox checked={other} onChange={(ev, value) => changeFilter(ev, value, "talent-other")} />} label="Other" />
                 </Box>
                 <Box id="talent-facet-select-box" className="talent-filter-box talent-facet disabled">
                     <InputLabel id="talent-facet-label">Facet</InputLabel>

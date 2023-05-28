@@ -57,5 +57,7 @@ export const Damage_Type = {
 export const Origin = {
     ANCESTRY: 1,
     FACET: 2,
-    OTHER: 3
+    GENERAL: 3,
+    HIGH: 4,
+    OTHER: 5
 }
