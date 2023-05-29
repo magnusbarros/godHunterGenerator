@@ -1,0 +1,92 @@
+[
+    {
+        "id": "core_1",
+        "name": "Archslayer",
+        "modifiers": {
+            "acc": 1,
+            "eva": 2,
+            "ivc": 0,
+            "res": 0,
+            "ist": 0,
+            "pd": 4,
+            "md": 0,
+            "ini": 7,
+            "hp": 35
+        }
+    },
+    {
+        "id": "core_2",
+        "name": "Dragon Carrier",
+        "modifiers": {
+            "acc": 1,
+            "eva": 1,
+            "ivc": 1,
+            "res": 0,
+            "ist": 0,
+            "pd": 2,
+            "md": 2,
+            "ini": 5,
+            "hp": 41
+        }
+    },
+    {
+        "id": "core_3",
+        "name": "Dark Hunter",
+        "modifiers": {
+            "acc": 1,
+            "eva": 1,
+            "ivc": 1,
+            "res": 0,
+            "ist": 0,
+            "pd": 1,
+            "md": 1,
+            "ini": 10,
+            "hp": 32
+        }
+    },
+    {
+        "id": "core_4",
+        "name": "Elemental Adept",
+        "modifiers": {
+            "acc": 1,
+            "eva": 0,
+            "ivc": 1,
+            "res": 0,
+            "ist": 0,
+            "pd": 2,
+            "md": 2,
+            "ini": 8,
+            "hp": 35
+        }
+    },
+    {
+        "id": "core_5",
+        "name": "Elder Mage",
+        "modifiers": {
+            "acc": 0,
+            "eva": 1,
+            "ivc": 2,
+            "res": 1,
+            "ist": 1,
+            "pd": 0,
+            "md": 4,
+            "ini": 7,
+            "hp": 29
+        }
+    },
+    {
+        "id": "core_6",
+        "name": "Digital Sorcerer",
+        "modifiers": {
+            "acc": 0,
+            "eva": 1,
+            "ivc": 2,
+            "res": 1,
+            "ist": 0,
+            "pd": 1,
+            "md": 3,
+            "ini": 8,
+            "hp": 29
+        }
+    }
+]

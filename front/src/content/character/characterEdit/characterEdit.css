@@ -1,0 +1,120 @@
+.breadcrumb-box {
+    margin: 10px 0px 10px 0px;
+}
+
+.character-edit-page {
+    margin: 15px;
+}
+
+.more-info {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.more-info .info-text {
+    flex: 1;
+    margin: 10px;
+    min-width: 120px;
+}
+
+.main-info {
+    display: flex;
+}
+
+.basic-info {
+    flex: 1;
+}
+
+.basic-info .info-text {
+    margin: 10px;
+    width: 90%;
+}
+
+.info-textbox {
+    margin: 10px;
+    width: 100%;
+}
+
+.facet-select {
+    width: 62%;
+}
+
+.facet-box {
+    margin: 10px;
+}
+
+.select-facet-type {
+    margin-left: 15px;
+}
+
+#total-strenght,
+#total-agility,
+#total-intellect,
+#total-will,
+#total-luck {
+    width: 40px;
+    font-size: 30px;
+}
+
+.str-row,
+.agi-row,
+.int-row,
+.will-row,
+.luck-row {
+    max-width: 796px;
+    margin: 0;
+}
+
+.stat-equation-icon {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.stat-value {
+    margin-top: 8px !important;
+    width: 80px;
+    text-align: center;
+}
+
+.main-stat-wrapper {
+    display: flex;
+}
+
+.stat-graph {
+    float: left;
+}
+
+/* 
+.row-total-stats div {
+    margin: 2px;
+    width: 80px ;
+}
+
+.row-main-stats div {
+    margin: 7.0px;
+    width: 80px ;
+    height: 40px;
+}
+
+.row-total {
+    flex: 1;
+}
+
+.row-main-stats {
+    flex: 1;
+}
+
+.row-facade-stats {
+    flex: 1;
+}
+
+.row-item-stats {
+    flex: 1;
+}
+
+.row-other-stats {
+    flex: 1;
+} */

@@ -1,17 +1,32 @@
-export const Ancestry = {
-    PARAGON: 1,
-    NIGHTSTALKER: 2,
-    HANYOU: 3,
-    MAGUS: 4,
-    NATURAL: 5,
-}
-
 export const Facet = {
     ARCHSLAYER: 1,
     DRAGON_CARRIER: 2,
     DARK_HUNTER: 3,
     ELEMENTAL_ADEPT: 4,
     DIGITAL_SORCERER: 5
+}
+
+export const FacetType = {
+    ALPHA: 1,
+    BETA: 2
+}
+
+export const FacetGroup = {
+    MARTIAL: 1,
+    SKILLED: 2,
+    CASTER: 3
+}
+
+export const StatType = {
+    WARRIOR: 1,
+    ADEPT: 2,
+    OCCULTIST: 3
+}
+
+export const FacadeDifficulty = {
+    SIMPLE: 1,
+    REGULAR: 2,
+    ADVANCED: 3
 }
 
 export const Cost = {

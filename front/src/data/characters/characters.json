@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "name": "Vincent",
+        "faction": "",
+        "ancestry": "core_2",
+        "ancestryTrait": "",
+        "facade": "",
+        "facadeTrait": "",
+        "facetA": "core_1",
+        "facetAType": 1,
+        "facetB": "core_1",
+        "facetBType": 1,
+        "level": 7,
+        "xp": 0,
+        "statType": 1,
+        "stats": {
+            "strenght": 15,
+            "agility": 12,
+            "intellect": 7,
+            "will": 2,
+            "luck": 8,
+            "otherIncreases": {
+                "strenght": 0,
+                "agility": 0,
+                "intellect": 0,
+                "will": 0,
+                "luck": 0
+            }
+        },
+        "substats": {
+            "pd": 0,
+            "hp": 0,
+            "md": 0,
+            "init": 0,
+            "crest": 0
+        },
+        "items": [],
+        "talents": [],
+        "info": {
+            "age": 0,
+            "gender": "",
+            "height": "",
+            "weight": "",
+            "hair": "",
+            "eye": "",
+            "skin": "",
+            "description": "",
+            "origins": "",
+            "personality": ""
+        },
+        "bonds": []
+    },
+    {
+        "id": 2,
+        "name": "Starlight Princess Asuka",
+        "faction": "",
+        "ancestry": "core_4",
+        "ancestryTrait": "",
+        "facade": "",
+        "facadeTrait": "",
+        "facetA": "core_2",
+        "facetAType": 1,
+        "facetB": "core_5",
+        "facetBType": 2,
+        "level": 2,
+        "xp": 0,
+        "statType": 2,
+        "stats": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 0,
+            "will": 0,
+            "luck": 0,
+            "otherIncreases": {
+                "strenght": 0,
+                "agility": 0,
+                "intellect": 0,
+                "will": 0,
+                "luck": 0
+            }
+        },
+        "substats": {
+            "pd": 0,
+            "hp": 0,
+            "md": 0,
+            "init": 0,
+            "crest": 0
+        },
+        "items": [],
+        "talents": [],
+        "info": {
+            "age": 0,
+            "gender": "",
+            "height": "",
+            "weight": "",
+            "hair": "",
+            "eye": "",
+            "skin": "",
+            "description": "",
+            "origins": "",
+            "personality": ""
+        },
+        "bonds": []
+    }
+]

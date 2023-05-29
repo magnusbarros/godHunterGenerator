@@ -1,0 +1,40 @@
+.character-list {
+    flex: 1;
+    position: relative;
+}
+
+.character-preview {
+    flex: 1;
+    position: relative;
+}
+
+.character-main {
+    display: flex;
+    width: 100%;
+}
+
+.new-character-button {
+    position: absolute;
+    float: left;
+    height: 0;
+}
+
+.new-character-icon {
+    margin: 15px 15px 15px 0px;
+}
+
+.char-preview-main {
+    display: flex;
+}
+
+.char-info {
+    flex: 1;
+}
+
+.char-stats {
+    flex: 1;
+}
+
+.stat-chart {
+    margin: 15px
+}

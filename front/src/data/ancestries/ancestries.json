@@ -1,0 +1,137 @@
+[
+    {
+        "id": "core_1",
+        "name": "Paragon",
+        "trait": {
+            "warrior": {
+                "strenght": 5,
+                "agility": 4,
+                "intellect": 2,
+                "will": 2,
+                "luck": 2
+            },
+            "adept": {
+                "strenght": 4,
+                "agility": 4,
+                "intellect": 2,
+                "will": 1,
+                "luck": 4
+            },
+            "occultist": {
+                "strenght": 2,
+                "agility": 3,
+                "intellect": 5,
+                "will": 4,
+                "luck": 1
+            }
+        }
+    },
+    {
+        "id": "core_2",
+        "name": "Nightstalker",
+        "trait": {
+            "warrior": {
+                "strenght": 5,
+                "agility": 4,
+                "intellect": 3,
+                "will": 2,
+                "luck": 1
+            },
+            "adept": {
+                "strenght": 2,
+                "agility": 4,
+                "intellect": 4,
+                "will": 1,
+                "luck": 4
+            },
+            "occultist": {
+                "strenght": 1,
+                "agility": 2,
+                "intellect": 5,
+                "will": 6,
+                "luck": 1
+            }
+        }
+    },
+    {
+        "id": "core_3",
+        "name": "Hanyou",
+        "trait": {
+            "warrior": {
+                "strenght": 4,
+                "agility": 4,
+                "intellect": 1,
+                "will": 1,
+                "luck": 5
+            },
+            "adept": {
+                "strenght": 3,
+                "agility": 4,
+                "intellect": 1,
+                "will": 1,
+                "luck": 6
+            },
+            "occultist": {
+                "strenght": 1,
+                "agility": 3,
+                "intellect": 5,
+                "will": 2,
+                "luck": 4
+            }
+        }
+    },
+    {
+        "id": "core_4",
+        "name": "Magus",
+        "trait": {
+            "warrior": {
+                "strenght": 4,
+                "agility": 4,
+                "intellect": 4,
+                "will": 2,
+                "luck": 1
+            },
+            "adept": {
+                "strenght": 3,
+                "agility": 3,
+                "intellect": 4,
+                "will": 1,
+                "luck": 4
+            },
+            "occultist": {
+                "strenght": 1,
+                "agility": 1,
+                "intellect": 6,
+                "will": 4,
+                "luck": 3
+            }
+        }
+    },
+    {
+        "id": "core_5",
+        "name": "Natural",
+        "trait": {
+            "warrior": {
+                "strenght": 4,
+                "agility": 5,
+                "intellect": 1,
+                "will": 3,
+                "luck": 2
+            },
+            "adept": {
+                "strenght": 4,
+                "agility": 3,
+                "intellect": 3,
+                "will": 1,
+                "luck": 4
+            },
+            "occultist": {
+                "strenght": 2,
+                "agility": 1,
+                "intellect": 5,
+                "will": 4,
+                "luck": 3
+            }
+        }
+    }
+]

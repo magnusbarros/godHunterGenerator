@@ -2,7 +2,7 @@
     {
         "id": "core_1",
         "name": "Keen Strike",
-        "source": 1,
+        "source": "core_1",
         "tldr": "Physical attack with sword or range form weapon.",
         "timing": "a",
         "range": "i",

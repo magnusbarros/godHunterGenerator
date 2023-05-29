@@ -1,0 +1,332 @@
+[
+    {
+        "id": "core_1",
+        "name": "Regular Student",
+        "difficulty": 1,
+        "description": "You are just a normal student like you'd see anywhere. Discuss with the GM as to whether you're in college, or elementary, middle or high school. Regular Students acquire the 'Diligence' Trait, and the following items.",
+        "trait": "Diligence: +2 to the result of Strength checks, +1 to the result of Will checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 2,
+            "agility": 0,
+            "intellect": 0,
+            "will": 1,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_2",
+        "name": "Honors Student",
+        "difficulty": 1,
+        "description": "You are an honor student who makes an effort to maintain higher grades than the rest of your class. Discuss with the GM as to whether you're in college, or elementary, middle, or high school. Honors Students acquire the 'Upstanding Behavior' Trait, and the following items.",
+        "trait": "Upstanding Behavior: +1 to the result of Agility, Intellect, and Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 1,
+            "intellect": 1,
+            "will": 0,
+            "luck": 1
+        }
+    },
+    {
+        "id": "core_3",
+        "name": "Delinquent Student",
+        "difficulty": 1,
+        "description": "You're a student in need of an attitude adjustment. Discuss with the GM as to whether you're in college, or middle or high school. Delinquent Students acquire the 'Streetwise' Trait, and the following items.",
+        "trait": "Streetwise: +1 to the result of Strength checks, +2 to theresult of Agility checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 1,
+            "agility": 2,
+            "intellect": 0,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_4",
+        "name": "Agent",
+        "difficulty": 1,
+        "description": "You are a specialist or spy working for a nation or an organization with special authority. Members of the Ministry of the Environment's OSI are included here. Agents acquire the 'Special Training' Trait, and the following items.",
+        "trait": "Special Training: +2 to the result of Strength checks, +1 to the result of Intellect checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 2,
+            "agility": 0,
+            "intellect": 1,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_5",
+        "name": "Detective",
+        "difficulty": 1,
+        "description": "You're a private investigator by trade, and you make your living by investigating all kinds of cases. Discuss with the GM whether you work out of your own office, or are employed at a detective agency. Detectives acquire the 'Inquiry' Trait, and the following items.",
+        "trait": "Inquiry: +1 to the result of Strength, Will, and Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 1,
+            "agility": 0,
+            "intellect": 0,
+            "will": 1,
+            "luck": 1
+        }
+    },
+    {
+        "id": "core_6",
+        "name": "Police Investigator",
+        "difficulty": 1,
+        "description": "You're a police investigator, and your job is to resolve cases. You capture criminals through a combination of experience, top-notch investigative skills, and trusting your gut. Police Investigators acquire the 'Investigator's Intuition' Trait, and the following items.",
+        "trait": "Investigator's Intuition: +1 to the result of Intellect checks, and +2 to the result of Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 1,
+            "will": 0,
+            "luck": 2
+        }
+    },
+    {
+        "id": "core_7",
+        "name": "Psychic",
+        "difficulty": 1,
+        "description": "Your abilities are the real deal, and as a psychic you're often called upon to analyze or take part in investigations into supernatural incidents. Psychics acquire the 'ESP' Trait, and the following items.",
+        "trait": "ESP: +1 to the result of Will checks, +2 to the result of Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 0,
+            "will": 1,
+            "luck": 2
+        }
+    },
+    {
+        "id": "core_8",
+        "name": "Religious Figure",
+        "difficulty": 1,
+        "description": "You are a member of organized religion, whether that's a Catholic priest or a Buddhist monk. Discuss with the GM your beliefs and what god you worship. If you're a God Hunter, you likely have a particular hatred for the dark gods. Religious Figures acquire the 'Devotion' Trait, and the following items.",
+        "trait": "Devotion: +2 to the result of Will checks, +1 to the result of Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 0,
+            "will": 2,
+            "luck": 1
+        }
+    },
+    {
+        "id": "core_9",
+        "name": "Teacher",
+        "difficulty": 2,
+        "description": "You are a teacher employed at a public or private school. Between your pupils, their guardians, and other teachers, you hear a lot of gossip and rumors. Teachers acquire the 'School Network' Trait, and the following items.",
+        "trait": "School Network: +1 to the result of Agility, Intellect, and Will checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 1,
+            "intellect": 1,
+            "will": 1,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_10",
+        "name": "Author",
+        "difficulty": 2,
+        "description": "You are an author, such as a manga artist or novelist, who produces some manner of work. Authors gain the 'Creativity' Trait, and the following items.",
+        "trait": "Creativity: +2 to the result of Intellect checks, +1 to the result of Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 2,
+            "will": 0,
+            "luck": 1
+        }
+    },
+    {
+        "id": "core_11",
+        "name": "Journalist",
+        "difficulty": 2,
+        "description": "You are a journalist and work as a newspaper columnist, cameraperson, interviewer, or reporter. Journalists acquire the 'Rumor Mill' Trait, and the following items.",
+        "trait": "Rumor Mill: +1 to the result of Agility checks, +2 to the result of Intellect checks",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 2,
+            "intellect": 0,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_12",
+        "name": "Doctor",
+        "difficulty": 2,
+        "description": "You are a doctor with a license to practice. Discuss with the GM whether you run your own clinic, or are employed at a particular hospital. Doctors acquire the 'Physician' Trait, and the following items.",
+        "trait": "Physician: May only be used out of combat. Once per session, all characters of your choice in a scene may recover 10 HP.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 0,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_13",
+        "name": "Lawyer",
+        "difficulty": 2,
+        "description": "You are a lawyer good enough to pass the bar exam. Lawyers acquire the 'Confidence' Trait, and the following items.",
+        "trait": "Confidence: +1 to the result of Agility, Will, and Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 1,
+            "intellect": 0,
+            "will": 1,
+            "luck": 1
+        }
+    },
+    {
+        "id": "core_14",
+        "name": "Businessperson",
+        "difficulty": 2,
+        "description": "You're an industrialist who has set up a stable, successful business within a single generation, or inherited a position in such a company from your parents. Businesspersons acquire the 'Off the Books' Trait, and the following items.",
+        "trait": "Off the Books: May only be used out of combat. Once per session, you grant all characters of your choice in a scene the opportunity to buy or sell items.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 0,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_15",
+        "name": "Celebrity",
+        "difficulty": 2,
+        "description": "You are a hometown hero, the head of an old and well-respected bloodline, a member of such a bloodline, or related to such a person. Celebrities acquire the 'Social Status' Trait, and the following items.",
+        "trait": "Social Status: +1 to the result of Strength, Agility, and Will checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 1,
+            "agility": 1,
+            "intellect": 0,
+            "will": 1,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_16",
+        "name": "Millionare",
+        "difficulty": 2,
+        "description": "You are someone who has acquired a vast fortune through some means, or are related to such a person. Millionaires acquire the 'Noblesse Oblige' Trait, and the following items.",
+        "trait": "Noblesse Oblige: Choose any two Maneuvers (Core Rulebook, pg 162) and gain +2 to the result of their checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 0,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_17",
+        "name": "Athlete",
+        "difficulty": 3,
+        "description": "You are a pro athlete active in your chosen sport. Your training has given you exceptional athleticism. Athletes acquire the 'Explosive Power' Trait, and the following items.",
+        "trait": "Explosive Power: +2 to the result of Strength checks, +1 to the result of Agility checks",
+        "items": [],
+        "statIncreases": {
+            "strenght": 2,
+            "agility": 1,
+            "intellect": 0,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_18",
+        "name": "Artisan",
+        "difficulty": 3,
+        "description": "You are an artisan who makes a living producing some kind of good, as befits your specialty. Artisans acquire the 'Precise Work' Trait, and the following items.",
+        "trait": "Precise Work: +2 to the result of Agility checks, +1 to the result of Intellect checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 2,
+            "intellect": 1,
+            "will": 0,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_19",
+        "name": "Corporate Employee",
+        "difficulty": 3,
+        "description": "You are a white-collar worker employed at a corporation. You've been assigned to some section within the company, and have a good understanding of how your group operates. Corporate Employees acquire the 'Industry Connections' Trait, and the following items.",
+        "trait": "Industry Connections: +1 to the result of Intellect checks, +2 to the result of Will checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 1,
+            "will": 2,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_20",
+        "name": "Researcher",
+        "difficulty": 3,
+        "description": "You are a researcher who conducts scientific inquiry in your field of study. Normally, researchers are employed in a company's research lab, conducting experiments day afterday. Researchers acquire the 'Specialized Knowledge' Trait, and the following items.",
+        "trait": "Specialized Knowledge: +1 to the result of Intellect, Will, and Luck checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 0,
+            "intellect": 1,
+            "will": 1,
+            "luck": 1
+        }
+    },
+    {
+        "id": "core_21",
+        "name": "Entertainer",
+        "difficulty": 3,
+        "description": "You're some kind of entertainer, like an actor or singer. Discuss with the GM how well known you are. Entertainers acquire the 'Accomplishments' Trait, and the following items.",
+        "trait": "Accomplishments: +1 to the result of Agility checks, +2 to the result of Will checks.",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 1,
+            "intellect": 0,
+            "will": 2,
+            "luck": 0
+        }
+    },
+    {
+        "id": "core_22",
+        "name": "Politician",
+        "difficulty": 3,
+        "description": "You are an elected politician, or a former politician who still retains some of their influence. Politicians acquire the 'Exercise Authority' Trait, and the following items.",
+        "trait": "Exercise Authority: May only be used while out of combat. Once per session, you may cover up one piece of info relating to a supernatural case (discuss the details with the GM).",
+        "items": [],
+        "statIncreases": {
+            "strenght": 0,
+            "agility": 1,
+            "intellect": 0,
+            "will": 2,
+            "luck": 0
+        }
+    }
+]

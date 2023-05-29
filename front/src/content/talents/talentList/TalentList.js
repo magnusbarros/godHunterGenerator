@@ -16,11 +16,15 @@ import SearchIcon from '@mui/icons-material/Search';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 
 import CoreTalents from '../../../data/talents/core.json';
-import { Timing, Range, Origin, Facet, Ancestry, Damage_Type } from "../../../data/constants/TalentConstants";
+import CoreAncestries from '../../../data/ancestries/ancestries.json';
+import CoreFacets from '../../../data/facets/facets.json';
+import { Timing, Range, Origin, Damage_Type } from "../../../data/constants/TalentConstants";
 
 export const TalentList = (props) => {
 
-    const [talents, setTalents] = useState()
+    const [talents, setTalents] = useState();
+    const [ancestries, setAncestries] = useState();
+    const [facets, setFacets] = useState();
     const [talentList, setTalentList] = useState();
     const [talentNames, setTalentNames] = useState(['']);
     const [timing, setTiming] = useState("*");
@@ -45,13 +49,41 @@ export const TalentList = (props) => {
 
     const fetchData = () => {
         try {
-            setTalents(CoreTalents);
-            setTalentList(CoreTalents);
-            loadNames(CoreTalents);
+
+            let storedTalents = localStorage.getItem("kg_talents");
+            let storedAncestries = localStorage.getItem("kg_ancestries");
+            let storedFacets = localStorage.getItem("kg_facets");
+
+            if (storedTalents === null) {
+                setTalents(CoreTalents);
+                setTalentList(CoreTalents);
+                loadNames(CoreTalents);
+                localStorage.setItem("kg_talents", JSON.stringify(CoreTalents));
+            } else {
+                setTalents(JSON.parse(storedTalents));
+                setTalentList(JSON.parse(storedTalents));
+                loadNames(JSON.parse(storedTalents));
+            }
+
+            if (storedAncestries === null) {
+                setAncestries(CoreAncestries);
+                localStorage.setItem("kg_ancestries", JSON.stringify(CoreAncestries));
+            } else {
+                setAncestries(JSON.parse(storedAncestries));
+            }
+
+            if (storedFacets === null) {
+                setFacets(CoreFacets);
+                localStorage.setItem("kg_facets", JSON.stringify(CoreFacets));
+            } else {
+                setFacets(JSON.parse(storedFacets));
+            }
+
             setLoading(false);
         } catch (error) {
             console.log("Error loading talents", error);
         }
+        setLoading(false);
     };
 
     const loadNames = (data) => {
@@ -300,7 +332,7 @@ export const TalentList = (props) => {
         document.getElementById('help').classList.add('disabled');
     }
 
-    return (
+    return (<>{loading ? "Loading.." :
         <Box className="talent-list">
             <Card id="explanationCard" className="explanation-card disabled">
                 <Box className="inner-explanation-card">
@@ -432,11 +464,11 @@ export const TalentList = (props) => {
                         onInputChange={(event, value) => changeFilter(event, value, "talent-facet-select")}
                     >
                         <MenuItem value={0}>All</MenuItem>
-                        <MenuItem value={Facet.ARCHSLAYER}>Archslayer</MenuItem>
-                        <MenuItem value={Facet.DRAGON_CARRIER}>Dragon Carrier</MenuItem>
-                        <MenuItem value={Facet.DARK_HUNTER}>Dark Hunter</MenuItem>
-                        <MenuItem value={Facet.ELEMENTAL_ADEPT}>Elemental Adept</MenuItem>
-                        <MenuItem value={Facet.DIGITAL_SORCERER}>Digital Sorcerer</MenuItem>
+                        {
+                            facets.map((item) => {
+                                return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
+                            })
+                        }
                     </Select>
                 </Box>
                 <Box id="talent-ancestry-select-box" className="talent-filter-box talent-ancestry disabled">
@@ -450,11 +482,11 @@ export const TalentList = (props) => {
                         onChange={(event, value) => changeFilter(event, value, "talent-ancestry-select")}
                     >
                         <MenuItem value={0}>All</MenuItem>
-                        <MenuItem value={Ancestry.PARAGON}>Paragon</MenuItem>
-                        <MenuItem value={Ancestry.NIGHTSTALKER}>Nightstalker</MenuItem>
-                        <MenuItem value={Ancestry.HANYOU}>Hanyou</MenuItem>
-                        <MenuItem value={Ancestry.MAGUS}>Magus</MenuItem>
-                        <MenuItem value={Ancestry.NATURAL}>Natural</MenuItem>
+                        {
+                            ancestries.map((item) => {
+                                return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
+                            })
+                        }
                     </Select>
                 </Box>
                 <Box className="talent-filter-button-box">
@@ -468,7 +500,7 @@ export const TalentList = (props) => {
                 }
             </Box>
         </Box >
-    )
+    }</>)
 }
 
 export default TalentList;

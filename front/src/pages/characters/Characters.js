@@ -1,28 +1,42 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './characters.css'
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import { Box } from "@mui/material";
-import CharacterList from "../../content/characterList/CharacterList";
+import { Box, Button } from "@mui/material";
+import CharacterList from "../../content/character/characterList/CharacterList";
+import CharacterJson from '../../data/characters/characters.json'
+
+import CoreTalents from '../../data/talents/core.json';
+import CoreAncestries from '../../data/ancestries/ancestries.json'
+import CoreFacets from '../../data/facets/facets.json'
 
 export const Characters = (props) => {
 
-    const content = [
-        {
-            id: 1,
-            name: "Vincent",
-            level: 7,
-            mainClass: "God Fist Alpha",
-            secondaryClass: "God Fist Beta"
-        },
-        {
-            id: 2,
-            name: "Starlight Princess Asuka",
-            level: 4,
-            mainClass: "Legacy User Alpha",
-            secondaryClass: "Elder Mage Beta"
+    const [characters, setCharacters] = useState([]);
+
+    useEffect(() => {
+
+        let storedTalents = localStorage.getItem("kg_talents");
+        let storedAncestries = localStorage.getItem("kg_ancestries");
+        let storedFacets = localStorage.getItem("kg_facets");
+        let storedCharacters = localStorage.getItem("kg_characters");
+
+        if (storedCharacters === null) {
+            localStorage.setItem("kg_characters", JSON.stringify(CharacterJson));
+        } else setCharacters(JSON.parse(storedCharacters));
+
+        if (storedTalents === null) {
+            localStorage.setItem("kg_talents", JSON.stringify(CoreTalents));
         }
-    ];
+
+        if (storedAncestries === null) {
+            localStorage.setItem("kg_ancestries", JSON.stringify(CoreAncestries));
+        }
+
+        if (storedFacets === null) {
+            localStorage.setItem("kg_facets", JSON.stringify(CoreFacets));
+        }
+    }, []);
 
     return (
         <Box className="character-page">
@@ -37,7 +51,7 @@ export const Characters = (props) => {
                 </Breadcrumbs>
             </Box>
             <Box className="character-list">
-                <CharacterList content={content} />
+                <CharacterList content={characters} />
             </Box>
         </Box>
     )

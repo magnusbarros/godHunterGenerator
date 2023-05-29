@@ -86,19 +86,27 @@ export const TalentCard = (props) => {
         }
     }
 
-    const getSource = (source) => {
-        switch (source) {
-            case 1:
-                return "Paragon"
-            case 2:
-                return "Nightstalker"
-            case 3:
-                return "Hanyou"
-            case 4:
-                return "Magus"
-            default:
-                return "Natural"
+    const getSource = (source, origin) => {
+
+        if ([Origin.GENERAL, Origin.HIGH, Origin.OTHER].includes(origin)) {
+            return "";
         }
+
+        let data = []
+        if (origin === Origin.ANCESTRY) {
+            data = JSON.parse(localStorage.getItem("kg_ancestries"));
+        } else if (origin === Origin.FACET) {
+            data = JSON.parse(localStorage.getItem("kg_facets"));
+        }
+
+        let name = ""
+        data.forEach((item) => {
+            if (item.id === source) {
+                name = item.name;
+            }
+        });
+
+        return name;
     }
 
     const getOrigin = (origin) => {
@@ -161,11 +169,12 @@ export const TalentCard = (props) => {
                         {talent.name} {talent.category === 'Key' ? (<KeyIcon sx={{ float: 'right', marginTop: '5px' }} />) : ''}
                     </Typography>
                     <Typography className="modal-text">
-                        {getOrigin(talent.origin)} ({getSource(talent.source)})
+                        {getOrigin(talent.origin)} ({getSource(talent.source, talent.origin)})
                     </Typography>
-                    <Typography className="modal-text" color={'text.secondary'}>
-                        TL;DR: {talent.tldr}
-                    </Typography>
+                    {talent.tldr !== null && talent.tldr !== "" ?
+                        <Typography className="modal-text" color={'text.secondary'}>
+                            TL;DR: {talent.tldr}
+                        </Typography> : ""}
                     {getTiming(talent.timing, true)}
                     {getRange(talent.range, talent.squares, true)}
                     {getDice(talent.cost, true)}
@@ -183,11 +192,12 @@ export const TalentCard = (props) => {
                 </Button>
             </Typography>
             <Typography className="subtitle">
-                {getOrigin(talent.origin)} ({getSource(talent.source)})
+                {getOrigin(talent.origin)} ({getSource(talent.source, talent.origin)})
             </Typography>
-            <Typography className="tldr" color={'text.secondary'}>
-                TL;DR: {talent.tldr}
-            </Typography>
+            {talent.tldr !== null && talent.tldr !== "" ?
+                <Typography className="tldr" color={'text.secondary'}>
+                    TL;DR: {talent.tldr}
+                </Typography> : ""}
             {getTiming(talent.timing)}
             {getRange(talent.range, talent.squares)}
             {getDice(talent.cost)}
