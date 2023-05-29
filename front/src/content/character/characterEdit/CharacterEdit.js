@@ -40,7 +40,23 @@ export const CharacterEdit = (props) => {
     const [talents, setTalents] = useState();
     const [characterFacetA, setCharacterFacetA] = useState();
     const [characterFacetB, setCharacterFacetB] = useState();
-    const [characterFacade, setCharacterFacade] = useState();
+    const [characterFacade, setCharacterFacade] = useState(
+        {
+            "id": "",
+            "name": "",
+            "difficulty": 0,
+            "description": "",
+            "trait": "",
+            "items": [],
+            "statIncreases": {
+                "strenght": 0,
+                "agility": 0,
+                "intellect": 0,
+                "will": 0,
+                "luck": 0
+            }
+        }
+    );
     const [loading, setLoading] = useState(true);
     const [statTotals, setStatTotals] = useState({
         strenght: 0,
@@ -210,7 +226,7 @@ export const CharacterEdit = (props) => {
                     if (isNaN(parseInt(value)))
                         _number = 0;
                     character["stats"][prefix][params] = value;
-                    statTotals[params] = parseInt(character["stats"][params]) + parseInt(_number);
+                    statTotals[params] = parseInt(character["stats"][params]) + parseInt(characterFacade["statIncreases"][params]) + parseInt(_number);
                     setStatTotals({ ...statTotals })
                 }
             } else {

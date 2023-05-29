@@ -323,9 +323,9 @@
         "items": [],
         "statIncreases": {
             "strenght": 0,
-            "agility": 1,
+            "agility": 0,
             "intellect": 0,
-            "will": 2,
+            "will": 0,
             "luck": 0
         }
     }
