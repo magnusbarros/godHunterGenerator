@@ -69,6 +69,16 @@ export const Damage_Type = {
     NONE: "n"
 }
 
+export const Form = {
+    SWORD: 1,
+    SPEAR: 2,
+    AXE: 3,
+    HAMMER: 4,
+    RANGED: 5,
+    MAGIC: 6,
+    OTHER: 7
+}
+
 export const Origin = {
     ANCESTRY: 1,
     FACET: 2,

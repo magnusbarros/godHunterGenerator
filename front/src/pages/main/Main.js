@@ -13,6 +13,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
+import BackpackIcon from '@mui/icons-material/Backpack';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../../resources/logo.png';
 import './main.css';
@@ -61,7 +62,8 @@ export const Main = () => {
 
   const menuItems = [
     ['Characters', 'characters'], 
-    ['Talent Compendium', 'talent-compendium'], 
+    ['Talent Compendium', 'talent-compendium'],
+    ['Item Compendium', 'item-compendium'],
     ['Options', 'options']
   ]
 
@@ -78,7 +80,7 @@ export const Main = () => {
           <ListItem key={text} disablePadding>
             <ListItemButton href={link}>
               <ListItemIcon>
-                {[<ContactsIcon />, <BookIcon />, <SettingsIcon />][index]}
+                {[<ContactsIcon />, <BookIcon />, <BackpackIcon />, <SettingsIcon />][index]}
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>

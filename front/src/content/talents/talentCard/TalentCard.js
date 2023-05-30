@@ -55,7 +55,7 @@ export const TalentCard = (props) => {
             case Timing.START:
                 return <Typography className={modal ? "modal-text" : "rules"} color="green"><AccessTimeIcon className="talent-icon" />{modal ? "Timing: " : ""} Start</Typography>
             case Timing.END:
-                return <Typography className={modal ? "modal-text" : "rules"} color="brown"><AccessTimeIcon className="talent-icon" /> {modal ? "Timing: " : ""}End</Typography>
+                return <Typography className={modal ? "modal-text" : "rules"} color="#0e8a85"><AccessTimeIcon className="talent-icon" /> {modal ? "Timing: " : ""}End</Typography>
             case Timing.PREP:
                 return <Typography className={modal ? "modal-text" : "rules"} color="yellow"><AccessTimeIcon className="talent-icon" /> {modal ? "Timing: " : ""}Prep</Typography>
             case Timing.FREE:

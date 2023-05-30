@@ -25,12 +25,12 @@
     float: right;
     right: 0;
     top: 85px;
-    color: brown;
+    color: #0e8a85;
 }
 
 .talent-list .closeBtn {
     float: right;
-    color: brown;
+    color: #0e8a85;
 }
 
 .talent-list .helpBtn.disabled {
@@ -66,7 +66,7 @@
 }
 
 .talent-filter-button {
-    color: brown;
+    color: #0e8a85;
 }
 
 .talent-facet.disabled {

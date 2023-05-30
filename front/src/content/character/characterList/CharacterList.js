@@ -63,7 +63,7 @@ export const CharacterList = (props) => {
                     will: stats.will !== 0 ? (stats.will / biggestStat) : 0,
                     luck: stats.luck !== 0 ? (stats.luck / biggestStat) : 0
                 },
-                meta: { color: 'brown' }
+                meta: { color: '#0e8a85' }
             }
         ]
 
@@ -97,7 +97,7 @@ export const CharacterList = (props) => {
                                             , LVL {character.level} {getFacet(character.facetA, character.facetAType)}, {getFacet(character.facetB, character.facetBType)}
                                         </p>
                                     </ListItemButton>
-                                    <Button href={"character-edit?id=" + character.id} sx={{ float: "right", color: "brown" }}><EditIcon /></Button>
+                                    <Button href={"character-edit?id=" + character.id} sx={{ float: "right", color: "#0e8a85" }}><EditIcon /></Button>
                                 </ListItem>
                             )
                         })

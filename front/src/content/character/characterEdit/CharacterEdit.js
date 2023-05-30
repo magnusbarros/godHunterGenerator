@@ -325,7 +325,7 @@ export const CharacterEdit = (props) => {
                     will: stats.will !== 0 ? (stats.will / biggestStat) : 0,
                     luck: stats.luck !== 0 ? (stats.luck / biggestStat) : 0
                 },
-                meta: { color: 'brown' }
+                meta: { color: '#0e8a85' }
             }
         ]
 
@@ -363,10 +363,10 @@ export const CharacterEdit = (props) => {
 
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }} >
                     <Tabs value={tab} onChange={handleTabSwitch} aria-label="Character Sheet">
-                        <Tab sx={{ color: "brown" }} label="Main Info" {...tabProps(0)} />
-                        <Tab sx={{ color: "brown" }} label="Stas & Spirit" {...tabProps(1)} />
-                        <Tab sx={{ color: "brown" }} label="Talents" {...tabProps(2)} />
-                        <Tab sx={{ color: "brown" }} label="Equipment" {...tabProps(3)} />
+                        <Tab sx={{ color: "#0e8a85" }} label="Main Info" {...tabProps(0)} />
+                        <Tab sx={{ color: "#0e8a85" }} label="Stas & Spirit" {...tabProps(1)} />
+                        <Tab sx={{ color: "#0e8a85" }} label="Talents" {...tabProps(2)} />
+                        <Tab sx={{ color: "#0e8a85" }} label="Equipment" {...tabProps(3)} />
                     </Tabs>
                 </Box>
                 <TabPanel value={tab} index={0}>
