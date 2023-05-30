@@ -87,6 +87,27 @@
     float: left;
 }
 
+.sub-stats {
+    margin-top: 10px;
+    display: flex;
+} 
+
+.sub-stat-wrapper {
+    display: flex;
+}
+
+.sub-stat-subs {
+    margin-left: 50px;
+}
+
+.substat-value {
+    width: 80px;
+}
+
+.substat-row {
+    margin-bottom: 10px;
+}
+
 /* 
 .row-total-stats div {
     margin: 2px;

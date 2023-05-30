@@ -38,8 +38,40 @@ export const CharacterEdit = (props) => {
     const [facets, setFacets] = useState();
     const [facades, setFacades] = useState();
     const [talents, setTalents] = useState();
-    const [characterFacetA, setCharacterFacetA] = useState();
-    const [characterFacetB, setCharacterFacetB] = useState();
+    const [characterFacetA, setCharacterFacetA] = useState(
+        {
+            "id": "",
+            "name": "",
+            "modifiers": {
+                "acc": 0,
+                "eva": 0,
+                "ivc": 0,
+                "res": 0,
+                "ist": 0,
+                "pd": 0,
+                "md": 0,
+                "ini": 0,
+                "hp": 0
+            }
+        }
+    );
+    const [characterFacetB, setCharacterFacetB] = useState(
+        {
+            "id": "",
+            "name": "",
+            "difficulty": 0,
+            "description": "",
+            "trait": "",
+            "items": [],
+            "statIncreases": {
+                "strenght": 0,
+                "agility": 0,
+                "intellect": 0,
+                "will": 0,
+                "luck": 0
+            }
+        }
+    );
     const [characterFacade, setCharacterFacade] = useState(
         {
             "id": "",
@@ -86,14 +118,38 @@ export const CharacterEdit = (props) => {
             "agility": 0,
             "intellect": 0,
             "will": 0,
-            "luck": 8
+            "luck": 8,
+            "otherIncreases": {
+                "strenght": 0,
+                "agility": 0,
+                "intellect": 0,
+                "will": 0,
+                "luck": 0
+            }
         },
         "substats": {
             "pd": 0,
             "hp": 0,
             "md": 0,
             "init": 0,
-            "crest": 0
+            "crest": 0,
+            "acc": 0,
+            "eva": 0,
+            "ivc": 0,
+            "res": 0,
+            "ist": 0,
+            "subIncreases": {
+                "pd": 0,
+                "hp": 0,
+                "md": 0,
+                "init": 0,
+                "crest": 0,
+                "acc": 0,
+                "eva": 0,
+                "ivc": 0,
+                "res": 0,
+                "ist": 0
+            }
         },
         "items": [],
         "talents": [],
@@ -171,17 +227,15 @@ export const CharacterEdit = (props) => {
                 myFacade = parsedStoredFacades.find(item => item.id === myCharacter.facade);
             }
 
-            if (myFacade !== undefined) {
-                setStatTotals(
-                    {
-                        strenght: myCharacter.stats.strenght + myFacade.statIncreases.strenght,
-                        agility: myCharacter.stats.agility + myFacade.statIncreases.agility,
-                        intellect: myCharacter.stats.intellect + myFacade.statIncreases.intellect,
-                        will: myCharacter.stats.will + myFacade.statIncreases.will,
-                        luck: myCharacter.stats.luck + myFacade.statIncreases.intellect
-                    }
-                );
-            }
+            setStatTotals(
+                {
+                    strenght: myCharacter.stats.strenght + (myFacade ? myFacade.statIncreases.strenght : 0) + myCharacter.stats.otherIncreases.strenght,
+                    agility: myCharacter.stats.agility + (myFacade ? myFacade.statIncreases.agility : 0) + myCharacter.stats.otherIncreases.agility,
+                    intellect: myCharacter.stats.intellect + (myFacade ? myFacade.statIncreases.intellect : 0) + myCharacter.stats.otherIncreases.intellect,
+                    will: myCharacter.stats.will + (myFacade ? myFacade.statIncreases.will : 0) + myCharacter.stats.otherIncreases.will,
+                    luck: myCharacter.stats.luck + (myFacade ? myFacade.statIncreases.luck : 0) + myCharacter.stats.otherIncreases.luck
+                }
+            );
 
             if (storedFacets === null) {
                 setFacets(CoreFacets);
@@ -228,6 +282,8 @@ export const CharacterEdit = (props) => {
                     character["stats"][prefix][params] = value;
                     statTotals[params] = parseInt(character["stats"][params]) + parseInt(characterFacade["statIncreases"][params]) + parseInt(_number);
                     setStatTotals({ ...statTotals })
+                } else if (prefix === "subIncreases") {
+                    character["substats"][prefix][params] = value;
                 }
             } else {
                 if (prefix === "stats" || prefix === "substats") {
@@ -635,6 +691,320 @@ export const CharacterEdit = (props) => {
                                 {
                                     renderChart()
                                 }
+                            </Box>
+                        </Box>
+                    </Box>
+                    <Typography variant="h4" sx={{ marginTop: "5px" }}>Sub Stats</Typography>
+                    <Box className="sub-stats">
+                        <Box className="sub-stat-wrapper">
+                            <Box className="main-stat-subs">
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Total Accuracy"
+                                        name="totalAccuracy"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.strenght + characterFacetA.modifiers.acc}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Strenght"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.strenght}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Main Facet"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.acc}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="substat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.acc}
+                                        onChange={ev => changeValue(ev, "subIncreases", "acc")} />
+                                </Box>
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Total Evasion"
+                                        name="totalEvasion"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.agility + characterFacetA.modifiers.eva}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Agility"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.agility}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Main Facet"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.eva}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="substat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.eva}
+                                        onChange={ev => changeValue(ev, "subIncreases", "eva")} />
+                                </Box>
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Total Invocation"
+                                        name="totalInvocation"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.intellect + characterFacetA.modifiers.ivc}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Intellect"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.agility}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Main Facet"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.ivc}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="substat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.ivc}
+                                        onChange={ev => changeValue(ev, "subIncreases", "ivc")} />
+                                </Box>
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Total Resistance"
+                                        name="totalResist"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.will + characterFacetA.modifiers.res}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Will"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.will}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Main Facet"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.res}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="substat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.res}
+                                        onChange={ev => changeValue(ev, "subIncreases", "res")} />
+                                </Box>
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Total Insight"
+                                        name="totalResist"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.luck + characterFacetA.modifiers.ist}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Luck"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.luck}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Main Facet"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.ist}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="substat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.ist}
+                                        onChange={ev => changeValue(ev, "subIncreases", "ist")} />
+                                </Box>
+                            </Box>
+                            <Box className="sub-stat-subs">
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Physical Damage"
+                                        name="physDmg"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.pd +
+                                            parseInt(character.substats.subIncreases.pd) +
+                                            (Math.round(statTotals.strenght / 2))}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Strenght ÷ 2"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={(Math.round(statTotals.strenght / 2))}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="PD Bonus"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.pd}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="stat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.pd}
+                                        onChange={ev => changeValue(ev, "subIncreases", "pd")} />
+                                </Box>
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Magical Damage"
+                                        name="magicDmg"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.md +
+                                            (Math.round(statTotals.intellect / 2)) +
+                                            parseInt(character.substats.subIncreases.md)}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Intellect ÷ 2"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={(Math.round(statTotals.intellect / 2))}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="MD Bonus"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.md}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="stat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.md}
+                                        onChange={ev => changeValue(ev, "subIncreases", "md")} />
+
+                                </Box>
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Initiative"
+                                        name="init"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.ini +
+                                            (statTotals.agility + 5) +
+                                            parseInt(character.substats.subIncreases.init)}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Agility + 5"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.agility + 5}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Init. Bonus"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.ini}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="stat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.init}
+                                        onChange={ev => changeValue(ev, "subIncreases", "init")} />
+                                </Box>
+                                <Box className="substat-row">
+                                    <TextField
+                                        label="Health Points"
+                                        name="hp"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.hp +
+                                            (statTotals.strenght + statTotals.will + (character.level * 3)) +
+                                            parseInt(character.substats.subIncreases.hp)}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <DensityLargeIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Strenght"
+                                        name="totalStrenght"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.strenght}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Total Will"
+                                        name="totalWill"
+                                        className="substat-value"
+                                        disabled
+                                        value={statTotals.will}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="Level x 3"
+                                        name="totalWill"
+                                        className="substat-value"
+                                        disabled
+                                        value={character.level * 3}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        label="HP Bonus"
+                                        name="facadeBonus"
+                                        className="substat-value"
+                                        disabled
+                                        value={characterFacetA.modifiers.hp}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                    <AddIcon className="stat-equation-icon" />
+                                    <TextField
+                                        className="substat-value"
+                                        label="Others"
+                                        value={character.substats.subIncreases.hp}
+                                        onChange={ev => changeValue(ev, "subIncreases", "hp")}
+                                        inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} />
+                                </Box>
                             </Box>
                         </Box>
                     </Box>

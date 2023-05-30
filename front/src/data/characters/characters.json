@@ -33,7 +33,24 @@
             "hp": 0,
             "md": 0,
             "init": 0,
-            "crest": 0
+            "crest": 0,
+            "acc": 0,
+            "eva": 0,
+            "ivc": 0,
+            "res": 0,
+            "ist": 0,
+            "subIncreases": {
+                "pd": 0,
+                "hp": 0,
+                "md": 0,
+                "init": 0,
+                "crest": 0,
+                "acc": 0,
+                "eva": 0,
+                "ivc": 0,
+                "res": 0,
+                "ist": 0
+            }
         },
         "items": [],
         "talents": [],
@@ -85,7 +102,24 @@
             "hp": 0,
             "md": 0,
             "init": 0,
-            "crest": 0
+            "crest": 0,
+            "acc": 0,
+            "eva": 0,
+            "ivc": 0,
+            "res": 0,
+            "ist": 0,
+            "subIncreases": {
+                "pd": 0,
+                "hp": 0,
+                "md": 0,
+                "init": 0,
+                "crest": 0,
+                "acc": 0,
+                "eva": 0,
+                "ivc": 0,
+                "res": 0,
+                "ist": 0
+            }
         },
         "items": [],
         "talents": [],
