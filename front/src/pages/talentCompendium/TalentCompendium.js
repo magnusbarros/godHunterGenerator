@@ -4,6 +4,7 @@ import { Box, Breadcrumbs, Typography } from "@mui/material";
 import TalentList from "../../content/talents/talentList/TalentList";
 
 export const TalentCompendium = () => {
+
     return (
         <Box className="talent-page">
             <Box className="breadcrumb-box">

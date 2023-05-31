@@ -1,0 +1,10 @@
+[
+    {
+        "id": "6f474633-f635-410c-b5a7-94c54f2c3d02",
+        "name": "Elemental Augment Drug",
+        "use": "Other ・ Distortion",
+        "cost": "500G",
+        "description": "A magic drug that strengthens [Elements], which works by being spread over a weapon.",
+        "effect": "Use as [Range: Engaged / Target: 1#]. For the rest of the combat, when one [Equipped] [Weapon] is bestowed with an [Element], the target gains +1 [Rank]."
+    }
+]

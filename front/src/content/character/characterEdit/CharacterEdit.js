@@ -152,6 +152,10 @@ export const CharacterEdit = (props) => {
             }
         },
         "items": [],
+        "weapons": [],
+        "accessories": [],
+        "protectors": [],
+        "favorites": [],
         "talents": [],
         "info": {
             "age": 0,
