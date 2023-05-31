@@ -5,6 +5,7 @@
         "use": "Other ・ Distortion",
         "cost": "500G",
         "description": "A magic drug that strengthens [Elements], which works by being spread over a weapon.",
-        "effect": "Use as [Range: Engaged / Target: 1#]. For the rest of the combat, when one [Equipped] [Weapon] is bestowed with an [Element], the target gains +1 [Rank]."
+        "effect": "Use as [Range: Engaged / Target: 1#]. For the rest of the combat, when one [Equipped] [Weapon] is bestowed with an [Element], the target gains +1 [Rank].",
+        "icon": {"x": 512, "y": 2528}
     }
 ]

@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Box, Typography, Card, Modal, Button, TextField } from "@mui/material";
 import './itemCard.css';
-import ItemSprite from '../../../resources/sprites/items/consumables.png';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
 import { save } from '../../../api/characters/CharacterAPI'
 
 export const ItemCard = (props) => {
@@ -96,8 +94,12 @@ export const ItemCard = (props) => {
             <Box sx={style}>
                 <Box className="item-header-modal">
                     <Typography variant="h8">{item.name}</Typography>
-                    {/* <img src={ItemSprite} /> */}
-                    <div className="item-icon"></div>
+                    <div className="item-icon-modal"
+                        style={{
+                            backgroundPositionX: item.icon.x + "px",
+                            backgroundPositionY: item.icon.y + "px"
+                        }}
+                    />
                 </Box>
                 <Typography>Use: {item.use}</Typography>
                 <Typography>Cost: {item.cost}</Typography>
@@ -122,7 +124,11 @@ export const ItemCard = (props) => {
         </Modal>
         <Box className="item-card-wrapper">
             <Box className="item-header">
-                <img src={ItemSprite} />
+                <div className="item-icon"
+                    style={{
+                        backgroundPositionX: item.icon.x + "px",
+                        backgroundPositionY: item.icon.y + "px"
+                    }} />
                 <Typography variant="h8"><Button onClick={handleOpen}>{item.name}</Button></Typography>
             </Box>
             <Typography>Use: {item.use}</Typography>

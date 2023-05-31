@@ -48,13 +48,28 @@
 
 .item-icon {
     background-image: url(../../../resources/sprites/all_alt.png);
-    background-position-x: 512px;
-    background-position-y: 2528px;
+    height: 32px;
+    width: 32px;
+    margin-top: 15px;
+    padding: 1;
+    transform: scale(1.5);
+}
+
+.item-icon-modal {
+    background-image: url(../../../resources/sprites/all_alt.png);
     height: 32px;
     width: 32px;
     padding: 1;
     right: 50px;
-    top: 30px;
+    top: 35px;
     position: absolute;
     transform: scale(2);
+}
+
+.item-icon-cart {
+    background-image: url(../../../resources/sprites/all_alt.png);
+    height: 32px;
+    width: 32px;
+    padding: 1;
+    transform: scale(1.3);
 }

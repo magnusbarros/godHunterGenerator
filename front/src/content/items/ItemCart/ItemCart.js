@@ -108,7 +108,11 @@ export const ItemCart = (props) => {
                                 return (
                                     <ListItem className="cart-list" key={cItem.id} >
                                         <ListItemAvatar>
-                                            <img src={ItemSprite} />
+                                            <div className="item-icon-cart"
+                                                style={{
+                                                    backgroundPositionX: items.find(lItem => lItem.id === cItem.id).icon.x + "px",
+                                                    backgroundPositionY: items.find(lItem => lItem.id === cItem.id).icon.y + "px"
+                                                }} />
                                         </ListItemAvatar>
                                         <ListItemText>
                                             <Typography sx={{ fontSize: "14px" }}>
