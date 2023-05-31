@@ -56,6 +56,26 @@ export const ItemCart = (props) => {
         }
     }
 
+    const checkout = () => {
+        if (total !== 0 && total <= character.gold) {
+            character.gold = character.gold - total;
+            character.cart.items.forEach(item => {
+                let _item = items.find(listItem => listItem.id === item.id);
+                _item.qty = item.qty;
+                character.items.push(_item);
+            })
+            clearCart();
+        }
+    }
+
+    const clearCart = () => {
+        character.cart.items = [];
+        character.cart.total = 0;
+        setTotal(0);
+        setCharacter({ ...character });
+        save(character)
+    }
+
     const style = {
         position: 'absolute',
         top: '50%',
@@ -84,31 +104,29 @@ export const ItemCart = (props) => {
                 {
                     character.cart !== null && character.cart !== undefined && character.cart.items.length !== 0 ?
                         <List>
-                            {
-                                character.cart.items.map(cItem => {
-                                    return (
-                                        <ListItem className="cart-list" key={cItem.id} >
-                                            <ListItemAvatar>
-                                                <img src={ItemSprite} />
-                                            </ListItemAvatar>
-                                            <ListItemText>
-                                                <Typography sx={{ fontSize: "14px" }}>
-                                                    {items.find(lItem => lItem.id === cItem.id).name}</Typography>
-                                            </ListItemText>
-                                            <ListItemText>
-                                                <Typography sx={{ fontSize: "12px" }}>
-                                                    {items.find(lItem => lItem.id === cItem.id).cost}</Typography>
-                                            </ListItemText>
-                                            <ListItemText>
-                                                <Input sx={{ width: "30px", fontSize: "12px" }}
-                                                    type="number" value={cItem.qty}
-                                                    onChange={(ev) => changeCartItemAmmount(ev, cItem.id)} />
-                                            </ListItemText>
-                                            <ListItemButton onClick={() => removeItem(cItem.id)}><DeleteOutlineIcon /></ListItemButton>
-                                        </ListItem>
-                                    )
-                                })
-                            }
+                            {character.cart.items.map(cItem => {
+                                return (
+                                    <ListItem className="cart-list" key={cItem.id} >
+                                        <ListItemAvatar>
+                                            <img src={ItemSprite} />
+                                        </ListItemAvatar>
+                                        <ListItemText>
+                                            <Typography sx={{ fontSize: "14px" }}>
+                                                {items.find(lItem => lItem.id === cItem.id).name}</Typography>
+                                        </ListItemText>
+                                        <ListItemText>
+                                            <Typography sx={{ fontSize: "12px" }}>
+                                                {items.find(lItem => lItem.id === cItem.id).cost}</Typography>
+                                        </ListItemText>
+                                        <ListItemText>
+                                            <Input sx={{ width: "30px", fontSize: "12px" }}
+                                                type="number" value={cItem.qty}
+                                                onChange={(ev) => changeCartItemAmmount(ev, cItem.id)} />
+                                        </ListItemText>
+                                        <ListItemButton onClick={() => removeItem(cItem.id)}><DeleteOutlineIcon /></ListItemButton>
+                                    </ListItem>
+                                )
+                            })}
                         </List>
                         : <Box sx={{
                             position: "absolute",
@@ -123,10 +141,11 @@ export const ItemCart = (props) => {
                 }
             </Box>
             <Box className="cart-menu">
-                <Button><RemoveShoppingCartIcon /> Clear </Button>
-                <Button><ShoppingCartIcon /> Checkout </Button>
+                <Button onClick={() => clearCart()} ><RemoveShoppingCartIcon /> Clear </Button>
+                <Button disabled={total === 0 || total > character.gold} onClick={() => checkout()} ><ShoppingCartIcon /> Checkout </Button>
                 <Typography>Total: {total}G</Typography>
+                <Typography>Your gold: {character.gold}G</Typography>
             </Box>
         </Box>
     )
-}
+} 

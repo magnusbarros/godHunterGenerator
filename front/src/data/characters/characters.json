@@ -58,6 +58,7 @@
         "protectors": [],
         "favorites": [],
         "talents": [],
+        "gold": 50000,
         "info": {
             "age": 0,
             "gender": "",
@@ -131,6 +132,7 @@
         "protectors": [],
         "favorites": [],
         "talents": [],
+        "gold": 0,
         "info": {
             "age": 0,
             "gender": "",
