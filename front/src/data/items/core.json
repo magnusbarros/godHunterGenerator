@@ -7,7 +7,7 @@
         "description": "A small vessel stuffed with all kinds of fragrant herbs and spices. Use on yourself.",
         "effect": "You negate fumbles or failures on your appearance check and appear in the scene.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "f0ece454-b99c-44ae-be77-d18f97283d4e",
@@ -17,7 +17,7 @@
         "description": "Pure, consecrated water. Use on yourself.",
         "effect": "Until the End Timing of the current round, you gain +1 rank when calculating damage against Undead class Mononoke.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "af0bc035-9710-4620-936f-1cc55382ee36",
@@ -27,7 +27,7 @@
         "description": "A recreation of sacred, age-reversing water believed to have been tended by the goddess of the moon. By drinking it, or splashing it over wounds, you'll be as good as new. Use on one engaged target.",
         "effect": "The target recovers 20 HP.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "7dc94551-e06b-4e51-bdc9-ca83607a5ecd",
@@ -37,7 +37,7 @@
         "description": "A nail made from the wood of a golden bough tree created using thaumaturgical knowledge. It can disperse distortions within reality by being struck into the supernatural phenomenon itself.",
         "effect": "Use on one engaged target. When attempting to dispel an Anomaly, increase the result of your Strength check by 1.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "a90dfbbb-75fa-4c23-87c4-96fabfcb32a9",
@@ -47,7 +47,7 @@
         "description": "Shikigami are dolls that are given a pseudo-life when they are infused with spirit. They can fly, and protect their creator.",
         "effect": "Use on one engaged target. When attempting to dispel an Anomaly, increase the result of your Agility check by 1.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "2b9785c5-89d0-4f61-b36b-736e3ba176b0",
@@ -57,7 +57,7 @@
         "description": "A milk-white candle that houses spirit. Once the wick is lit, it absorbs ambient stagnant spirit into the flame. ",
         "effect": "Use on one engaged target. When attempting to dispel an Anomaly, increase the result of your Intellect check by 1.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "a44e3cf8-a3df-4676-8e2d-ecb17a9ea7e6",
@@ -67,7 +67,7 @@
         "description": "A perfume that blends the resin of special plants and the fats of certain animals. When sprayed in an area, it can pacify reality distortions.",
         "effect": "Use on one engaged target. When attempting to dispel an Anomaly, increase the result of your Will check by 1.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "6ead672b-dd85-458e-bb03-5e7ceaccbed5",
@@ -77,7 +77,7 @@
         "description": "These five meal bars were originally created out of sacramental bread. While each one provides exceptional nutrition along with high amounts of calories, they don't have much taste.",
         "effect": "Use on yourself when resting to gain +5 rest recovery value.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "c13e5a26-411c-4115-ab44-d42d17149587",
@@ -87,7 +87,7 @@
         "description": "A disposable fetish that temporarily augments the force of your techniques. The moment you channel spirit into it, it emits a bright etherlight and burns up.",
         "effect": "Use it on yourself with a Free Timing while calculating damage. Gain +1d6 to damage. You may only use one of these items per damage calculation.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "29aa897a-2f53-45a4-98b9-1ce8f5b53e3d",
@@ -97,7 +97,7 @@
         "description": "Dried mermaid meat.",
         "effect": "Once consumed, you can breathe while underwater for the rest of the scene, and gain +3 to the result of your Swim checks.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "6e9de547-6918-4c6d-bf5b-104148053f8a",
@@ -107,7 +107,7 @@
         "description": "An alcoholic panacea refined from leyline spring water. Were an Innocent to drink it, they'd grow deliriously drunk.",
         "effect": "Use on one engaged target. The target is no longer blinded or poisoned.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "d9461af5-450e-4582-b875-9accbc70d705",
@@ -117,7 +117,7 @@
         "description": "A panacea created by mixing together five different minerals.",
         "effect": "Use on one engaged target. The target is no longer pained, paralyzed, or immobilized.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "a78d3569-6c91-4196-b0c2-3664e478c744",
@@ -127,7 +127,7 @@
         "description": "A powerful medicine created when the gods of old stirred the milk sea.",
         "effect": "Use on one engaged target. The target is no longer downed, and they set their HP to 1. The target may refuse this effect.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "03adc6d3-e410-4af7-944e-a5430416a1fa",
@@ -137,7 +137,7 @@
         "description": "A replica of soma, called the drink of the gods. Drink it, and you'll gain courage and an emotional rush.",
         "effect": "Use on one engaged target. Until the End Timing of the next round, the target gains +1 to the result of Accuracy checks.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "3db2160d-410b-49ba-8ec7-cabf4c829832",
@@ -147,7 +147,7 @@
         "description": "A replica of haoma, called the nectar of the gods.",
         "effect": "Use on one engaged target. Until the End Timing of the next round, the target gains +1 to the result of Evasion checks.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "dd47736e-9b0f-454f-bb6a-ccb22a849e64",
@@ -157,7 +157,7 @@
         "description": "A byproduct of the process for creating the elixir of life, a drug to make one into an immortal sage. The byproduct's potent effect is enough to be considered an arcanum.",
         "effect": "Use on one engaged target. Until the End Timing of the next round, the target gains +1 to the result of Invocation checks.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "6b6491d8-d381-49fb-8b57-7775b74ddfe0",
@@ -167,7 +167,7 @@
         "description": "A spiritual drug used for pain relief and clotting blood, cinnabar and the seeds of certain plants are also used as ingredients along with the eponymous blood.",
         "effect": "Use on one engaged target. Until the End Timing of the next round, the target gains +1 to the result of Resistance checks.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "87d09fd1-a003-4c77-8923-ea9f9eef08b1",
@@ -177,7 +177,7 @@
         "description": "A powerful medicine refined through alchemy.",
         "effect": "Use on one engaged target. The target is no longer downed, and they set their HP to 10. The target may refuse this effect.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     },
     {
         "id": "8183f3ee-d4ec-4307-aa2e-03e17b15bee7",
@@ -187,6 +187,6 @@
         "description": "A high-quality potion believed to have been brewed by a witch. Use on one engaged target.",
         "effect": "The target recovers 25 HP.",
         "icon": {"x": 160, "y": 2784},
-        "source:": "core"
+        "source": "core"
     }
 ]

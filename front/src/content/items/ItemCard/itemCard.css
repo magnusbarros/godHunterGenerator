@@ -4,6 +4,10 @@
     height: 150px;
 }
 
+.item-source {
+    font-size: 8px !important;
+}
+
 .item-card-wrapper {
     margin: 5px;
 }

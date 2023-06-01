@@ -4,7 +4,8 @@ import './itemCard.css';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import { save } from '../../../api/characters/CharacterAPI'
+import { save } from '../../../api/characters/CharacterAPI';
+import { ItemSource } from "../../../data/constants/ItemConstants";
 
 export const ItemCard = (props) => {
 
@@ -85,6 +86,18 @@ export const ItemCard = (props) => {
 
     }
 
+    const getSource = (src) => {
+        switch (src) {
+            case ItemSource.CORE:
+                return <Typography className="item-source">Core</Typography>
+            case ItemSource.EXPANSION_10:
+                return <Typography className="item-source">Expansion 10</Typography>
+            default:
+                return <Typography className="item-source">Custom</Typography>
+        }
+            
+    }
+
     return (<Card className="item-card" key={item.id} id={item.id}>
         <Modal
             open={open}
@@ -153,6 +166,7 @@ export const ItemCard = (props) => {
                         </Button>
                     </Box>
             }
+            {getSource(item.source)}
         </Box>
     </Card>)
 
