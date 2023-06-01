@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Box, Typography, Card, Modal, Button, TextField } from "@mui/material";
+import { Box, Typography, Card, Modal, Button, TextField, Tooltip } from "@mui/material";
 import './itemCard.css';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
@@ -65,20 +65,20 @@ export const ItemCard = (props) => {
                 let cost = isNaN(item.cost.replace("G", "")) ? 0 : parseFloat(item.cost.replace("G", ""));
                 if (character.cart === undefined || character.cart.items.length === 0) {
                     character.cart = {
-                        items: [
-                            {
-                                id: item.id,
-                                qty: qty
-                            }
-                        ],
+                        items: [{ id: item.id, qty: qty }],
                         total: (cost * qty)
                     }
                 } else {
                     let index = character.cart.items.findIndex(cItem => cItem.id === item.id);
-                    character.cart.items[index].qty += qty;
-                    character.cart.total += (cost * qty);
+                    if (index === -1) {
+                        character.cart.items.push(
+                            { id: item.id, qty: qty }
+                        );
+                    } else {
+                        character.cart.items[index].qty += qty;
+                        character.cart.total += (cost * qty);
+                    }
                 }
-
                 save(character);
             }
         }
@@ -103,6 +103,7 @@ export const ItemCard = (props) => {
                 </Box>
                 <Typography>Use: {item.use}</Typography>
                 <Typography>Cost: {item.cost}</Typography>
+                <Typography>Effect: {item.effect}</Typography>
                 <Typography>Description: {item.description}</Typography>
                 {
                     props.displayOnly ? '' :
@@ -129,10 +130,14 @@ export const ItemCard = (props) => {
                         backgroundPositionX: item.icon.x + "px",
                         backgroundPositionY: item.icon.y + "px"
                     }} />
-                <Typography variant="h8"><Button onClick={handleOpen}>{item.name}</Button></Typography>
+                <Typography>
+                    <Button onClick={handleOpen}><Typography className="item-name">{item.name}</Typography></Button>
+                    <Typography sx={{ fontSize: "12px", marginLeft: "10px" }}>Cost: {item.cost}</Typography>
+                </Typography>
             </Box>
-            <Typography>Use: {item.use}</Typography>
-            <Typography>Cost: {item.cost}</Typography>
+            <Tooltip title={item.effect} placement="top" >
+                <Typography className="item-effect" sx={{ fontSize: "12px", height: "40px" }}>Effect: {item.effect}</Typography>
+            </Tooltip>
             {
                 props.displayOnly ? '' :
                     <Box className="cart-add-item">

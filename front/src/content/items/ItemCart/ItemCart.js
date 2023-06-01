@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { save } from '../../../api/characters/CharacterAPI';
-import ItemSprite from '../../../resources/sprites/items/consumables.png';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -61,8 +60,13 @@ export const ItemCart = (props) => {
             character.gold = character.gold - total;
             character.cart.items.forEach(item => {
                 let _item = items.find(listItem => listItem.id === item.id);
-                _item.qty = item.qty;
-                character.items.push(_item);
+                if (character.items.findIndex(it => it.id === item.id) !== -1) {
+                    character.items.find(it => it.id === item.id).qty += item.qty;
+                    
+                } else {
+                    _item.qty = item.qty;
+                    character.items.push(_item);
+                }
             })
             clearCart();
         }

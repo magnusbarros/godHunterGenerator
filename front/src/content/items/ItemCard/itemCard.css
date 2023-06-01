@@ -1,5 +1,5 @@
 .item-card {
-    max-width: 210px;
+    width: 200px;
     margin: 5px;
     height: 150px;
 }
@@ -10,6 +10,23 @@
 
 .item-header {
     display: flex;
+    min-height: 61px;
+}
+
+.item-effect {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-name {
+    font-size: 12px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 135px;
 }
 
 .item-header img {
@@ -50,6 +67,7 @@
     background-image: url(../../../resources/sprites/all_alt.png);
     height: 32px;
     width: 32px;
+    min-width: 32px;
     margin-top: 15px;
     padding: 1;
     transform: scale(1.5);

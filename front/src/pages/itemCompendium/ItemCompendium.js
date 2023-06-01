@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import './itemCompendium.css'
 import { Box, Breadcrumbs, Typography } from "@mui/material";
-import Items from '../../data/items/items.json'
+import CoreItems from '../../data/items/core.json';
+import Expansion10Items from '../../data/items/expansion10.json';
 import { ItemList } from "../../content/items/ItemList/ItemList";
 
 export const ItemCompendium = () => {
@@ -13,8 +14,9 @@ export const ItemCompendium = () => {
         setLoading(true);
         let storedData = localStorage.getItem("kg_items");
         if (storedData === null) {
-            localStorage.setItem("kg_items", JSON.stringify(Items));
-            setItems(Items);
+            let _items = [].concat(CoreItems, Expansion10Items);
+            localStorage.setItem("kg_items", JSON.stringify(_items));
+            setItems(_items);
         } else {
             setItems(JSON.parse(storedData));
         }

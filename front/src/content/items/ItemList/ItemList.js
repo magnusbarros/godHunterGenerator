@@ -6,6 +6,7 @@ import CharacterList from '../../../data/characters/characters.json'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SaveIcon from '@mui/icons-material/Save';
 import { ItemCart } from "../ItemCart/ItemCart";
+import { save } from '../../../api/characters/CharacterAPI'
 
 export const ItemList = (props) => {
 
@@ -105,7 +106,8 @@ export const ItemList = (props) => {
     }
 
     const saveCharacter = () => {
-
+        if (character.id !== 0)
+            save(character);
     }
 
     return (loading ? "" :
@@ -128,25 +130,21 @@ export const ItemList = (props) => {
                     onChange={(event, value) => changeCharacter(event, value)}
                 >
                     <MenuItem key={0} value={0} disabled>Select a character</MenuItem>
-                    {
-                        characterList.map((item) => {
-                            return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
-                        })
-                    }
+                    {characterList.map((item) => {
+                        return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
+                    })}
                 </Select>
             </Box>
             <Box className="item-list">
-                {
-                    items.map((item) => {
-                        return <ItemCard data={item} character={character} />
-                    })
-                }
+                {items.map((item) => {
+                    return <ItemCard data={item} character={character} />
+                })}
             </Box>
             <Box>
                 <SpeedDial
                     ariaLabel="Options"
                     className="speed-dial-items"
-                    sx={{ position: 'absolute', bottom: 16, right: 16 }}
+                    sx={{ position: 'fixed', bottom: 16, right: 16 }}
                     icon={<SpeedDialIcon />}
                 >
                     <SpeedDialAction
