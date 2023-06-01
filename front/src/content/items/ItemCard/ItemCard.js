@@ -95,7 +95,6 @@ export const ItemCard = (props) => {
             default:
                 return <Typography className="item-source">Custom</Typography>
         }
-            
     }
 
     return (<Card className="item-card" key={item.id} id={item.id}>

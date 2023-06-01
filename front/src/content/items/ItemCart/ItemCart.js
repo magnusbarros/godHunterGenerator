@@ -107,7 +107,7 @@ export const ItemCart = (props) => {
             <Box>
                 {
                     character.cart !== null && character.cart !== undefined && character.cart.items.length !== 0 ?
-                        <List>
+                        <List sx={{overflowY: "scroll", maxHeight: "420px"}}>
                             {character.cart.items.map(cItem => {
                                 return (
                                     <ListItem className="cart-list" key={cItem.id} >
@@ -119,11 +119,11 @@ export const ItemCart = (props) => {
                                                 }} />
                                         </ListItemAvatar>
                                         <ListItemText>
-                                            <Typography sx={{ fontSize: "14px" }}>
+                                            <Typography sx={{ fontSize: "14px", width: "110px" }}>
                                                 {items.find(lItem => lItem.id === cItem.id).name}</Typography>
                                         </ListItemText>
                                         <ListItemText>
-                                            <Typography sx={{ fontSize: "12px" }}>
+                                            <Typography sx={{ fontSize: "12px", width: "50px" }}>
                                                 {items.find(lItem => lItem.id === cItem.id).cost}</Typography>
                                         </ListItemText>
                                         <ListItemText>
