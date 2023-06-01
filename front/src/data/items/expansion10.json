@@ -1,0 +1,192 @@
+[
+    {
+        "id": "d2e66d7d-3215-45b8-98c7-b1708480b2e3",
+        "name": "Chakra Stabilizer",
+        "use": "Other",
+        "cost": "0G",
+        "description": "A stabilizer refined from a miracle drug prescribed by Sumizuka Pharmaceuticals for Adapter. It is free, but takes about 3 days to arrive as it has to be customized to the individual.",
+        "effect": "Can only be used Out of Combat.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "a5fb6be0-1e37-4ff0-aaf9-cf1dbc6fc336",
+        "name": "Anti-Spirit Powder",
+        "use": "Other",
+        "cost": "10G",
+        "description": "A powdered medicine that prevents a dead mononoke from becoming a spirit body. A corpse covered in this powder will prevent it from becoming a spirit body for about a week, providing time to collect materials like fur and leather.",
+        "effect": "Can only be used Out of Combat.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "484033d7-f2a8-4c80-8ba3-05b78bd9e10e",
+        "name": "Spiritualizing Agent",
+        "use": "Other",
+        "cost": "10G",
+        "description": "A powdered solution that reverts a mononoke's corpse to a spirit body, undoing the effects of Anti-Spirit Powder. It has no effect on fur and leather that has been stripped away and processed into artificial regalia.",
+        "effect": "Can only be used Out of Combat.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "8dbf3eae-621e-4fd0-b3de-1b9c7c71866f",
+        "name": "Spirit Water",
+        "use": "Other",
+        "cost": "200G",
+        "description": "Mysterious water infused with spiritual power. It instantly heals wounds just by drinking it or sprinkling on the affected area.",
+        "effect": "The target recovers 10 HP.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "771ba3f1-3490-4837-8550-6acc4de281eb",
+        "name": "Healing Ampule",
+        "use": "Other",
+        "cost": "300G",
+        "description": "A therapeutic drug exclusively for humans and magical beasts sold by Sumizuka Pharmaceutical. A needle-free syringe that repairs injuries instantly after the injection.",
+        "effect": "The target Humanoid or Beast recovers 20 HP.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "feee14e6-02bc-48e4-b30d-7e3cb5720f63",
+        "name": "Reinforcing Silicon",
+        "use": "Other",
+        "cost": "300G",
+        "description": "A reinforcing silicon exclusively for cyborgs and magical creatures sold by Far East Heavy Industries. By applying to an injury, it will heal instantly.",
+        "effect": "The target Mechanical or Plant recovers 20 HP.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "53662491-3f34-458c-838e-ea989452c7b2",
+        "name": "Pneuma",
+        "use": "Other",
+        "cost": "300G",
+        "description": "A pure soul traded on the black market, resembling a liquid with a blueish-white glow encased in a glass bottle that itself is an artificial regalia.",
+        "effect": "The target Undead or Mythical recovers 20 HP.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "bfd62a6a-b7c6-4da3-9729-30b0f6f63388",
+        "name": "Odo Elixir",
+        "use": "Other",
+        "cost": "300G",
+        "description": "A chaotic black energy sold on the black market, resembling a liquid with a reddish-black glow encased in a glass bottle that itself is an artificial regalia.",
+        "effect": "The target Insectoid or Chaos recovers 20 HP.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "fd9c87b9-103f-4e07-a944-f542be655f58",
+        "name": "God Eye Contact",
+        "use": "Other",
+        "cost": "500G",
+        "description": "A disposable contact lens that can immediately distinguish the god name of another.",
+        "effect": "Use on your Start Timing on one combat zone target. Make an identify or an assess check against the target to Identify it.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "85018eea-e073-4fb4-9657-7254a7a5d390",
+        "name": "Rune Stone",
+        "use": "Other",
+        "cost": "500G",
+        "description": "An ore with multiple runes carved into it. By activating it at the moment the user casts a spell, it dramatically expands the range.",
+        "effect": "Use it on yourself to increase the range of all Magical Attacks by 2 Sq. until the End Timing of the next round.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "74a40be3-2355-4a11-b9dd-0ff80ff91881",
+        "name": "Elemental Agent",
+        "use": "Other",
+        "cost": "700G",
+        "description": "A magical potion that contains a specific element, created via alchemy.",
+        "effect": "Select one element at the time of purchase. Use on one engaged target. For the rest of combat, the target's equipped weapon is bestowed with the chosen element.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "c96f75f4-5804-4815-a461-6736a834a296",
+        "name": "Alcahest",
+        "use": "Other",
+        "cost": "700G ",
+        "description": "An alchemic formula that can dissolve any material.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: Strength Sq. / Target: Area]. Targets that fail their Evasion check halve their Guard until End Timing of the current round. This effect does not stack.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "17df1e6f-6de0-436d-aeaa-1a0d0056eb00",
+        "name": "Lime Poison",
+        "use": "Other",
+        "cost": "700G",
+        "description": "A deadly poison that cannot be purged and is only possible to create through refinement magic.",
+        "effect": "Use as a weapon attack with [Magical Attack / Range: Intellect Sq. / Target: Area]. Targets that fail their Resist check halve their Ward until End Timing of the current round. This effect does not stack.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "dfd03f4d-7118-4c17-91d7-6428398ecb33",
+        "name": "Soma",
+        "use": "Other",
+        "cost": "1000G",
+        "description": "A reproduction of the spirit liquor of the gods. When drunk, it drastically improves the drinker's dynamic vision.",
+        "effect": "Use on one engaged target. The target gains +2 to Accuracy checks until the third End Timing after this consumable's use. You can only use this consumable once per round per character.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "96b5ee1f-87b4-428c-a8a9-4b4a56bb4627",
+        "name": "Hom",
+        "use": "Other",
+        "cost": "1000G",
+        "description": "A drink of the gods made by mixing spiritual grass, water, and legendary fruit. When drunk, it dramatically improves the drinker's intuition.",
+        "effect": "Use on one engaged target. The target gains +2 to Evasion checks until the third End Timing after this consumable's use. You can only use this consumable once per round per character.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "704197cf-a952-4d45-aa35-ee68906c213b",
+        "name": "Kintan",
+        "use": "Other",
+        "cost": "1000G",
+        "description": "The ultimate Taoist elixir. It increases the drinker's aptitude for magic, but an ordinary person may die or become a mononoke if they drink it.",
+        "effect": "Use on one engaged target. The target gains +2 to Conjure checks until the third End Timing after this consumable's use. You can only use this consumable once per round per character.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "0fa10c8f-dd7c-4680-a6da-d30923f51757",
+        "name": "Pure Dragon's Blood",
+        "use": "Other",
+        "cost": "1000G",
+        "description": "Pure dragon blood, from a true dragon instead of the dragon blood tree.",
+        "effect": "Use on one engaged target. The target gains +2 to Resist checks until the third End Timing after this consumable's use. You can only use this consumable once per round per character.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "400a8768-af9f-4702-ad29-051a86ea92d4",
+        "name": "Philosopher's Stone",
+        "use": "Other",
+        "cost": "3000G",
+        "description": "A spiritual stone that transforms base metals into precious ones. It can only be created by the deepest secrets of alchemy.",
+        "effect": "The target recovers 50 HP.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    },
+    {
+        "id": "e323ba87-e7ac-45ff-831f-eb6b486c86e1",
+        "name": "Resurrection Elixir",
+        "use": "Other",
+        "cost": "3000G",
+        "description": "The ultimate revival medicine passed down since the times of ancient egypt.",
+        "effect": "Use on one engaged target. The target is no longer downed, and they set their HP to 40. The target may refuse this effect.",
+        "icon": {"x": 160, "y": 2784},
+        "source:": "ex10"
+    }
+]
