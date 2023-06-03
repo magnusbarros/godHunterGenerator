@@ -3,22 +3,54 @@ import { save } from '../../../api/characters/CharacterAPI';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import CharacterList from '../../../data/characters/characters.json';
 import { Box, Button, List, Typography, ListItemAvatar, ListItemText, ListItem, ListItemButton, Input } from "@mui/material";
 import './itemCart.css'
 
 export const ItemCart = (props) => {
 
-    const [character, setCharacter] = useState();
+    const [character, setCharacter] = useState({
+        id: 0,
+        cart: {
+            items: [],
+            total: 0
+        },
+        gold: 0
+    });
     const [items, setItems] = useState();
     const [loading, setLoading] = useState(true);
     const [total, setTotal] = useState(0);
 
     useEffect(() => {
-        setCharacter(props.character);
+        let _characterList = localStorage.getItem("kg_characters");
+        let _character = {
+            id: 0,
+            cart: {
+                items: [],
+                total: 0
+            },
+            gold: 0
+        };
+        if (_characterList === null || _characterList === undefined) {
+            localStorage.setItem("kg_characters", JSON.stringify(CharacterList));
+            CharacterList.forEach(char => {
+                if (char.id === props.character) {
+                    setCharacter(char);
+                    _character = char;
+                }
+            });
+        } else {
+            JSON.parse(_characterList).forEach(char => {
+                if (char.id === props.character) {
+                    setCharacter(char);
+                    _character = char;
+                }
+            });
+        }
         setItems(props.items);
-        cartTotal(props.character, props.items);
+        cartTotal(_character, props.items);
         setLoading(false);
-    }, [props.character]);
+    }, [props.character, props.items]);
 
     const removeItem = (itemId) => {
         let index = character.cart.items.findIndex(idx => idx.id === itemId);
@@ -46,11 +78,9 @@ export const ItemCart = (props) => {
             setTotal(0);
         } else {
             let value = 0;
-
             char.cart.items.forEach(cItem => {
                 value += (parseFloat(itemList.find(it => it.id === cItem.id).cost.replace("G", "")) * cItem.qty);
             });
-
             setTotal(value);
         }
     }
@@ -62,7 +92,7 @@ export const ItemCart = (props) => {
                 let _item = items.find(listItem => listItem.id === item.id);
                 if (character.items.findIndex(it => it.id === item.id) !== -1) {
                     character.items.find(it => it.id === item.id).qty += item.qty;
-                    
+
                 } else {
                     _item.qty = item.qty;
                     character.items.push(_item);
@@ -102,12 +132,12 @@ export const ItemCart = (props) => {
         "Better sell that kushimitama!"
     ]
 
-    return (loading ? "" :
+    return (loading || character === undefined ? "Loading..." :
         <Box sx={style}>
             <Box>
                 {
-                    character.cart !== null && character.cart !== undefined && character.cart.items.length !== 0 ?
-                        <List sx={{overflowY: "scroll", maxHeight: "420px"}}>
+                    character.cart !== undefined && character.cart !== null && character.cart.items.length !== 0 ?
+                        <List sx={{ overflowY: "scroll", maxHeight: "420px" }}>
                             {character.cart.items.map(cItem => {
                                 return (
                                     <ListItem className="cart-list" key={cItem.id} >
@@ -157,3 +187,5 @@ export const ItemCart = (props) => {
         </Box>
     )
 } 
+
+export default ItemCart;

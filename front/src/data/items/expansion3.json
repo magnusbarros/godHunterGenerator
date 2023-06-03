@@ -1,0 +1,119 @@
+[
+    {
+        "id": "e5c0d022-f0a2-4eb8-b753-c5ad2e941d57",
+        "name": "Maintenance",
+        "use": "Other",
+        "cost": "100G",
+        "description": "A maintenance service for cyborgs and androids.",
+        "effect": "With the GM's permission, this [Item] may be purchased once per scene while [Appearing]. However, it can only be used [Out of Combat], and only by [Class: Mechanical] characters. Use as [Range: User / Target: User]. The target recovers 10 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "90fe2263-d592-4f43-9977-6d7340bbfbd7",
+        "name": "Nutrition Capsule",
+        "use": "Other",
+        "cost": "150G",
+        "description": "A sacramental nutrition capsule created through compounding a special spiritual drug. One can stay active for three days with just one tablet.",
+        "effect": "The target recovers 10 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "de4f3527-381a-42cd-9827-fac0496c5c7f",
+        "name": "Restore Paste",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A sacramental restoration nanopaste applied to wounds.",
+        "effect": "Use on one engaged target. The target recovers 10 HP. If the target is Class: Machine, they recover an additional 5 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "0822b8fd-840e-4923-aa19-b02f8f145216",
+        "name": "Power Grenade",
+        "use": "Other",
+        "cost": "300G",
+        "description": "A hand grenade made via a sacramental technique.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: Strength Sq. / Target: Area] and +1 rank. Do not apply the PD of your equipped weapon to this attack.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "e8e8ab11-292d-48e5-b44b-1f8ebc67ff35",
+        "name": "Stardust Hourglass",
+        "use": "Other",
+        "cost": "500G",
+        "description": "The powder of a meteorite made into a spiritual drug, then placed inside of an hourglass. It only works when it's shattered.",
+        "effect": "Use it on yourself as Unique Timing. Increase your Initiative by +1d6 until the end of the round.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "c6601980-a63f-444e-ab04-cb6983f65fe7",
+        "name": "Rocket Launcher",
+        "use": "Other",
+        "cost": "700G",
+        "description": "A portable anti-aircraft rocket launcher.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: 10 Sq. / Target: Area] and +3 rank. This Consumable may only be used as a Attack Timing. Do not apply your combat stats or the PD of your equipped weapon to this attack.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "f683d959-ba38-48b3-8643-668fdb0ceed9",
+        "name": "Panacea",
+        "use": "Other",
+        "cost": "800G",
+        "description": "A high-quality panacea created with mistletoe.",
+        "effect": "Use on one engaged target. The target may remove all of the following conditions: blinded, poisoned, pained, paralyzed.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "7344b39d-8f2b-4847-9c3b-f9e24d185650",
+        "name": "Tengu's Rice Ball",
+        "use": "Other",
+        "cost": "1,000G",
+        "description": "Spirit energy crystals made into a rice ball. It can be eaten.",
+        "effect": "Use on one engaged target. The target may remove the following conditions: blinded, poisoned. Additionally, they recover 20 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    },
+    {
+        "id": "7c053cf1-8d7f-41d6-9a1d-0ba85aebcc61",
+        "name": "Holy Wafer",
+        "use": "Other",
+        "cost": "1,500G",
+        "description": "A kind of spiritual drug believed to have been created by a great Heroic Spirit. Its method of creation is only taught within the <Church>.",
+        "effect": "The target recovers 35 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex3"
+    }
+]

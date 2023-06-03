@@ -1,0 +1,67 @@
+[
+    {
+        "id": "75751cea-336c-448c-b2f4-3555b5c75420",
+        "name": "Golden Honey Sake x5",
+        "use": "Other",
+        "cost": "50G",
+        "description": "A golden, honey-like wine brewed by magic.",
+        "effect": "Use on one engaged target as Unique Timing. The target does not lose Crest while under the effect of a Mononoke's <<Space-Time Flight>> talent.  ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "851f00ca-2150-40a9-8c27-705e3293e910",
+        "name": "Ibn-Haji Powder",
+        "use": "Other",
+        "cost": "700G",
+        "description": "A magical powder that reveals invisible awakened. It allows you to automatically detect stealthed targets.",
+        "effect": "Use as [Range: 5 Sq. / Target: Area]. The targets removes the hidden condition.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "7312fa4e-cb3b-417a-bd14-05d35ddfffe1",
+        "name": "Domination Serum",
+        "use": "Other",
+        "cost": "700G",
+        "description": "A colorless serum that tastes like raspberries. In the past, it was only produced by reptile tribes, but in recent times, others have begun experimenting with it.",
+        "effect": "The user may manipulate the memory and behavior of one engaged subject for a period of two weeks (Consult with GM for details).",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "97f88b4b-fb4b-47c3-8c4c-18b1187677ba",
+        "name": "Killing Dust",
+        "use": "Other",
+        "cost": "700G",
+        "description": "A secret medicine created from a mix of Suleiman dust and a Hermetic toxin. This weapon only affects those with spirit energy, like godhunters, mononoke, or aramitama.",
+        "effect": "Use as a weapon attack with [Magic Weapon / Range: 4 Sq. / Target: Area/ Resist: Cancel / Element: Toxin] and rank 1 magical damage.  ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "776dce0f-07af-4805-877d-121f73763266",
+        "name": "Mumia",
+        "use": "Other",
+        "cost": "2000G",
+        "description": "A blue, bituminous powder that can be collected from mummies. This rare panacea can instantly heal a number of injuries when taken or applied.",
+        "effect": "The target recovers 40 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex6"
+    }
+]

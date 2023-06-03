@@ -1,0 +1,249 @@
+[
+    {
+        "id": "2aa66f3f-9939-4aff-b90b-41e6f7a09c90",
+        "name": "Transference Charm",
+        "use": "Other",
+        "cost": "2G",
+        "description": "A spiritual charm that transports the user to a place they've already visited. To use it, one must write their destination on the card.",
+        "effect": "Only usable out of combat. You instantly move to a place within a 30km radius that you have already visited (Consult with the GM for details). This consumable is only usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "4a556b77-f849-41c3-b4fc-22a7ca843a1f",
+        "name": "Transformation Drug",
+        "use": "Other",
+        "cost": "Price: 10G",
+        "description": "A spiritual drug that allows the user to change gender to disguise themselves. It's sold exclusively by Sumizuka Pharmaceutical and typically purchased by intelligence agents from various countries.",
+        "effect": "Only usable out of combat. Once per session, the target can change their gender. Treat this gender swap as a disguise check with a result of 15.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "3a0f68db-d6f7-42d8-8d91-3a446a3526d3",
+        "name": "Shinmyo Charm",
+        "use": "Other",
+        "cost": "200G",
+        "description": "A spiritual charm that determines the God Name of a hostile awakened in the user's presence. It's used by holding it up and filling it with spirit energy.",
+        "effect": "The user may perform an identify check on one target within the combat zone.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "3190b447-c766-4c9d-b165-3683cf9156e8",
+        "name": "Data Card",
+        "use": "Other",
+        "cost": "200G",
+        "description": "A disposable microdisk that amplifies the effects of spell programs.",
+        "effect": "Use as it on yourself as Unique Timing during damage calculation. Gain +2d6 to damage while using a Digital Sorcerer restricted weapon. This consumable is only usable once per round.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "c2d043ad-224a-455b-82b7-75d3d287d0ac",
+        "name": "Address",
+        "use": "Other",
+        "cost": "200G",
+        "description": "Notes or data containing the contact information of a specific person. ",
+        "effect": "Only usable while out of combat. Once per session, the user gains one bond with any NPC. This consumable is only usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "9c092d0b-dad1-462c-949b-4a51da97f121",
+        "name": "Information Shop",
+        "use": "Other",
+        "cost": "200G",
+        "description": "An informant or shop that can give contact information for those \"in the know\" of supernatural incidents. ",
+        "effect": "Only usable while out of combat in the Struggle Rules. Once per session, the user rolls on the Event Table 1 and chooses the result.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "3dfe8e06-17bc-466b-b3c7-f75a23699cb7",
+        "name": "Elixir of Power",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A magical drug that allows its user to exhibit greater supernatural power.",
+        "effect": "Use it on your own Main Stat checks as Unique Timing. You gains +2 to the result of your Strength checks. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "ecc1da17-09f1-4ab8-b4f2-4964b1983ee1",
+        "name": "Elixir of Agility",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A magical drug that allows its user to exhibit high supernatural agility.",
+        "effect": "Use it on your own Main Stat checks as Unique Timing. You gain +2 to the result of your Agility checks. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "33328c10-9153-42b8-add1-c2e932e7e5b5",
+        "name": "Elixir of Wisdom",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A magical drug that allows its user to exhibit amazing intelligence.",
+        "effect": "Use it on your own Main Stat checks as Unique Timing. You gain +2 to the result of your Intellect checks. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "9de00ab6-1fc3-429d-871b-fdf0821de29c",
+        "name": "Elixir of Wisdom",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A magical drug that allows its user to exhibit tremendous mental strength and concentration.",
+        "effect": "Use it on your own Main Stat checks as Unique Timing. You gain +2 to the result of your Will checks. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "63acbb61-cde6-46f9-98f6-c9c33e04bddb",
+        "name": "Elixir of Fortune",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A magical drug that grants strong luck to the awakened.",
+        "effect": "Use it on your own Main Stat checks as Unique Timing. You gain +1 to the result of your Luck checks. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "ca1aec56-2bf1-49be-ad87-86fe20261785",
+        "name": "Ether Tablets",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A tranquilizer created from purified spirit energy.",
+        "effect": "Use it on yourself as Unique Timing. You adjust one Spirit Dice by +2 or -2. This effect cannot change a dice to a value higher than 6 or lower than 1, and is usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "8ea86af8-63e9-436a-a510-948b5c409c56",
+        "name": "Acceleration Charm",
+        "use": "Other",
+        "cost": "300G",
+        "description": "A charm or tag that temprarily increases athletic ability.",
+        "effect": "Use it on yourself as Unique Timing. Increases the Speed of your Move actions by +1. Usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "18df0752-8d15-457d-8c90-d36d051e9be0",
+        "name": "C4",
+        "use": "Other",
+        "cost": "300G",
+        "description": "Special plastic explosives converted into an Artificial Regalia.",
+        "effect": "Use as [Timing: Prep / Range: 7 Sq. / Target: 1#]. The user may destroy an obstacle within range. Additionally, any target adjacent to the obstacle become staggered. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "3256bd85-f48a-4c0b-956e-dd0d4691ac06",
+        "name": "Barrier Stone",
+        "use": "Other",
+        "cost": "500G",
+        "description": "A spiritual stone that can project a special barrier",
+        "effect": "Use it on yourself as Unique Timing. You recieves -2d6 damage from an attack action with two or more targets, including Area or Combat Zone. Usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "4570c13b-062c-46c5-883f-7482405368db",
+        "name": "Tranquilizer",
+        "use": "Other",
+        "cost": "1000G",
+        "description": "A tranquilizer created from highly purified spirit energy.",
+        "effect": "Use it on yourself as Unique Timing. Increase the number of spirit dice you have by 1, and adjusts the rolled Spirit Dice by +2 or -2. This effect cannot change a dice to a value higher than 6 or lower than 1, and is usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "ca1a5294-e3d2-443f-8c11-69878a342b1e",
+        "name": "Portable AED",
+        "use": "Other",
+        "cost": "500G",
+        "description": "A portable AED that can revive its target with a powerful shock.",
+        "effect": "Use on one engaged target. The target is no longer downed, and they set their HP to 15. The target may refuse this effect.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "1e85b544-13ee-4e24-ac30-c5806e1155a2",
+        "name": "Acceleration Capsule",
+        "use": "Other",
+        "cost": "1500G",
+        "description": "A charm or tag that temporarily increases athletic ability.",
+        "effect": "Use on your Start Timing. You increase your Initiative by +2d6 until the End Timing of the next round. Usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    },
+    {
+        "id": "e057d577-5c27-437b-b744-497e689bbaad",
+        "name": "Letter of Introduction",
+        "use": "Other",
+        "cost": "3000G",
+        "description": "A referral needed to switch between awakened organizations.",
+        "effect": "Change your organization or faction to any affiliated one. When you do, any items restricted to your original organization in your possession are automatically sold. Usable once per session.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex8"
+    }
+]

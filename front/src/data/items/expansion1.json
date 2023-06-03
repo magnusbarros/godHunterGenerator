@@ -1,0 +1,132 @@
+[
+    {
+        "id": "3019729e-b1a1-4218-b2dc-141fffb01ea5",
+        "name": "Purity Salt",
+        "use": "Other",
+        "cost": "50G",
+        "description": "Salt that has been blessed. By casting it over an area, abnormal spirit energy can be sensed and suppressed.",
+        "effect": "Use on one engaged target. The target gains a +2 modifier to their Sense check.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "64a287d0-8047-4039-b897-7de2b182e591",
+        "name": "Fire Sprite",
+        "use": "Other",
+        "cost": "50G",
+        "description": "A special pill that will burn brightly by consuming spirit energy. Even if it gets wet, it will still burn.",
+        "effect": "For the rest of the scene, every target you choose in the combat zone ignores dim lighting penalties.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "8566d7fa-3b45-4ff6-af4a-25fddabff2fc",
+        "name": "Potion",
+        "use": "Other",
+        "cost": "10G",
+        "description": "A spiritual drug refined from special herbs. It can be used to recover wounds by drinking it, or dousing the wound with it.",
+        "effect": "The target recovers 5 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "30cef306-bce6-46a9-b77b-b50d8c1212a8",
+        "name": "Greek Fire",
+        "use": "Other",
+        "cost": "100G",
+        "description": "A magical oil created with lost techniques.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: 4 Sq. / Target: 1#]. Targets who fail their Evasion check lose 5 HP at the end of every round. The target may spend one Prep Timing to clear this effect.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "68684387-677f-4055-9941-5b3faf64e31a",
+        "name": "Black Seal",
+        "use": "Other/Distortion",
+        "cost": "100G",
+        "description": "A unique card or strip of paper inscribed with a single verse from a grimoire. ",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: Strength Sq. / Target: Area]. Targets who fail their Evasion check take rank 1 magical damage. When attempting to dispel an Anomaly, one engaged target gains a +2 modifier to their Strength check.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "75ad1c10-636a-444f-888f-bf8fdb9e6bc5",
+        "name": "White Seal",
+        "use": "Other/Distortion",
+        "cost": "100G",
+        "description": "A unique card or strip of paper inscribed with a single verse from a holy book.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: Strength Sq. / Target: Area]. Targets who fail their Evasion check become blinded. When attempting to dispel an Anomaly, one engaged target gains a +2 modifier to their Agility check.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "4a5db0c5-686f-4c0b-8d3c-2e1e3ae5cb78",
+        "name": "Red Seal",
+        "use": "Other/Distortion",
+        "cost": "100G",
+        "description": "A unique card or strip of paper inscribed with a single verse of truespeak.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: Strength Sq. / Target: Area]. Targets who fail their Evasion check become staggered. When attempting to dispel an Anomaly, one engaged target gains a +2 modifier to their Intellect check.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "30c170ab-a67c-4b1c-a485-e51cd4e0c8b3",
+        "name": "Blue Seal",
+        "use": "Other",
+        "cost": "100G",
+        "description": "A unique card or strip of paper inscribed with a single verse from an unknown language.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: Strength Sq. / Target: Area]. Targets who fail their Evasion check become poison (refer to the Rating Chart). When attempting to dispel an Anomaly, one engaged target gains a +2 modifier to their Will check.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "9241e883-dc9e-4215-829b-30b1718a5ba8",
+        "name": "Elemental Augment Drug",
+        "use": "Other",
+        "cost": "500G",
+        "description": "A magic drug that strengthens elements, which works by being spread over a weapon.",
+        "effect": "Use on one engaged target. For the rest of the combat, when one equipped weapon is bestowed with an element, the target gains +1 rank.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    },
+    {
+        "id": "6a3819ea-7e70-4422-85df-535bf85a236e",
+        "name": "Rage Ether",
+        "use": "Other",
+        "cost": "1,500G",
+        "description": "A spiritual drug that renders one's body and mind invincible.",
+        "effect": "Use it on yourself. For the rest of the combat, the you may remove one of the following conditions: staggered, pained, paralyzed, but you lose 5 HP at the end of every round. You may spend one Prep Timing to clear this effect.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex1"
+    }
+]

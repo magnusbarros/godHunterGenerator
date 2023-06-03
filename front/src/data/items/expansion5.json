@@ -1,0 +1,119 @@
+[
+    {
+        "id": "bbd53774-5ad4-4804-9aed-ca7acae1b0d4",
+        "name": "Fake ID",
+        "use": "Other",
+        "cost": "100G",
+        "description": "Fake registration forged by members of various organizations. In most cases, people in the underworld use them to hide their personal histories, but there are mononoke who use them to live as human beings.",
+        "effect": "You possess forged ID documents. Consult with your GM to decide the details.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "4ffd8139-b601-4b2b-be67-a0df78617f9d",
+        "name": "Yarkigen A",
+        "use": "Other",
+        "cost": "100G",
+        "description": "Sumizuka Pharmecutical's brand-name healing tonic. This liquid eliminates your fatigue at a rapid rate.",
+        "effect": "The target recovers 10 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "e5be0e6f-fd0f-431c-98d3-3d8cb7b31d21",
+        "name": "Sacred Tools",
+        "use": "Other",
+        "cost": "150G",
+        "description": "A sacred stem created from a cursed vine. It can also be used as a hair clip if needed.",
+        "effect": "Delays the occurence of a Sanctum Crisis when used in a Sanctum or a Sacred Area. Used before you roll the Limit Progress dice. The target gains a -1 modifier (minimum 1) on the result. This consumable can only be used once per scene.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "3c010940-8c45-4ac9-9087-598a29c2003c",
+        "name": "Tracking Incense",
+        "use": "Other",
+        "cost": "200G",
+        "description": "A mysterious incense that can reveal hidden traces of supernatural incidents.",
+        "effect": "Can only be used out of battle. Use on yourself as Unique Timing to gain a +1 modifier to the result of a Main Stat check. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "407bb1ad-ecdf-4afd-9901-8006a3df91b6",
+        "name": "Shuriken",
+        "use": "Other",
+        "cost": "250G",
+        "description": "A small, flat, shuriken typically used by ninja.",
+        "effect": "Use as a weapon attack with [Ranged Attack / Range: Strength Sq. / Target: Area] and gain +1 rank. Do not apply the PD of your equipped weapon to this attack.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "fd31d817-5114-47cb-9a8e-20d94879f6a7",
+        "name": "Yarkigen D",
+        "use": "Other",
+        "cost": "300G",
+        "description": "An ultra-powerful healing tonic created by Sumizuka Pharmecutical. This liquid instantly eliminates your fatigue.",
+        "effect": "The target recovers 20 HP.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "2d267095-00d1-425c-8516-449f9936caba",
+        "name": "Ritual Tools",
+        "use": "Other",
+        "cost": "400G",
+        "description": "Wooden bark scraped from a sacred tree. By installing it in a Sanctum, or a Sacred Area, it delays the occurance of a Sanctum Crash.",
+        "effect": "Delays the occurence of a Sanctum Crisis when used in a Sanctum or a Sacred Area. Used before you roll the Limit Progress dice. The target gains a -2 modifier (minimum 1) on the result. This consumable can only be used once per scene.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "b813b1c0-377d-40dc-97f0-77792bd2e056",
+        "name": "Offensive Talisman",
+        "use": "Other",
+        "cost": "700G",
+        "description": "A valuable medium or amulet that can be used to focus attack magic. By projecting one's spirit into it, you can attack your enemies.",
+        "effect": "Use as a weapon attack with [Magic Weapon / Range: 7 Sq. / Target: 3# / Resist: Cancel] and rank 2 magical damage. ",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "3e0f6f9b-505c-4b47-8eed-b941a16e67b6",
+        "name": "Divine Tools",
+        "use": "Other",
+        "cost": "1500G",
+        "description": "A branch taken from a sacred tree inhabited by the spirit of a god.",
+        "effect": "Delays the occurence of a Sanctum Crisis when used in a Sanctum or a Sacred Area. Used before you roll the Limit Progress dice. The target gains a -3 modifier (minimum 1) on the result. This consumable can only be used once per scene.",
+        "icon": {
+            "x": 160,
+            "y": 2784
+        },
+        "source": "ex5"
+    }
+]
