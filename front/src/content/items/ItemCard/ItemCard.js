@@ -64,7 +64,6 @@ export const ItemCard = (props) => {
 
     const addToCart = (ammount) => {
         let qty = isNaN(ammount) ? parseInt(ammount.target.value) : ammount;
-        console.log(character)
         if (character !== undefined && character.id !== 0) {
             if (qty > 0) {
                 let cost = isNaN(item.cost.replace("G", "")) ? 0 : parseFloat(item.cost.replace("G", ""));
@@ -121,7 +120,7 @@ export const ItemCard = (props) => {
                     aria-describedby="modal-modal-description">
                     <Box sx={style}>
                         <Box className="item-header-modal">
-                            <Typography variant="h8">{item.name}</Typography>
+                            <Typography sx={{fontSize: "18px"}}>{item.name}</Typography>
                             <div className="item-icon-modal"
                                 style={{
                                     backgroundPositionX: item.icon.x + "px",
@@ -129,10 +128,10 @@ export const ItemCard = (props) => {
                                 }}
                             />
                         </Box>
-                        <Typography>Use: {item.use}</Typography>
-                        <Typography>Cost: {item.cost}</Typography>
-                        <Typography>Effect: {item.effect}</Typography>
-                        <Typography>Description: {item.description}</Typography>
+                        <Typography><b>Use:</b> {item.use}</Typography>
+                        <Typography><b>Cost:</b> {item.cost}</Typography>
+                        <Typography><b>Effect:</b> {item.effect}</Typography>
+                        <Typography><b>Description:</b> {item.description}</Typography>
                         {
                             props.displayOnly ? '' :
                                 <Box className="cart-add-item-modal">
@@ -160,7 +159,7 @@ export const ItemCard = (props) => {
                             }} />
                         <Box>
                             <Button onClick={handleOpen}><Typography className="item-name">{item.name}</Typography></Button>
-                            <Typography sx={{ fontSize: "12px", marginLeft: "10px" }}>Cost: {item.cost}</Typography>
+                            <Typography sx={{ fontSize: "12px", display: "grid", justifyContent: "space-around", alignContent: "center"}}>Cost: {item.cost}</Typography>
                         </Box>
                     </Box>
                     <Tooltip title={item.effect} placement="top" >

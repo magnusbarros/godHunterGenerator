@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Box, Breadcrumbs, Typography, Button, Link, Tab, Tabs, TextField, InputLabel, Select, MenuItem, FormControl, FormControlLabel, RadioGroup, Radio, Divider } from "@mui/material";
+import { Box, Breadcrumbs, Typography, Link, Tab, Tabs, TextField, InputLabel, Select, MenuItem, FormControl, FormControlLabel, RadioGroup, Radio } from "@mui/material";
 import "./characterEdit.css";
 import CharacterJson from "../../../data/characters/characters.json";
 import CoreTalents from '../../../data/talents/core.json';
@@ -12,7 +12,7 @@ import RadarChart from 'react-svg-radar-chart';
 import 'react-svg-radar-chart/build/css/index.css'
 import TabPanel from "../../tables/TabPanel";
 
-export const CharacterEdit = (props) => {
+export const CharacterEdit = () => {
 
     const [character, setCharacter] = useState();
     const [tab, setTab] = useState(0);
@@ -34,23 +34,6 @@ export const CharacterEdit = (props) => {
                 "md": 0,
                 "ini": 0,
                 "hp": 0
-            }
-        }
-    );
-    const [characterFacetB, setCharacterFacetB] = useState(
-        {
-            "id": "",
-            "name": "",
-            "difficulty": 0,
-            "description": "",
-            "trait": "",
-            "items": [],
-            "statIncreases": {
-                "strenght": 0,
-                "agility": 0,
-                "intellect": 0,
-                "will": 0,
-                "luck": 0
             }
         }
     );
@@ -156,29 +139,27 @@ export const CharacterEdit = (props) => {
 
     useEffect(() => {
         let myCharacter = null;
-        if (character === undefined) {
-            let _allCharacters = JSON.parse(localStorage.getItem("kg_characters"));
-            if (_allCharacters == null) {
-                localStorage.setItem("kg_characters", JSON.stringify(CharacterJson));
-                _allCharacters = CharacterJson;
-            }
-            const queryString = window.location.search;
-            const urlParams = new URLSearchParams(queryString);
-            const id = urlParams.get("id")
-
-            _allCharacters.forEach((item) => {
-                if (item.id.toString() === id) {
-                    myCharacter = item;
-                }
-            });
-
-            if (myCharacter === null) {
-                myCharacter = emptyCharacter;
-                setCharacter(emptyCharacter);
-            } else {
-                setCharacter(myCharacter);
-            };
+        let _allCharacters = JSON.parse(localStorage.getItem("kg_characters"));
+        if (_allCharacters == null) {
+            localStorage.setItem("kg_characters", JSON.stringify(CharacterJson));
+            _allCharacters = CharacterJson;
         }
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const id = urlParams.get("id");
+
+        _allCharacters.forEach((item) => {
+            if (item.id.toString() === id) {
+                myCharacter = item;
+            }
+        });
+
+        if (myCharacter === null) {
+            myCharacter = emptyCharacter;
+            setCharacter(emptyCharacter);
+        } else {
+            setCharacter(myCharacter);
+        };
 
         if (myCharacter !== null) {
             let storedTalents = localStorage.getItem("kg_talents");
@@ -227,12 +208,10 @@ export const CharacterEdit = (props) => {
                 setFacets(CoreFacets);
                 localStorage.setItem("kg_facets", JSON.stringify(CoreFacets));
                 setCharacterFacetA(CoreFacets.find(item => item.id === myCharacter.facetA));
-                setCharacterFacetB(CoreFacets.find(item => item.id === myCharacter.facetB));
             } else {
                 let parsedFacets = JSON.parse(storedFacets);
                 setFacets(parsedFacets);
                 setCharacterFacetA(parsedFacets.find(item => item.id === myCharacter.facetA));
-                setCharacterFacetB(parsedFacets.find(item => item.id === myCharacter.facetB));
             }
         }
 

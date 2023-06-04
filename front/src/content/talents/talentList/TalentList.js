@@ -44,12 +44,7 @@ export const TalentList = (props) => {
     const [selectedDice, setSelectedDice] = useState([]);
 
     useEffect(() => {
-        fetchData();
-    }, []);
-
-    const fetchData = () => {
         try {
-
             let storedTalents = localStorage.getItem("kg_talents");
             let storedAncestries = localStorage.getItem("kg_ancestries");
             let storedFacets = localStorage.getItem("kg_facets");
@@ -84,7 +79,7 @@ export const TalentList = (props) => {
             console.log("Error loading talents", error);
         }
         setLoading(false);
-    };
+    }, []);
 
     const loadNames = (data) => {
         const _talentNames = [];
@@ -461,7 +456,7 @@ export const TalentList = (props) => {
                         value={selectedFacet}
                         label="Facet"
                         className="talent-select"
-                        onInputChange={(event, value) => changeFilter(event, value, "talent-facet-select")}
+                        onChange={(event, value) => changeFilter(event, value, "talent-facet-select")}
                     >
                         <MenuItem value={0}>All</MenuItem>
                         {

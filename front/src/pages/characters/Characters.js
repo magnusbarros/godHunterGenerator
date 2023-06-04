@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import './characters.css'
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import { Box, Button } from "@mui/material";
+import { Box } from "@mui/material";
 import CharacterList from "../../content/character/characterList/CharacterList";
 import CharacterJson from '../../data/characters/characters.json'
 

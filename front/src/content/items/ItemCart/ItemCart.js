@@ -7,7 +7,7 @@ import CharacterList from '../../../data/characters/characters.json';
 import { Box, Button, List, Typography, ListItemAvatar, ListItemText, ListItem, ListItemButton, Input } from "@mui/material";
 import './itemCart.css'
 
-export const ItemCart = (props) => {
+export const ItemCart = React.forwardRef((props, ref) => {
 
     const [character, setCharacter] = useState({
         id: 0,
@@ -132,60 +132,62 @@ export const ItemCart = (props) => {
         "Better sell that kushimitama!"
     ]
 
-    return (loading || character === undefined ? "Loading..." :
-        <Box sx={style}>
-            <Box>
-                {
-                    character.cart !== undefined && character.cart !== null && character.cart.items.length !== 0 ?
-                        <List sx={{ overflowY: "scroll", maxHeight: "420px" }}>
-                            {character.cart.items.map(cItem => {
-                                return (
-                                    <ListItem className="cart-list" key={cItem.id} >
-                                        <ListItemAvatar>
-                                            <div className="item-icon-cart"
-                                                style={{
-                                                    backgroundPositionX: items.find(lItem => lItem.id === cItem.id).icon.x + "px",
-                                                    backgroundPositionY: items.find(lItem => lItem.id === cItem.id).icon.y + "px"
-                                                }} />
-                                        </ListItemAvatar>
-                                        <ListItemText>
-                                            <Typography sx={{ fontSize: "14px", width: "110px" }}>
-                                                {items.find(lItem => lItem.id === cItem.id).name}</Typography>
-                                        </ListItemText>
-                                        <ListItemText>
-                                            <Typography sx={{ fontSize: "12px", width: "50px" }}>
-                                                {items.find(lItem => lItem.id === cItem.id).cost}</Typography>
-                                        </ListItemText>
-                                        <ListItemText>
-                                            <Input sx={{ width: "30px", fontSize: "12px" }}
-                                                type="number" value={cItem.qty}
-                                                onChange={(ev) => changeCartItemAmmount(ev, cItem.id)} />
-                                        </ListItemText>
-                                        <ListItemButton onClick={() => removeItem(cItem.id)}><DeleteOutlineIcon /></ListItemButton>
-                                    </ListItem>
-                                )
-                            })}
-                        </List>
-                        : <Box sx={{
-                            position: "absolute",
-                            margin: "auto",
-                            left: "25%",
-                            right: "25%",
-                            top: "45%"
-                        }}>
-                            <Typography>Your cart is empty</Typography>
-                            <Typography>{messages[Math.floor(Math.random() * 6)]}</Typography>
-                        </Box>
-                }
+    return (
+    <Box {...props} ref={ref} >
+        {loading || character === undefined ? "Loading..." :
+            <Box sx={style}>
+                <Box>
+                    {character.cart !== undefined && character.cart !== null && character.cart.items.length !== 0 ?
+                            <List sx={{ overflowY: "scroll", height: "420px",  maxHeight: "420px" }}>
+                                {character.cart.items.map(cItem => {
+                                    return (
+                                        <ListItem className="cart-list" key={cItem.id} >
+                                            <ListItemAvatar>
+                                                <div className="item-icon-cart"
+                                                    style={{
+                                                        backgroundPositionX: items.find(lItem => lItem.id === cItem.id).icon.x + "px",
+                                                        backgroundPositionY: items.find(lItem => lItem.id === cItem.id).icon.y + "px"
+                                                    }} />
+                                            </ListItemAvatar>
+                                            <ListItemText>
+                                                <Typography sx={{ fontSize: "14px", width: "110px" }}>
+                                                    {items.find(lItem => lItem.id === cItem.id).name}</Typography>
+                                            </ListItemText>
+                                            <ListItemText>
+                                                <Typography sx={{ fontSize: "12px", width: "50px" }}>
+                                                    {items.find(lItem => lItem.id === cItem.id).cost}</Typography>
+                                            </ListItemText>
+                                            <ListItemText>
+                                                <Input sx={{ width: "30px", fontSize: "12px" }}
+                                                    type="number" value={cItem.qty}
+                                                    onChange={(ev) => changeCartItemAmmount(ev, cItem.id)} />
+                                            </ListItemText>
+                                            <ListItemButton onClick={() => removeItem(cItem.id)}><DeleteOutlineIcon /></ListItemButton>
+                                        </ListItem>
+                                    )
+                                })}
+                            </List>
+                            : <Box sx={{
+                                position: "absolute",
+                                margin: "auto",
+                                left: "25%",
+                                right: "25%",
+                                top: "45%"
+                            }}>
+                                <Typography>Your cart is empty</Typography>
+                                <Typography>{messages[Math.floor(Math.random() * 6)]}</Typography>
+                            </Box>}
+                </Box>
+                <Box className="cart-menu">
+                    <Button onClick={() => clearCart()} ><RemoveShoppingCartIcon /> Clear </Button>
+                    <Button disabled={total === 0 || total > character.gold} onClick={() => checkout()} ><ShoppingCartIcon /> Checkout </Button>
+                    <Typography>Total: {total}G</Typography>
+                    <Typography>Your gold: {character.gold}G</Typography>
+                </Box>
             </Box>
-            <Box className="cart-menu">
-                <Button onClick={() => clearCart()} ><RemoveShoppingCartIcon /> Clear </Button>
-                <Button disabled={total === 0 || total > character.gold} onClick={() => checkout()} ><ShoppingCartIcon /> Checkout </Button>
-                <Typography>Total: {total}G</Typography>
-                <Typography>Your gold: {character.gold}G</Typography>
-            </Box>
-        </Box>
+        }
+    </Box>
     )
-} 
+});
 
 export default ItemCart;

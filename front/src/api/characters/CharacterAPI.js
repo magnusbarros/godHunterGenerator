@@ -1,4 +1,3 @@
-import React from "react";
 import DefaultCharacters from "../../data/characters/characters.json"
 
 export const save = (character) => {

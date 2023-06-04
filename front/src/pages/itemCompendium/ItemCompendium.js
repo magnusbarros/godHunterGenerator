@@ -18,11 +18,14 @@ import Expansion6Items from '../../data/items/expansion6.json';
 import Expansion8Items from '../../data/items/expansion8.json';
 import Expansion10Items from '../../data/items/expansion10.json';
 import CharacterList from '../../data/characters/characters.json'
+import Expansion1Weapons from '../../data/weapons/expansion1.json';
 import { ItemList } from "../../content/items/ItemList/ItemList";
+import { WeaponList } from "../../content/weapons/weaponList/WeaponList";
 
 export const ItemCompendium = () => {
 
     const [items, setItems] = useState([]);
+    const [weapons, setWeapons] = useState([]);
     const [loading, setLoading] = useState(true);
 
     const [characterList, setCharacterList] = useState();
@@ -105,8 +108,8 @@ export const ItemCompendium = () => {
 
     useEffect(() => {
         setLoading(true);
-        let storedData = localStorage.getItem("kg_items");
-        if (storedData === null) {
+        let storedItems = localStorage.getItem("kg_items");
+        if (storedItems === null) {
             let _items = [].concat(
                 CoreItems,
                 Expansion1Items,
@@ -116,16 +119,23 @@ export const ItemCompendium = () => {
                 Expansion8Items,
                 Expansion10Items
             );
-            _items.forEach(item => {
-                if (item.icon === undefined) {
-                    console.log(item.id, item.source)
-                }
-            })
             localStorage.setItem("kg_items", JSON.stringify(_items));
             setItems(_items);
         } else {
-            setItems(JSON.parse(storedData));
+            setItems(JSON.parse(storedItems));
         }
+
+        let storedWeapons = localStorage.getItem("kg_weapons");
+        if (storedWeapons === null) {
+            let _weapons = [].concat(
+                Expansion1Weapons
+            );
+            localStorage.setItem("kg_weapons", JSON.stringify(_weapons));
+            setWeapons(_weapons);
+        } else {
+            setWeapons(JSON.parse(storedWeapons));
+        }
+
         let _characterList = localStorage.getItem("kg_characters");
         if (_characterList === null || _characterList === undefined) {
             localStorage.setItem("kg_characters", JSON.stringify(CharacterList));
@@ -154,85 +164,86 @@ export const ItemCompendium = () => {
     }
 
 
-    return ( loading ? "Loading..." :
-    <Box className="item-page">
-        <Box className="breadcrumb-box">
-            <Breadcrumbs>
-                <Typography color={'text.secondary'}>
-                    Main Menu
-                </Typography>
-                <Typography color={'text.primary'}>
-                    Item Compendium
-                </Typography>
-            </Breadcrumbs>
-        </Box>
-        <Modal
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description">
-            <ItemCart character={character.id} items={items} />
-        </Modal>
-        <InputLabel id="select-character-label">Character</InputLabel>
-        <Select
-            id="select-character"
-            value={character.id}
-            labelId="select-character-label"
-            label="Character"
-            className="select-character"
-            onChange={(event, value) => changeCharacter(event, value)}
-        >
-            <MenuItem key={0} value={0} disabled>Select a character</MenuItem>
-            {characterList.map((item) => {
-                return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
-            })}
-        </Select>
-        <Box sx={{ borderBottom: 1, borderColor: 'divider' }} >
-            <Tabs value={tab} onChange={handleTabSwitch} aria-label="Item Compendium">
-                <Tab sx={{ color: "#0e8a85" }} label="Consumables" {...tabProps(0)} />
-                <Tab sx={{ color: "#0e8a85" }} label="Weapons" {...tabProps(1)} />
-                <Tab sx={{ color: "#0e8a85" }} label="Protectors" {...tabProps(2)} />
-                <Tab sx={{ color: "#0e8a85" }} label="Accessories" {...tabProps(3)} />
-                <Tab sx={{ color: "#0e8a85" }} label="Materia" {...tabProps(4)} />
-            </Tabs>
-        </Box>
-        <TabPanel value={tab} index={0}>
-            <ItemList data={items} character={character} />
-        </TabPanel>
-        <TabPanel value={tab} index={1}>
-
-        </TabPanel>
-        <TabPanel value={tab} index={2}>
-
-        </TabPanel>
-        <TabPanel value={tab} index={3}>
-
-        </TabPanel>
-        <TabPanel value={tab} index={4}>
-
-        </TabPanel>
-        <Box>
-            <SpeedDial
-                ariaLabel="Options"
-                className="speed-dial-items"
-                sx={{ position: 'fixed', bottom: 16, right: 16 }}
-                icon={<SpeedDialIcon />}
+    return (loading ? "Loading..." :
+        <Box className="item-page">
+            <Box className="breadcrumb-box">
+                <Breadcrumbs>
+                    <Typography color={'text.secondary'}>
+                        Main Menu
+                    </Typography>
+                    <Typography color={'text.primary'}>
+                        Item Compendium
+                    </Typography>
+                </Breadcrumbs>
+            </Box>
+            <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description">
+                <ItemCart character={character.id} items={items} />
+            </Modal>
+            <InputLabel id="select-character-label">Character</InputLabel>
+            <Select
+                id="select-character"
+                value={character.id}
+                labelId="select-character-label"
+                label="Character"
+                className="select-character"
+                defaultValue={0}
+                onChange={(event, value) => changeCharacter(event, value)}
             >
-                <SpeedDialAction
-                    key="save"
-                    icon={<SaveIcon />}
-                    tooltipTitle="Save Character"
-                    onClick={() => saveCharacter(character)}
-                />
-                <SpeedDialAction
-                    key="cart"
-                    icon={<ShoppingCartIcon />}
-                    tooltipTitle="Cart"
-                    onClick={handleOpen}
-                />
-            </SpeedDial>
-        </Box>
-    </Box>)
+                <MenuItem key={0} value={0} disabled>Select a character</MenuItem>
+                {characterList.map((item) => {
+                    return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
+                })}
+            </Select>
+            <Box sx={{ borderBottom: 1, borderColor: 'divider' }} >
+                <Tabs value={tab} onChange={handleTabSwitch} aria-label="Item Compendium">
+                    <Tab sx={{ color: "#0e8a85" }} label="Consumables" {...tabProps(0)} />
+                    <Tab sx={{ color: "#0e8a85" }} label="Weapons" {...tabProps(1)} />
+                    <Tab sx={{ color: "#0e8a85" }} label="Protectors" {...tabProps(2)} />
+                    <Tab sx={{ color: "#0e8a85" }} label="Accessories" {...tabProps(3)} />
+                    <Tab sx={{ color: "#0e8a85" }} label="Materia" {...tabProps(4)} />
+                </Tabs>
+            </Box>
+            <TabPanel value={tab} index={0}>
+                <ItemList data={items} character={character} />
+            </TabPanel>
+            <TabPanel value={tab} index={1}>
+                <WeaponList data={weapons} character={character} />
+            </TabPanel>
+            <TabPanel value={tab} index={2}>
+
+            </TabPanel>
+            <TabPanel value={tab} index={3}>
+
+            </TabPanel>
+            <TabPanel value={tab} index={4}>
+
+            </TabPanel>
+            <Box>
+                <SpeedDial
+                    ariaLabel="Options"
+                    className="speed-dial-items"
+                    sx={{ position: 'fixed', bottom: 16, right: 16 }}
+                    icon={<SpeedDialIcon />}
+                >
+                    <SpeedDialAction
+                        key="save"
+                        icon={<SaveIcon />}
+                        tooltipTitle="Save Character"
+                        onClick={() => saveCharacter(character)}
+                    />
+                    <SpeedDialAction
+                        key="cart"
+                        icon={<ShoppingCartIcon />}
+                        tooltipTitle="Cart"
+                        onClick={handleOpen}
+                    />
+                </SpeedDial>
+            </Box>
+        </Box>)
 }
 
 export default ItemCompendium;

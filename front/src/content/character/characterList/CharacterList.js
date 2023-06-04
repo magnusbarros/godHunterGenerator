@@ -8,7 +8,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import { Button } from "@mui/material";
 import EditIcon from '@mui/icons-material/Edit';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
-import { Facet, FacetType } from "../../../data/constants/TalentConstants";
+import { FacetType } from "../../../data/constants/TalentConstants";
 import RadarChart from 'react-svg-radar-chart';
 import 'react-svg-radar-chart/build/css/index.css'
 
