@@ -2,16 +2,31 @@ import React, { useEffect, useState } from "react";
 import './weaponCard.css';
 import { Card, Typography, Box, Button, Table, TableHead, TableContainer, TableRow, TableCell, Tooltip, TableBody } from "@mui/material";
 import { ItemSource } from '../../../data/constants/ItemConstants';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import { save } from '../../../api/characters/CharacterAPI';
 
 export const WeaponCard = (props) => {
 
     const [weapon, setWeapon] = useState();
+    const [character, setCharacter] = useState();
+    const [favorite, setFavorite] = useState(false);
+    const [weaponQty, setWeaponQty] = useState(0);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         setWeapon(props.data);
+        if (props.character !== undefined) {
+            setCharacter(props.character);
+            props.character.weapons.forEach(fav => {
+                if (fav.id === props.data.id && fav.fav) {
+                    setFavorite(true);
+                }
+            });
+        }
         setLoading(false);
-    }, [props.data]);
+    }, [props.data, props.character]);
 
     const getIcon = () => {
         switch (weapon.attributes.element) {
@@ -42,14 +57,22 @@ export const WeaponCard = (props) => {
                 return <Typography className="item-source">Core</Typography>
             case ItemSource.EXPANSION_1:
                 return <Typography className="item-source">Expansion 1</Typography>
+            case ItemSource.EXPANSION_2:
+                return <Typography className="item-source">Expansion 2</Typography>
             case ItemSource.EXPANSION_3:
                 return <Typography className="item-source">Expansion 3</Typography>
+            case ItemSource.EXPANSION_4:
+                return <Typography className="item-source">Expansion 4</Typography>
             case ItemSource.EXPANSION_5:
                 return <Typography className="item-source">Expansion 5</Typography>
             case ItemSource.EXPANSION_6:
                 return <Typography className="item-source">Expansion 6</Typography>
+            case ItemSource.EXPANSION_7:
+                return <Typography className="item-source">Expansion 7</Typography>
             case ItemSource.EXPANSION_8:
                 return <Typography className="item-source">Expansion 8</Typography>
+            case ItemSource.EXPANSION_9:
+                return <Typography className="item-source">Expansion 9</Typography>
             case ItemSource.EXPANSION_10:
                 return <Typography className="item-source">Expansion 10</Typography>
             default:
@@ -57,8 +80,55 @@ export const WeaponCard = (props) => {
         }
     }
 
+    const addToCart = (ammount) => {
+        let qty = isNaN(ammount) ? parseInt(ammount.target.value) : ammount;
+        if (character !== undefined && character.id !== 0) {
+            if (qty > 0) {
+                let cost = isNaN(weapon.cost.replace("G", "").replaceAll(": ", "").replaceAll(",", ""))
+                    ? 0 : parseFloat(weapon.cost.replace("G", "").replaceAll(": ", "").replaceAll(",", ""));
+                if (character.cart === undefined || character.cart.items.length === 0) {
+                    character.cart = {
+                        items: [{ id: weapon.id, qty: qty }],
+                        total: (cost * qty)
+                    }
+                } else {
+                    let index = character.cart.items.findIndex(cItem => cItem.id === weapon.id);
+                    if (index === -1) {
+                        character.cart.items.push(
+                            { id: weapon.id, qty: qty }
+                        );
+                    } else {
+                        character.cart.items[index].qty += qty;
+                        character.cart.total += (cost * qty);
+                    }
+                }
+                save(character);
+            }
+        }
+
+    }
+
+    const favoriteItem = (itemId, favState) => {
+        if (character !== undefined && character.id !== 0) {
+            console.log(character.weapons)
+            let _item = character.weapons ? character.weapons.find(item => item.id === itemId) : null;
+            if (_item !== null && _item !== undefined) {
+                character.weapons.find(item => item.id === itemId).fav = favState;
+            } else {
+                character.weapons.push({
+                    id: weapon.id,
+                    qty: 0,
+                    equip: false,
+                    fav: favState
+                });
+            }
+            setFavorite(favState);
+            save(character);
+        }
+    }
+
     return (loading ? "" :
-        <Card key={weapon.id} className="weapon-card">
+        <Card className="weapon-card">
             <Box className="weapon-header">
                 <Tooltip title={weapon.attributes.form}>
                     <div className="weapon-icon"
@@ -69,26 +139,30 @@ export const WeaponCard = (props) => {
                     />
                 </Tooltip>
                 <Box className="weapon-name-header">
-                    <Button className="weapon-name">
-                        {weapon.name}
-                        {
-                            weapon.type === 3 || weapon.type === 4 ?
-                                <Tooltip title={"Element: " + weapon.attributes.element}>
-                                    {
-                                        weapon.attributes.element === "None" ? <div></div> :
-                                            <div className="weapon-stat-icon"
-                                                style={{
-                                                    backgroundPositionX: getIcon(),
-                                                    backgroundPositionY: "3072px"
-                                                }}
-                                            />
-                                    }
-                                </Tooltip>
-                                : ""
-                        }
-                    </Button>
+                    <Tooltip title={weapon.name}>
+                        <Button sx={{ maxHeight: "33px" }}>
+                            <Typography className="weapon-name">{weapon.name}</Typography>
+                            {
+                                weapon.type === 3 || weapon.type === 4 ?
+                                    <Tooltip title={"Element: " + weapon.attributes.element}>
+                                        {
+                                            weapon.attributes.element === "None" ? <div></div> :
+                                                <div className="weapon-stat-icon"
+                                                    style={{
+                                                        backgroundPositionX: getIcon(),
+                                                        backgroundPositionY: "3072px",
+                                                        position: "relative",
+                                                        marginTop: "-6px"
+                                                    }}
+                                                />
+                                        }
+                                    </Tooltip>
+                                    : ""
+                            }
+                        </Button>
+                    </Tooltip>
                     <Typography className="weapon-cost">
-                        {weapon.cost}
+                        {weapon.cost.replaceAll(": ", "").replaceAll(",", "")}
                     </Typography>
                 </Box>
             </Box>
@@ -214,6 +288,21 @@ export const WeaponCard = (props) => {
                     <Typography className="weapon-effect">{weapon.effect}</Typography>
                 </Tooltip>
             </Box>
+            {
+                props.displayOnly ? '' :
+                    <Box className="weapon-add-item">
+                        <Button onClick={() => addToCart(1)} className="cart-add-button">
+                            <AddShoppingCartIcon />
+                        </Button>
+                        <Button onClick={() => favoriteItem(weapon.id, !favorite)} className="cart-fav-button">
+                            {
+                                favorite ?
+                                    <FavoriteIcon /> :
+                                    <FavoriteBorderIcon />
+                            }
+                        </Button>
+                    </Box>
+            }
             {getSource(weapon.source)}
         </Card>
     )

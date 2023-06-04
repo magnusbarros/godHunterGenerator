@@ -1,0 +1,450 @@
+[
+    {
+        "id": "8f719376-fa95-4dea-a213-3b864f86b14c",
+        "name": "Combat Knife",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "800G",
+        "effect": " *A military-grade knife with a curved blade.*When performing a [Physical Attack] against [Class: Humanoid], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "0c28667f-b9de-4d33-af97-c0d03584aaff",
+        "name": "Reinforced Combat Knife",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " *A combat knife with enhanced killing power.*When performing a [Physical Attack] against [Class: Humanoid], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "b529992c-69a2-4f40-b5f1-8b867b5e2d08",
+        "name": "Comet",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A replica of a holy artifact that holds power over flames.*While [Equipped], reduce [Damage] taken by [Element: Flame] by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "266cece7-195f-49f0-bfcf-b6acf5fa04f0",
+        "name": "Liu Zhao",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1200G",
+        "effect": " *Special hooks attached to this spear allow it to catch an enemy's weapon.*While [Equipped], reduce damage received from [Form: Sword / Spear] by 3.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "d3713d34-6ad0-4307-b169-7bee13c88e81",
+        "name": "Suntetsu",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "1200G",
+        "effect": " *Corrugated iron rings attached to metal sticks. They can be used in a variety of ways.*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "81e5d29d-3bf1-43bc-b2e1-790860fb46da",
+        "name": "Ikari",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "3100G",
+        "effect": " *A spear used by generals in the warring states era, converted into an Artificial Regalia. Highly suitable for combat.*While [Equipped], once per turn, increase the [Target] of the user's [Physical Attacks] by 1#, or gain +1 Sq. to the [Range] of the user's [Physical Attacks].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "fe7e7308-d660-4619-bd10-f4a5e2cfa408",
+        "name": "Red Reaper",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 7,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": -4
+        },
+        "cost": "1200G",
+        "effect": " *A large, old scythe that was converted into an Artificial Regalia. A swing of this weapon can hit multiple targets.*While [Equipped], once per round, increase the [Target] of the user's [Physical Attacks] by +1#.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "a8f6d367-e539-49fe-a49d-891e9a395eb7",
+        "name": "Wind Chakram",
+        "restrict": "Martial ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1800G",
+        "effect": " *An upgraded chakram that's been imbued with a magic wind.* While [Equipped], can be thrown as a [Ranged Weapon]. When this happens, change [Range / Target] to [7 Sq. / 1#].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "f304659a-b005-4e03-8e1f-0c3e39a3c874",
+        "name": "Earthquake Axe",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": "*An enhanced version of the Heavy Axe, upgraded with new alchemic techniques.*",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "3#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "607e62ab-6ca3-48b8-96a8-ae9e4a5c4a92",
+        "name": "Reinforced Baton",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "1300G",
+        "effect": " *A high-quality extendable baton, purpose-built for defense.* While [Equipped], the user gains a +1 modifier to the result of {Evasion} checks.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "368a3cf5-0bfd-48cb-87ff-444d7178ed51",
+        "name": "Spirit Sledge",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 8,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "2600G",
+        "effect": " *A reinforced sledgehammer that harbors immense spiritual energy in it's head.*While [Equipped], once per combat after the user performs [Damage Calculation], they may make one [Weapon Attack].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "3#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "af486798-23df-4636-863b-5fcb8564a453",
+        "name": "Golden Kanabo",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "3400G",
+        "effect": " *A replica of a golden kanabo believed to have been possessed by a certain legendary Oni.*While [Equipped], once per round, gain +5 [Armor].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "6a13c7ae-1eaa-4b18-acca-026527eeafcf",
+        "name": "Steel Bow",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A combat bow made from steel fibers. This bow cannot be drawn by those without a warrior's soul.*",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex4"
+    },
+    {
+        "id": "a61d62c4-b16e-4f5d-a944-a08d97ef1c6d",
+        "name": "Transcript of Traditions",
+        "restrict": "Utility / Arcane",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 5,
+            "init": -5,
+            "init2": -4
+        },
+        "cost": "1500G",
+        "effect": "*An Artificial Regalia created from ancient family manuscripts gathered from the east and west.*While [Equipped], once per round, increase [Targets] of the user's [Magical Attacks] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 4,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex4"
+    }
+]

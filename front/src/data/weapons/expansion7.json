@@ -1,0 +1,3330 @@
+[
+    {
+        "id": "0c28ff7a-74f8-49b7-8f33-06eca93b5fa4",
+        "name": "Ancient Shortsword",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 4,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "1000G",
+        "effect": " *This old sword was manufactured before the Heian period, and eventually converted into an Artificial Regalia. It's more suited to stab than slash.*While [Equipped], once per round, [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "67bb4e43-d27f-4fc5-929a-a081c404832e",
+        "name": "Shinano Toshiro",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A famous dagger, converted into an Artificial Regalia. The unique type of spirit energy within grants the user unusual agility.*While [Equipped], once per round, gain +1 to an {Evasion} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "c08b6525-3e5f-469d-90b1-754f5ac9663e",
+        "name": "Hirano Toshiro",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A famous dagger, converted into an Artificial Regalia. The unique type of spirit energy within grants the user heightened attack power.*While [Equipped], once per round, gain +1 to an {Accuracy} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "ecd32b36-5d0a-4bf3-9a63-5f8f30d08851",
+        "name": "Atsushi Toshiro",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A famous dagger, converted into an Artificial Regalia. As it's name suggests, it was constructed with strong materials.*While [Equipped], once per round, gain +5 to [Armor].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "9371206a-cd99-47df-93d6-2de131254325",
+        "name": "Goto Toshiro",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A famous dagger, converted into an Artificial Regalia. The energy within it grants it anti-magic power.*While [Equipped], once per round, gain +5 to [Barrier].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "b2e8401a-3096-4b03-91b6-1936c95762a4",
+        "name": "Ritual Kopis",
+        "restrict": "Arcane / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " *A small sword used in ancient times, converted into an Artificial Regalia recently. Used by mages for spell ceremonies.*While [Equipped], gain +3 to [Magical Damage].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "e4d2fc33-515c-49d9-9985-2eab591f2b68",
+        "name": "Midare Toshiro",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " A famous sword used in ancient times, converted into an Artificial Regalia. It contains a spiritial power that disrupts its enemies.While [Equipped], once per combat, the [Target] of a [Physical Attack] takes -2 to their {Evasion} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d4602176-0e41-4171-a7e1-26998bd2502b",
+        "name": "Maeda Toshiro",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " A famous sword used in ancient times, converted into an Artificial Regalia. It absorbs spiritual power and stores it for release.While [Equipped], once per combat when making a [Physical Attack], gain +1 [Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "1380ab67-d89b-4724-aa7b-53c4cd049e14",
+        "name": "Akita Toshiro",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " A famous sword used in ancient times, converted into an Artificial Regalia. The sword resonates on a unique wavelength of spiritual energy, allowing it to exert spirit energy more efficiently.While [Equipped], once per round, gain +1 to an {Accuracy} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d94f9635-a9b2-4d26-9ce0-46cb02944d61",
+        "name": "Hakata Toshiro",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " A famous sword used in ancient times, converted into an Artificial Regalia. It brings a blessing to those who are engaged in combat.While [Equipped], once per session, [Recover] 10 HP before [Damage Reduction].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "790707da-f483-447b-851b-0c0db24970ce",
+        "name": "Aizen Kunitoshi",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " An Artificial Regalia created during the Kamakura period. It is said that the warrior Aizen, whose name is carved on the grip, grants the user his luck.While [Equipped], once per round, gain +1 to an {Evasion} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "88c30f10-d8c2-4f74-a43b-cb24136bc61b",
+        "name": "Claymore",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " A longsword-type Artificial Regalia used by the highlanders. It boasts high power, augmented by its user's spiritual energy.While [Equipped], once per combat, gain +1 [Physical Rank] when making an [Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "69ca3332-5e8e-45e2-8e99-3eb1bf9c79e0",
+        "name": "Kenben",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A special sword-type Artificial Regalia used in ancient China. It extends via a chain inside of it, allowing it to make attacks at range.*While [Equipped], once per round, change the [Range] of a [Physical Attack] to [Range: 3 Sq.].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "5956a681-cedb-4f17-86a7-8d96c33e245c",
+        "name": "Gokotai no Tsurugi",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A famous shortsword, converted into an Artificial Regalia.*While [Equipped], once per combat, gain +10 [Armor] against a [Target: 2#+ (Including Area or Combat Zone)] [Physical Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "7b454730-a081-4962-a469-2887378d4968",
+        "name": "Nikkari Aoe",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A wakizashi Artificial Regalia used in the North/South dynasty era. Legend has it that it once killed a powerful ghost.*While [Equipped], gain +1 [Physical Rank] when making an [Attack Action] on [Type: Undead / Mechanical] enemies.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "866a658f-bef6-4194-a247-df0b9a27bc6e",
+        "name": "Sayo Samonji",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " A famous shortsword Artificial Regalia that brings good fortune to its user.While [Equipped], once per combat, reroll the result of an {Accuracy} [Roll] (Except for a critical or fumble).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "e251854a-79c1-41ef-9970-66afb2639270",
+        "name": "Ima no Tsurugi",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " An artificial regalia crafted from a famous dagger. Its spiritual power is as strong as a guardian sword.While [Equipped], once per round, gain +5 [Barrier].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "5ac557ff-b59a-4b56-8739-7254b2137628",
+        "name": "Hachisuka Kotetsu",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 8,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A famous sword, converted into an Artificial Regalia. It contains such a high level of spiritual energy that it cannot be countered without heavy weaponry.*While [Equipped], bestow [Element: Light] on [Physical Attacks].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d0038072-b7cf-456e-880a-9a23340edce9",
+        "name": "Yagen Toshiro",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " A famous sword, converted into an Artificial Regalia. Its blade contains the power to make terrible wounds.While [Equipped], once per combat, [Halve] the [Armor] of the [Target] of a [Physical Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "afba7fd7-fb89-46dd-91e4-34642382169b",
+        "name": "Souza Samonji",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A famous sword made into an Artificial Regalia. It brings good luck to those who possess it.*While [Equipped], once per combat, reroll the result of an {Evasion} [Roll] (Except for a fumble).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d4b8a3c0-bc82-4909-ad0f-b337e7c67d69",
+        "name": "Samurai Nodachi",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " An Artificial Regalia made from a dangerous sword used in the Warring States era. It boasts sharpness that can cut through steel.While [Equipped], once per combat, [Halve] the [Armor] of the [Target] of a [Physical Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "c1877f74-ce23-4100-9de2-ec653cc0e8d1",
+        "name": "Hitokirigatana",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 8,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "5000G",
+        "effect": " *The sword of Tsujigiri, which was rampant during the Edo period. It increases its sharpness by drinking blood.*While [Equipped], once per round when making a [Physical Attack], the user may lose 2 {HP} and gain +5 [Physical Damage].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "8433f059-1028-4ce5-acbe-2b6bb5d82031",
+        "name": "Nakigitsune",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 3
+        },
+        "cost": "5000G",
+        "effect": " An Artificial Regalia used in the Kamakura period. Legend has it that it was used to cut down Youkai.While [Equipped], when making [Physical Attacks] against [Class: Beast - Insectoid], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "59ac5d96-aca6-4415-bb03-d30098dbdee3",
+        "name": "Taikogane Sadamune",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " A famous sword converted into an Artificial Regalia. The energy within the sword brings power to its holder.While [Equipped], once per combat, adjust one [Spirit Dice] by 1 (Cannot go lower than 1 or higher than 6).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "28718f17-f42a-4f84-ada4-2a26195860f0",
+        "name": "Fudou Yukimitsu",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A famous Wazakashi converted into an Artificial Regalia. The ornate markings on the blade provide the power of flames.*While [Equipped], bestow [Element: Fire] on [Physical Attacks]. Also, [Targets] reduce their [Armor] by 2 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "f66f8561-65e2-43f2-b340-259c222e56db",
+        "name": "Kashuu Kiyomitsu",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 10,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A famous sword that was converted into an Artificial Regalia. It was particularly well-known at the end of the Edo period, and has excellent attack power.*While [Equipped], once per round, gain +5 [Damage] when making a [Physical Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d6a190f3-894d-488a-b67d-6887c95dbe8c",
+        "name": "Monoyoshi Sadamune",
+        "restrict": "Martial ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A famous Wazakashi that was converted into an Artificial Regalia. It brings strategic military luck to its owner.*While [Equipped], once per session, change one [Spirit Dice] to either a [3] or a [4].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "e9422870-376b-4c9a-930e-0c5cb2e815a0",
+        "name": "Yamato No Kamiyasusada",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 11,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A famous sword that was converted into an Artificial Regalia. It was widely used at the end of the Edo period*While [Equipped], once per round, reduce the [Armor] of the [Target] of a [Physical Attack] by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "f9794bce-5332-4a0c-b041-6e562b6cb4b2",
+        "name": "Kasen Kanesada",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 11,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "5000G",
+        "effect": " *A famous sword that was converted into an Artificial Regalia. It boasts high killing power against humanoids.*While [Equipped], when making [Physical Attacks] against [Class: Humanoid ], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "329a9f87-f67b-427d-aeb5-ab3ad035dd49",
+        "name": "Horikawa Kunihiro",
+        "restrict": "Martial ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A specially-made Artificial Regalia. Despite being more than two feet long, it is especially lethal despite being made for one-handed use.*While [Equipped], once per combat, treat a [Physical Attack] as a [Special Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "cbbae91e-cedb-46da-ab30-670560a0ca30",
+        "name": "Urashima Kotetsu",
+        "restrict": "Martial / Utility ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 4,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A specially-made Artificial Regalia. An image of Urashima Taro is carved on the side of the blade, granting its user the power of time manipulation.*While [Equipped], once per combat, gain [+2d6] to [Initiative].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "5b2cd1b1-3889-4d35-8500-0c07c356f756",
+        "name": "Jiroutachi",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A huge, sword-type Artificial Regalia manufactured at the end of the Sengoku Period. Despite its size, it's graceful and sharp.*While [Equipped], once per combat, [Halve] the [Armor] of the target of a [Physical Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "08f73b66-28c4-419e-96bc-db43ce9a5f90",
+        "name": "Shishiou",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. Because of its age, it has accumulated massive spiritual power over the years.*While [Equipped], when making [Physical Attacks] against [Class: Beast - Mythic], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "e0a53d48-03b0-44a2-bfcd-5babe8d9c406",
+        "name": "Nagasone Kotetsu",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *An Artificial Regalia from the Edo period. It's said that it boasts sharpness so high that it is able to cut through stone lanterns.*While [Equipped], [Targets] reduce their [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "c812d2be-aa2b-46e7-978e-dc62bc006f53",
+        "name": "Yamabushi Kunihiro",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. The characters carved into the blade bring the power of a demon to its user.*While [Equipped], increase [Physical Damage] to Non-[Boss] mononoke by 10.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d35322cd-99a3-4a95-837f-cea2915f15f5",
+        "name": "Taroutachi",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A huge, sword-type Artificial Regalia manufactured at the end of the Sengoku Period. Despite its size, it's graceful and sharp.*While [Equipped], once per combat, [Halve] the [Armor] of the target of a [Physical Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d17b085a-7a82-4d41-b28c-cb2a54ed38dc",
+        "name": "Kogitsunemaru",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. This powerful, sacred vessel contains the protection of Inari.*While [Equipped], once per combat, [Recover] 20 [HP] before [Damage Reduction].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "f4c6e4d1-bf52-46b4-9686-1fcbf0ed06a5",
+        "name": "Akishi Kuneyuki",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. This beautiful blade is filled with overflowing spiritual power.*While [Equipped], increase [Physical Damage] to [x#] mononoke by 15.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "721649d6-bd2e-4d17-b13f-991742993496",
+        "name": "Senji Muramasa",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. The energy within the blade has a special effect on Godhunters.*While [Equipped], increase [Physical Damage] to [Godhunters] by 10.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "5f675cdf-b7a5-4d91-96f4-363973e0cfbd",
+        "name": "Kikkou Sadamune",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 13,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " A famous sword converted into an Artificial Regalia. Carvings of a kikkou chrysanthemum on its blade bring devilish spiritual power to its user.*While [Equipped], reduce [Physical Damage] received from non-[Boss] mononoke by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "8da63705-bd6a-40ff-9e04-aa4dc882c237",
+        "name": "Uguisumaru",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 13,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. A huge amount of spiritual power dwells in the blade.*While [Equipped], once per round when performing [Damage Calculation] with a [Style Talent], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "9cff6744-588a-42e1-b752-8b4fef22f472",
+        "name": "Hotarumaru",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " An Odachi Artificial Regalia used in the North/South dynasty era. When spirit energy is pushed through it, it emits a light like a firefly.While [Equipped], [Targets] reduce their [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "792ecd6e-a0ba-472c-b227-7769b7c9e9f0",
+        "name": "Kousetsu Samonji",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. It augments the intelligence of its user.*While [Equipped], once per scene, gain +7 to an {Intellect} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "96a0e1f3-177b-4aa6-8285-0a2a35a19ddf",
+        "name": "Ishikirimaru",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " A famous sword converted into an Artificial Regalia, used in the Heian period. It tears through its targets, whether or not they're corporeal or not.While [Equipped], when performing [Physical Attack] on [Type: Undead - Chaos], increase [Physical Rank] by 1.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "c50dfa6c-184e-447e-a89a-3123f2f1fbde",
+        "name": "Tsurumaru",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "10000G",
+        "effect": " A famous sword converted into an Artificial Regalia, which changed hands numerous times. It contains a unique power that has been touched by many.While [Equipped], increase the [Target] of your [Physical Attacks] by 1#.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "18ff8a6d-7bec-442a-b9b2-c43bde156adc",
+        "name": "Izuminokami Kanesada",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "10000G",
+        "effect": " *A famous sword converted into an Artificial Regalia, used in the North/South dynasty era. Its shiny, silver blade boasts strange strength and tenacity.*While [Equipped], increase [Armor] By +5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "702b3ad3-a2c7-4e3d-825e-33a2d120e9f1",
+        "name": "Mutsu no Kamiyoshiyuki",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A famous Artificial Regalia used by the godhunter Sakamoto Ryoma near the end of the Edo period. The blade contains a spiritual power that can strengthen its user's when needed.*While [Equipped], once per combat, when making a [Physical Attack], gain +2 [Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "e5f168cd-d10d-420f-946c-9f2fd7a9e65b",
+        "name": "Heshikiri Hasebe",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "10000G",
+        "effect": " *This Artificial Regalia was put into storage for a long time after it was manufactured.*While [Equipped], [Targets] reduce their [Armor] by 3 (to a minimum of 0). Also, once per round, destroy an adjacent [Obstacle].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "4931e2b5-961f-4485-9a6c-5c1c5c1dd509",
+        "name": "Kumokiri",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. It has powerful effects on chaotic monsters.*While [Equipped], when making [Physical Attacks] against [Class: Beast - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "01d17b6c-b28b-4f4e-bbb0-098ea59f4bc2",
+        "name": "Shokudaikiri Mitsutada",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 15,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *This Artificial Regalia boasts excellent sharpness. It received its name when its owner cut through a candlestick.*While [Equipped], [Targets] reduce their [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "3#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "a8503992-abea-44d7-a6ec-507e292700d4",
+        "name": "Sohayanshiruki",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A famous sword converted into an Artificial Regalia. It has the spiritual power to reject the will of its opponent.*While [Equipped], reduce [Damage] received from [Godhunters] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "22ec3559-4ba7-4b29-b461-7dd68f5b3db1",
+        "name": "Murasame",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " *A famous sword converted into an Artificial Regalia, with a dragon carved into its blade.*While [Equipped], bestow [Element: Cold] on [Physical Attacks]. Also, [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "ba1e9dd5-c457-439c-aa37-fcf879194fad",
+        "name": "Ichigo Hitofuri Yoshimitsu",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 16,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "12000G",
+        "effect": " *A masterpiece blade made by a master craftsman, Yoshimitsu. It allows its user to resist spellcraft.*While [Equipped], gain +5 to [Barrier].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "485acbe7-2619-4362-b682-a77d6627ebbe",
+        "name": "Daihannya Nagamitsu",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " *This Artificial Regalia is said to be the work of a master craftsman, Nagamitsu. A beautiful blade that boasts high power and tremendous tenacity.*While [Equipped], once per combat, [Halve] received [Magic Damage].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "882e9680-b9cf-4039-87ea-457a7cca5f2f",
+        "name": "Ookurikara Hiromitsu",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 17,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " *This Artificial Regalia has been nicknamed the Dokugan-Ryu, and has a carving of a dragon with a sword on it.*While [Equipped], gain +5 to [Armor].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "2ba062a5-abfe-4f3d-b7e8-e1ca3baa9820",
+        "name": "Yamanbagiri Kunihiro",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 17,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": -2
+        },
+        "cost": "12000G",
+        "effect": " *This Artificia Regalia was created as a copy of a legendary blade called the Yamanbagiri.*While [Equipped], when making [Physical Attacks] against [Class: Humanoid - Plant - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "ce8ecdb6-8584-4a32-9bfc-6e87b2e98e47",
+        "name": "Mikazuki Munechika",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 17,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *An Artificial Regalia created during the Heian period. This powerful, valuable sword bears the name and shape of the crescent moon.*While [Equipped], gain +5 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "8d8a15c7-dd10-4f56-9697-e1efe3cc85a1",
+        "name": "Kogarasumaru",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 18,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *A powerful Tachi Artificial Regalia that contains the power of Hachiman. It was created during the Genpei war.*While [Equipped], when making [Physical Attacks] against [Class: Humanoid - Beast - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "9458097c-79b4-4d93-823b-26ec290ecf16",
+        "name": "Goro Nyudo Masamune",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 19,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *An Artificial Regalia created from one of the most powerful blades in the world. It has the power to repel evil spirits.*While [Equipped], reduce [Damage] received from [Aramitama] by 10.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "0639625c-b652-4cb4-a0cb-6bdd67d9ad6d",
+        "name": "Rochin",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "1200G",
+        "effect": " *An old spear used in the kingdom of Ryukyu. They're used alongside Tinbe.*While [Equipped] at the same time as [Tinbe], gain +2 to {Initiative}.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "32885d50-3ee3-48c0-a5c8-1be0dfb569f9",
+        "name": "Master's Spear",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 5,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "1750G",
+        "effect": " *A Spear-type Artificial Regalia, created by a master craftsman who used all of his strength. It has a beautiful shape, and is easy to use.*While [Equipped], once per round, the [Target] of an [Attack Action] gains a -1 modifier to {Evasion}.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "c648d606-1fbb-4916-ba26-fd261007f381",
+        "name": "Warrior's Hoko",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 8,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": -2
+        },
+        "cost": "3100G",
+        "effect": " *A spear said to have once been used by a hero of the Three Kingdoms era. This Artificial Regalia features excellent durability and destructive power.*While [Equipped], once per combat, change the [Range] of an [Attack Action] to [Area].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "aee46585-4bf7-4fb3-b5d1-999ad2beed77",
+        "name": "Exorcist's Greatspear",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A large, spiritually purified spear Artificial Regalia. It destroys evil beings with a spiritual power like the sun.*While [Equipped], when making [Physical Attacks] against [Class: Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "93e6fddb-0904-48a1-bce7-5f421537e68d",
+        "name": "Oni Horn Longspear",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8500G",
+        "effect": " *An especially long spear with an Oni's horn at its tip. It has high penetrative force.*While [Equipped], [Targets] reduce their [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "00e1461e-9072-44d4-a0c5-87765e6f2805",
+        "name": "Otegine",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "8500G",
+        "effect": " *A specially made, customized longspear. The tip of this Artificial Regalia contains devastating power.*While [Equipped], once per round, change the [Range] of an [Attack Action] to [Area].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "0a9a9ed2-de7a-46d8-93fa-5c79bfc8fe37",
+        "name": "Iwatooshi",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 13,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A famous Naganita that was turned into an Artificial Regalia. It grants its user enourmous tenacity.*While [Equipped], gain +10 [Armor].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "2e729995-4f8b-425e-94f4-34a70a2fc892",
+        "name": "Tonbokiri",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A famous Naganita that was turned into an Artificial Regalia. It is said that it once cut a dragonfly that landed on its edge. It boasts tremendous killing power.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by 10.",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "23058892-9724-43d1-ba15-7f4ef53488a2",
+        "name": "Hinomoto-Go",
+        "restrict": "Martial ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 18,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " *A famous greatspear that was turned into an Artificial Regalia. This powerful sacred spear was also used as a shrine.*While [Equipped], gain +10 {Barrier}.",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "b49ea74e-d5b5-40cc-8bcd-3c9d6f79603a",
+        "name": "Bronze Battleaxe",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "1800G",
+        "effect": " *A ritual axe that was converted into an Artificial Regalia. Once used in Ancient China, it boasts high spiritual and cutting power.*While [Equipped], once per combat, when making a [Physical Attack], gain +1 [Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "e902f836-b237-4387-a13f-65ffbe8ebf0a",
+        "name": "Labrys",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 10,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *This double-edged axe was once used in ancient greece before being converted into an Artificial Regalia. It contains massive, destructive power.*While [Equipped], once per combat, when making a [Physical Attack], gain +10 to [Damage].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "6c3951ef-3d7e-4bce-b4d5-1650e259d1eb",
+        "name": "Large Chakram",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A giant chakram, converted into an Artificial Regalia. It's too big to be spun with one's hands, and needs to be rotated with the user's entire body.*  While [Equipped], once per round, change [Range / Target] to [7 Sq. / 1#].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "9bf002de-e428-4e57-bcf5-f07ec350735c",
+        "name": "Scottish Maiden",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5500G",
+        "effect": " *A European guillotine converted for portable use. Its huge blade slams directly into its targets.*  While [Equipped], increase [Physical Damage] to non-[Boss] mononoke by 10.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "bcd8be3f-8a38-48c8-b9f2-40592a5f3f62",
+        "name": "Silver Axe of Hermes",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A replica of a silver axe once used by the god Hermes. This Artificial Regalia contains powerful spirit energy.*  While [Equipped], when making [Physical Attacks] against [Class: Undead - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "7f2a1128-873f-4abe-81b2-524ce2d9e1c1",
+        "name": "Raijin's Battleaxe",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A replica of a powerful weapon used by the thunder gods. This Artificial Regalia contains high power.*  While [Equipped], when making [Physical Attacks] against [Class: Humanoid - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "399f3b3d-8bf5-4bc7-a7a9-5b53133d238a",
+        "name": "Demon-Subduing Spade",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *An Axe-type Artificial Regalia with a massive, crescent moon-shaped blade. This rare weapon is loved by a certain Sakimitama.*  While [Equipped], once per Session, set the [Armor] of the [Target] of a [Physical Attack] to 0.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "e7543730-b79a-48d1-9956-689cccdd57bd",
+        "name": "Golden Axe of Hermes",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "13000G",
+        "effect": " *A replica of a golden axe once used by the god Hermes. This Artificial Regalia contains tremendous attack power.*  While [Equipped], when making [Physical Attacks] against [Class: Humanoid - Undead - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "1165a00b-61c6-491d-9fcf-0508646c00f3",
+        "name": "Apocalypse Scythe",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 17,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "13000G",
+        "effect": " *A replica of a Scythe carried by the fourth horseman, transformed into an Artificial Regalia.*  While [Equipped], once per combat, roll 1d6, and if the result is any other than a \"1\", inflict [Dead] on any one non-[Boss] non-[Aramitama] [Mononoke]. ",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "1c0bf210-bf82-463f-a986-e22e0eca044f",
+        "name": "Steel Fan",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "2600G",
+        "effect": " *A sturdy Iron fan, made into an Artificial Regalia. It grants its user excellent defense.*While [Equipped], gain +2 to [Armor].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "4a538dda-9e07-4f94-89bd-59f5ef75222c",
+        "name": "Attack Shield",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 5,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "3400G",
+        "effect": " *A large shield, converted into an Artificial Regalia and modified for offensive purposes.*While [Equipped], gain +2 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "0cabc3be-ca03-4ae3-9cd2-063f2921e980",
+        "name": "Bronze Automaton",
+        "restrict": "God Hand",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3400G",
+        "effect": " *A bronze doll used in ancient China. To use it as a weapon, the user climbs on its back and manipulate it with their spirit energy.*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "1317a24d-b450-42db-a970-b2fcfca51664",
+        "name": "Warlord's Kanabo",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 10,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "6800G",
+        "effect": " *This Kanabo is an Artificial Regalia used by warriors and warlords during the Sengoku era. It boasts high power.*While [Equipped], [Targets] reduce their [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "1f454d44-58b4-409f-8701-89581b7bbcd5",
+        "name": "Divine Shield",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 12,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A large shield, converted into an into an offensive Artificial Regalia. It's capable of converting the user's mental strength into defensive power.*While [Equipped], gain +3 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "c62fa364-e645-4859-9a40-a57426273a2b",
+        "name": "Bludgeon",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 13,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *An ancient, sacred club that was once drenched in lots blood, and gained power from it. Its spirit energy crushes the weak.*While [Equipped], increase [Physical Damage] to [x#] [Mononoke] by 10.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "a10fffd7-a360-4778-95db-f5ea7cd06e91",
+        "name": "Priestly Mace",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 13,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A Mace used by high-ranking priests and other holy figures. It brings dignity to its owner.*While [Equipped], once per scene, gain +7 to a {Willpower} check.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "d4ff2a89-c7f2-4703-b3a3-789213f9e582",
+        "name": "Pillar of Flame",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *An Artificial Regalia created from an Iron pillar used for executions, or torture.*While [Equipped], bestow [Element: Fire] on [Physical Attacks]. Also, [Targets] reduce their [Armor] by 4 (to a minimum of 0).",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "1a71b217-a919-4a11-a92e-1022de2e1bc6",
+        "name": "Hero's Club",
+        "restrict": "Martial ",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "14000G",
+        "effect": " *A replica of a club used by ancient heroes. It has special effects on various monsters.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by 10.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "0e72d7e8-33f4-4250-9086-f01073ef72e4",
+        "name": "※ Kendama Gun",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "500G",
+        "effect": " *A Kendama-Type Artificial Regalia that launches a huge iron ball at high speed. It's easy to handle, and often used for self-defense.*While [Equipped], once per session, increase [Physical Damage] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "7dcc548d-6ce2-4111-9d01-b996a81e4368",
+        "name": "Swift Horse",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3500G",
+        "effect": " *A famous horse that became a contracted beast with spiritual power.*While [Equipped], the user is able to make [Ranged Attacks] and [Magical Attacks] after [Combat Moves].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "Charge 2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "68308dcc-1056-40b5-926b-82b1245ed8e2",
+        "name": "※ Matchlock Gun",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 7,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "3500G",
+        "effect": " *A Matchlock gun, alongside its black powder, and bullets. All three components of this weapon were converted into Artificial Regalia.*While [Equipped], when making a [Physical Attack], gain +1 [Physical Rank]; however, this [Weapon] may only be used to make a [Physical Attack] once per round.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "b2d73764-2b49-4d45-b8fc-628508cd57b7",
+        "name": "Animal Vehicle",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A dog or lion-shaped vehicle that was converted into an Artificial Regalia.*While [Equipped], gain a +2 Modifier to the result of [Appearance] Checks. Also, the user is able to make [Ranged Attacks] and [Magical Attacks] after [Combat Moves].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "Charge 4Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "f62c8299-2cc4-4a07-8157-b1765d84bc86",
+        "name": "Warrior's Greatbow",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A large bow used by medieval warriors and archers, converted into an Artificial Regalia. It takes a lot of skill to master.*While [Equipped], by spending 1x [Start] before making an [Attack Action], gain +1 [Rank].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "f2fe50fe-3883-43d1-8e5e-4448d57df2ed",
+        "name": "※ Flintlock Gun",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "4400G",
+        "effect": " *A Matchlock gun modified into a Flintlock. This Artificial Regalia features high reliability and power.*While [Equipped], when making a [Physical Attack], gain +1 [Physical Rank]; however, this [Weapon] may only be used to make a [Physical Attack] once per round.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "1c27b1e2-8b16-4d86-aa34-ef9b171fb69d",
+        "name": "Hero's Favored Horse",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A Bound Steed once favored by many different heroes.*While [Equipped], the user is able to make [Ranged Attacks] and [Magical Attacks] after [Combat Moves].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "Charge 4Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "8a118e27-58a7-4db5-82b8-848cf8152fa6",
+        "name": "※ Cannon",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A Cannon, made into an Artificial Regalia. It can also be used as a siege weapon.*While [Equipped], when making a [Physical Attack], gain +1 [Physical Rank]; however, this [Weapon] may only be used to make a [Physical Attack] once per round.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "f5f1910c-d269-4373-9927-2115a598b3c1",
+        "name": "Apocalypse Greatbow",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A replica of the Greatbow carried by the first knight, transformed into an Artificial Regalia. It holds a terrible power.*While [Equipped], by spending 1x [Start] before making an [Attack Action], gain +1 [Rank].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "daa7036a-b4f9-43b9-9d5d-b7cadcdd3521",
+        "name": "Mystic Magatama",
+        "restrict": "None ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 3,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *A large magatama used for magic or rituals. They contain boundless spiritual energy.*While [Equipped], once per round, gain +10 to a [Recovery] effect.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "7401b343-8db0-4a1c-8a67-883e9068d059",
+        "name": "Digital Blaster",
+        "restrict": "Digital Sorcerer ",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *An electronic, magical Personal Defense Weapon based on the MP5. The data generated by its spell program can be turned into spiritual bullets.*While [Equipped], gain +5 to [Recovery] effects.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "dda6579c-6a53-4331-977f-57379b2d7ecf",
+        "name": "Witch's Familiar",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A familiar created by Witch's secret spells, that underwent a process to become an Artifical Regalia. Their appearance varies, but they have high combat ability.*While [Equipped], once per combat, when performing a [Magic Attack], gain +1 [Magic Rank].",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "723fdb82-f8a6-4fb1-8912-c617812d580b",
+        "name": "Treasure Bell",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 5,
+            "init": -5,
+            "init2": -4
+        },
+        "cost": "3000G",
+        "effect": " *A special, metal bell created with a unique metal that resembles bronze. By filling it with spirit energy, it plays a mysterious sound.*While [Equipped], once per combat, change the [Target] of a [Magical Attack] to [Area].",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "3#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 4,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "2752a878-2c2a-4659-ba7f-aa9280038a6a",
+        "name": "Escort Golem",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A huge Mud Golem Artificial Regalia created by secret Kabbalah spells.*While [Equipped], once per round, gain +5 to [Armor].",
+        "attributes": {
+            "form": "Magic",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "b2fe8c6d-98c6-43ae-8558-621757c093a5",
+        "name": "Ancient Instruments",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 6,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *Instruments once used by ancient magicians, turned into Artificial Regalia. They emit powerful sounds when played.*While [Equipped], once per round, change the [Target] of a [Magic Attack] to [Area].",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Psychic",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "6e75c4b1-0b08-48df-ba18-04e8fa5e2cff",
+        "name": "Sephirot Scroll",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 8,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *An ancient scroll from the tree of life, made into an Artificial Regalia.*While [Equipped], once per combat, [Recover] 20 [HP] before [Damage Reduction].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Force",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "513e8c95-bc22-4b75-9563-2866d8430212",
+        "name": "Crystal Skull",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 9,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *This Artificial Regalia was created from a Crystal Skull, once used for magic. It accumulates and releases huge amounts of spirit energy.*While [Equipped], once per session, change the [Range] of a [Magic Attack] to [Combat Zone].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Radiant",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    },
+    {
+        "id": "178975b6-bdb4-4f55-988e-61b0021068b2",
+        "name": "Great Holy Grail",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 11,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *A replica of the Holy Grail, an object which has appeared in many legends, that was converted into an Artificial Regalia. While it's a mere replica, it still holds mighty spiritual power.*While [Equipped], increase [Recovery] effects from [Talents] targetting the user by 10.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Radiant",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex7"
+    }
+]

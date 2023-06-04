@@ -1,0 +1,1698 @@
+[
+    {
+        "id": "2fc46d20-fa76-47db-8d0e-2b938da3a35d",
+        "name": "Obsidian Sword",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A longsword type Artificial Regalia constructed from obsidian. This blade shines like glass, and possesses the power to be used as a medium for magic.*While [Equipped], treat as though [Equipped] with a [Magical Weapon].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "03a976bb-f138-4887-9803-95565fa82198",
+        "name": "Shadow Blade",
+        "restrict": "Dark Hunter",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "3000G",
+        "effect": " *A sword-type artificial regalia dedicated to a legendary ninja. This black blade harbors a powerful spirit.*While [Equipped], once per round, gain +1 Rank to the [Damage Calculation] of [Style: Dark Hunter / Timing: Attack] Talents.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "b53b9bb4-02ae-427d-913e-5fcf50fd1822",
+        "name": "Ancient Spirit Sword",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " This sword was originally an ancient japanese sword, converted into an Artificial Regalia after it was unearthed. It's built-up spiritual energy can be used to provide protection to it's user.While [Equipped], gain +5 [Armor].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "e5c4b82b-4c35-45ab-a556-206ac30c3779",
+        "name": "Dragon Blade",
+        "restrict": "Dark Hunter",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 11,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "5000G",
+        "effect": " *A sword-type artificial regalia dedicated to a legendary ninja. A dragon-god's protection is engraved on the blade.*While [Equipped], once per round, gain +1 Rank to the [Damage Calculation] of [Style: Dark Hunter / Timing: Attack] Talents.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "d531f8b3-8c59-402c-8a44-44c8a6e93a5c",
+        "name": "Mystic Ancient Blade",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *This valuable, ancient sword was forged in the Kamakura period and converted into an Artificial Regalia. It has excellent sharpness and toughness.*While [Equipped],  [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "9f8109df-b1df-4de6-9d62-ae6266fa37c6",
+        "name": "Spirit Saber",
+        "restrict": "Arcane",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *This bladeless handle is an Artificial Regalia. When it's user concentrates, a blade made of pure spirit energy is projected.*While [Equipped], once per round, the user gains a modifier at Magic [Damage Calculation] equal to any one of their {Main Stats}.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "5b9189b8-1d0e-4fa3-9310-8bb64d913330",
+        "name": "Totsuka-no-tsurugi",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *An Artificial Regalia created from an old sword manufactured in the age of the gods.* While [Equipped], reduce damage received from non-[Boss] [Mononoke ・Godhunters] by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "44080a4b-79f1-4755-9e2e-38d2148a5003",
+        "name": "Sword of the Thirteenth Cycle",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *A reproduction of an ancient, holy blade used by a king in the age of the gods.* While [Equipped], gain +5 to [Damage Calculation] against non-[Boss] [Mononoke ・Godhunters].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "450679a9-d51a-42e3-8956-1453750bf3a7",
+        "name": "Magical Spear",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2800G",
+        "effect": " *A spear type Artificial Regalia that functions as a magical focus.*While [Equipped], treat as though [Equipped] with a [Magical Weapon].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "103bba4d-96f4-495f-9b64-c082cd872124",
+        "name": "Killing Needle",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2800G",
+        "effect": " *A needle type Artificial Regalia with a huge range.*While [Equipped], once per turn, change the [Range] of [Attack Actions] to [8 Sq.].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "c5ace627-a661-49b8-897a-797995abbe97",
+        "name": "White Wood Spear",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3100G",
+        "effect": " *A sacred white wood, made into a spear-type artificial regalia with the power of a god.*While [Equipped], when making [Physical Attacks] against [Class: Undead - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "5826a58e-be44-40ad-abe1-550fe6647836",
+        "name": "Spirit Spear",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *This spear Artificial Regalia emits spirit at the time of an attack to extend it's range.*While [Equipped], once per round, the user may force a [Target] that failed their {Evasion} check to move 1 square in any direction, ignoring Engagements.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Charge 2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "efd4d82d-de54-447c-8d6b-d09303804390",
+        "name": "Training Lance",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A spear-type Artificial Regalia that also doubles as a slender longsword.*While [Equipped], once per round, when making a [Physical Attack], change the [Form / Range / Target] to [Form: Sword / Range: Charge 2 Sq. / Target: 1#].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "46ef77b6-8964-4d35-856e-6085707c824c",
+        "name": "Death Needle",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " *A needle-type Artificial Regalia constructed from high-ranking materials. It has the power to destroy concepts.*While [Equipped], once per turn, change the [Range] of [Attack Actions] to [8 Sq.]. Also, [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "6490c859-7958-48e0-8d5d-1cb200ff4f66",
+        "name": "Arcane Spear",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8500G",
+        "effect": " *An enhanced magical spear that boasts the ability to be used as a magic focus as well as a weapon.*While [Equipped], treat as though [Equipped] with a [Magical Weapon], and when making a [Magical Attack], gain +5 to [Magical Damage].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "a119fa1e-dd87-4054-b57d-1f45e9122c14",
+        "name": "Strengthened Spirit Spear",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8500G",
+        "effect": " *An enhanced spirit spear that releases a greater amount of power when attacking.*While [Equipped], once per round, the user may force a [Target] that failed their {Evasion} check to move 1 square in any direction, ignoring Engagements.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Charge 2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "91f06865-17d7-4bb4-a275-825e8c1648e9",
+        "name": "God Needle",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *The apex of needle-type Regalia. This model can even kill gods.*While [Equipped], once per turn, change the [Range] of [Attack Actions] to [8 Sq.]. Also, [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "083f6841-6922-4034-a48b-2d70ae820ef9",
+        "name": "Whirlwind Blade",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A war ring-type Artificial Regalia equipped with several blades that resemble petals. The user can get a deflect attacks by spinning it.* While [Equipped], once per round, reduce [Physical Damage] taken from [Form: Ranged] by 5.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "44214e6e-915f-47bf-87e9-e7d2df145b9d",
+        "name": "Electric Powersaw",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A super-sized saw-like Artificial Regalia with a blade that can pierce spirit energy.* While [Equipped], once per combat, inflict [Shift: Dead] on any Mononoke with \"x#\" written in their [Name] that you deal at least 1 point of [Damage] to.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "802d02b9-6fb2-49ec-a46d-4c91a60d7221",
+        "name": "Holy Axe",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A waraxe-type Artificial Regalia equipped with the spiritual power to slay evil.* While [Equipped], when making [Physical Attacks] against [Class: Undead - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "70170f51-4ad1-4b55-b350-412b8da14c8a",
+        "name": "Spirit Kusarigama",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 12,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5500G",
+        "effect": " *An Artificial Regalia created from a Kusarigama, said to have been used by skilled ninja.* While [Equipped], once per round, change the range of a [Physical Attack] to [6 Sq.].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "b81841f8-6506-4c26-b8cd-728b9312dbc7",
+        "name": "Heavy Harpe",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "5500G",
+        "effect": " *A thick axe-type artificial regalia that weighs a lot.* While [Equipped, once per round, the user may inflict [Shift: Fallen] onto [Targets] that recieved at least 1 point of [Damage].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "5dd2778c-b45e-4aeb-a4dd-827324f7f79c",
+        "name": "Hell Scissors",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *Special spirit-endowed scissors manufactured by processing a high-ranking scissor spirit. If an enemy is weak, they cut through it in a single blow.* While [Equipped], once per round, gain +10 to [Damage Calculation] against non-[Boss] [Mononoke - Godhunters].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "e2c987eb-aec0-41c1-bcb0-61779e0f6291",
+        "name": "Chain Guillotine",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A unique Artificial Regalia constructed from a heavy blade attached to a chain. It's used to attack by swinging the chain.* While [Equipped], once per round, gain +10 to [Damage Calculation] against non-[Boss] [Mononoke - Godhunters].",
+        "attributes": {
+            "form": "Axe",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "cf121e89-d767-4fae-b00d-93be2502c478",
+        "name": "Shadow Sickle",
+        "restrict": "Dark Hunter",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 15,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "10000G",
+        "effect": " *A top-of-the-line Kusarigama constructed with cutting-edge technology. It has tremendous sharpness and tension.* While [Equipped], once per round, change the range of a [Physical Attack] to [6 Sq.]. Also, gain +1 to the result of [Evasion] checks.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "33310238-fb56-452b-9e39-624fb286acc8",
+        "name": "Crimson End",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *This massive axe Artificial Regalia has a crimson blade and a large handle. Every time it kills, it releases evil energy.* While [Equipped], [Targets] reduce their [Armor] by 15 (to a minimum of 0).",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "24fe961c-fad4-4ed8-8edb-1314708cd927",
+        "name": "Exorcist Gear",
+        "restrict": "Arc Slayer",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1300G",
+        "effect": " *These hand-crafted Artificial Regalia are often disguised as gloves or shoes.*While [Equipped], treat as though [Equipped] with [Unarmed]. Also, gain +5 to [Damage Calculation] against non-[Boss] [Mononoke.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "81b2f4a2-c545-46f4-8177-ca441b500b7b",
+        "name": "Large Sledgehammer",
+        "restrict": "None",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2600G",
+        "effect": " *An oversized sledgehammer with a long, metal handle.*While [Equipped], once per combat, when making a [Physical Attack], gain +1 [Rank].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "ca32e38a-103b-47d9-9da4-47785acfc7cc",
+        "name": "Hardened Gloves",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3400G",
+        "effect": " *Close-Combat Artificial Regalia with a magic ability to launch opponents.*While [Equipped], treat as though [Equipped] with [Unarmed]. Also, once per round, the user may inflict [Shift: Fallen] onto [Targets] that failed their [Reactive Check].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "0e9c6c1d-bacc-4e55-aaed-fd60d22758a7",
+        "name": "Guardian Tonfa",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "4100G",
+        "effect": " *Tonfa-Type Artificial Regalia that provide powerful protection to their user.*While [Equipped], gain +2 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "1bdba197-5fd0-4ec6-bc8a-c6f43ba725ce",
+        "name": "Heavenly Kanabo",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "6800G",
+        "effect": " *A powerful Kanabo that has been remodelled.*While [Equipped], [Targets] of a [Physical Attack] reduce their [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "54ea1cda-6539-4c2e-b381-895bfc99c580",
+        "name": "Giganto Hammer",
+        "restrict": "Martial ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "6800G",
+        "effect": " *A massive, powerful hammer-type Artificial Regalia with high weight.*While [Equipped], the user gains +2 [Armor] and [Size].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "ed652073-0183-4092-953c-ab3e6946e310",
+        "name": "Dragon God Tonfa",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *Tonfa-Type Artificial Regalia that provide the protection of a dragon god. They offer excellent power and defense.*While [Equipped], gain +3 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "7675b5ed-1ac6-43ac-82d2-dc1f6e38fb3a",
+        "name": "Wisdom King Gear",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *Hand-made Artificial Regalia that contain the power of both Vidyaraja and Ragaraja.*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "6258f02a-0cb5-4840-9b16-5f5ec0432fed",
+        "name": "Euclidean Hammer",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 17,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A heavily modified sledgehammer created from theorems on cursed axioms. It destroys adversaries, and the concept of space-time.*While [Equipped], twice per combat, treat a [Physical Attack] as [Special Attack].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "3d024ed1-e167-4c0c-9e35-1a33fd08a902",
+        "name": "Mausoleum",
+        "restrict": "Hanyou, Divine Soul",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *This Artificial Regalia is a stringed instrument, made with rare materials. Because spirit energy is needed to use it, it cannot be used unless by those with a special pedigree or a god.*While [Equipped], treat [Physical Attacks] as [Special Attacks].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "b5c1b72f-634c-49c5-86e0-e28b5873bdf2",
+        "name": "Gale Shuriken",
+        "restrict": "Martial / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "4400G",
+        "effect": " *This shuriken-type Regalia turns at high speed when endowed with spirit energy, allowing it to make sucessive attacks.*While [Equipped], once per combat, gain +1# to the [Target] of a [Physical Attack]. Also, throwing this [Weapon] does not render it unuseable.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "3#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "9758e1bf-3aea-4e34-903c-0cc7c5975bf8",
+        "name": "Gale Knives",
+        "restrict": "Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "4400G",
+        "effect": " *These Artificial Regalia take the form of throwing knives, darts, or needles. Their penetration can be enhanced by filling them with spirit energy.*While [Equipped], once per combat, [Halve] the armor of the target of a [Physical Attack]. Also, throwing this [Weapon] does not render it unuseable.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "5a89fb69-96d2-45a4-b757-4fc360410d9d",
+        "name": "Spirit Shuriken",
+        "restrict": "Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " *These curse tags transform into knives after thrown, and relentlessly home in on their targets.*While [Equipped], once per round, the [Target] of a [Physical Attack] reduces their armor by 3 (minimum 0). Also, throwing this [Weapon] does not render it unuseable.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "3#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "5631a3f8-1e71-4f1d-ad4a-0b271174f0d0",
+        "name": "Explosive Fist",
+        "restrict": "Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *These curse tags transform into phantom fists after thrown, and relentlessly hammer their target.*While [Equipped], once per round, gain +5 to [Damage Calculation] against non-[Boss] [Mononoke - Godhunters].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "11cee929-b5cd-4e83-912c-a633bd9956c0",
+        "name": "Hornet Fin",
+        "restrict": "Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A replica of a sacred treasure known in legends. While it is a reproduction, it holds extraordinary power.*While [Equipped], by spending 1x [Prep] before making an [Attack Action], gain +2# until the end of the round.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "012794d3-dd6e-4b44-ac9e-e7a6a2e5cb4a",
+        "name": "Snake Fin",
+        "restrict": "Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A replica of a sacred treasure known in leginds. While it is a reproduction, it is especially deadly.*While [Equipped], by spending 1x [Prep] when making an [Attack Action], gain +1 [Rank].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "7c7726da-5b2e-4eec-9977-65c45c5d0273",
+        "name": "Spirit Knives",
+        "restrict": "Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " *These curse tags transform into deadly blades of light after thrown.While [Equipped], once per round, the [Target] of a [Physical Attack] reduces their armor by 3 (minimum 0). Also, throwing this [Weapon] does not render it unuseable.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "928c0352-5803-44af-8e5f-9e5d887629b4",
+        "name": "Zhao Wei",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A throwing knife-type Artificial Regalia that can only be wielded by those with spiritual power.*While [Equipped], once per round, increase the [Range] of a [Physical Attack] by 2 Sq. Also, throwing this [Weapon] does not render it unusable.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "513b9c62-fcd7-47fd-aa34-d439bb4fbb15",
+        "name": "Onmyodo Seals",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A magic focus, made into an Artificial Regalia, used in the Onmyo Bureau Era.* While [Equipped], once per round, increase the [Target] of the user's [Magical Attacks] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "681d6a27-e8b4-4eec-a55d-c08dfe3b1663",
+        "name": "Guardian Seals",
+        "restrict": "Arcane / Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A reinforced Onmyodo Deck. Depending on your draw, it's user can attack and defend at the same time.* While [Equipped], once per round, gain +2 [Armor].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "0929697e-d359-41aa-84ae-1c1b930ecce7",
+        "name": "Offensive Shikigami",
+        "restrict": "Arcane ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A shikigami endowed with a large amount of spiritual power. Their appearance varies.* While [Equipped], once per round, gain +3 to [Magic Damage] against non-[Boss] [Mononoke].",
+        "attributes": {
+            "form": "Magic",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "007fe931-f7b6-4c19-93e2-23ae45a48650",
+        "name": "Advanced Seals",
+        "restrict": "Arcane / Utility ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *Onmyodo Seals that have been enhanced even further. This new version can deploy physical barriers instantly.* While [Equipped], once per round, gain +3 [Armor].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "af907775-5eed-4c94-9954-9396df625802",
+        "name": "Reinforced Magic Pistol",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 6,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *This unique Artificial Regalia is called a magic pistol.* While [Equipped], once per round, increase the [Target] of the user's [Magical Attacks] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "7ccafac0-91f6-454c-b10f-158bfc3dec2f",
+        "name": "Demon Shikigami",
+        "restrict": "Arcane ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 7,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A shikigami with an even greater amount of power, and a level of aggression to match.* While [Equipped], once per round, gain +3 to [Magic Damage] against non-[Boss] [Mononoke].",
+        "attributes": {
+            "form": "Magic",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "f71ceb63-47fd-4846-b023-451221de1931",
+        "name": "Secret Seals",
+        "restrict": "Arcane / Utility ",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *Advanced Onmyodo Seals only used by ancient Onmyo Bureau masters.* While [Equipped], once per round, reduce damage recieved by 3.",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "4f96780f-b04b-4d6e-a747-9cce9dad97ae",
+        "name": "Ultimate Magic Pistol",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 8,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A magic pistol remodelled for maximum power.* While [Equipped], once per round, increase the [Target] of the user's [Magical Attacks] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    },
+    {
+        "id": "d8239d8f-4ef5-48dd-832d-4805fbe3f582",
+        "name": "High-Level Shikigami",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 10,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A shikigami so far modified it has taken on a different form. The pinnacle of artificial deities.* While [Equipped], once per round, gain +3 to [Magic Damage] against non-[Boss] [Mononoke].",
+        "attributes": {
+            "form": "Magic",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex5"
+    }
+]

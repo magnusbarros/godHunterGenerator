@@ -1,0 +1,2018 @@
+[
+    {
+        "id": "90947db7-9fd9-4ffd-aa4c-e0cedb099b3e",
+        "name": "Yuggoth Dagger",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1000G",
+        "effect": " *A knife that belonged to the interstellar creatures called Yuggoths. It was forged from an unknown metal.*While [Equipped], [Targets] reduce their [Armor] by 2 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "024503b9-b72e-47ff-8292-aa9450f532c9",
+        "name": "Worshipper's Blade",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 7,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *An old sword once carried by Hyperborean sailors. The blade has an ornate pattern, and it's dedicated to a snake god.*While [Equipped], gain +3 to [Armor].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "cbc506b4-0965-420c-bdce-7861006a22fc",
+        "name": "Damascus Blade",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *This ancient blade was forged from Wootz steel, then converted into an Artificial Regalia. It boasts astonishing durability and overwhelming sharpness.*While [Equipped], reduce [Physical Damage] received by 2.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "134d972c-8446-4f0e-80f9-1dd6b8515151",
+        "name": "Sacrificial Holy Blade",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A large sword that was used to take the head of sacrifices in ancient Albion.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "57e40251-695e-4160-a82a-0c657a6d4c72",
+        "name": "Ancient Sword of Irem",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *An ancient sword excavated from the ruins of a place called \"Irem\". Forged from a rare blue-green metal, it boasts tremendous power against undead and humanoids.*While [Equipped], when making [Physical Attacks] against [Class: Humanoid - Chaos], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "c780eb38-f286-4c78-8958-e36e12980004",
+        "name": "Korvaz Flame Sword",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A greatsword that holds the power of that which brings flame. If it's user is not a godhunter, they will eventually be consumed by it's spiritual power and transformed into something else.*While [Equipped], bestow [Element: Fire] on [Physical Attacks]. Also, [Targets] reduce their [Armor] by 4 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "fd0bd726-31c4-4bb1-a7da-e95e897c542e",
+        "name": "Barzai's Crescent Moon Blade",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A sword that emits a pale spirit light. It grants it's user the protection of Mars and Saturn via repeated magic rituals.*While [Equipped], when making a [Physical Attack], gain +1 [Rank] against [Class: Chaos / Undead].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "818dd9ee-b87d-47c1-a11d-d9ce481e4d43",
+        "name": "Orichalcum Greatsword",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 17,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " *A greatsword made from Orichalcum, favored by the aristocrats from Atlantis. It boasts outstanding power.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "40964fc2-926b-485c-ba83-6409668eac1a",
+        "name": "Phoenix Longsword",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 19,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *A replica of the King of Hyperborea's favored sword. It shows extreme power when used to attack monsters.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "efaa4e4a-7df2-4331-8694-e226dc80b53c",
+        "name": "Hound Tongue",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "1200G",
+        "effect": " A blue piercing spear similar to a syringe needle. It is made from the blue tongue of Tindalos creatures.While [Equipped], once per round, [Recover] 5 {HP} when performing [Damage Calculation].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "11819c27-f8e3-49ef-8d1a-76af61600010",
+        "name": "Gla'aki's Spine",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " An artificial regalia made from the thin spines of a lake dweller. A long piercing sword.While [Equipped], when performing a [Physical Attack], gain [Element: Poison] and reduce the targets [Armor] by 2 (Minimum 0).",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "796d3be8-80cb-40ad-b2d9-6ae0f02ec3a3",
+        "name": "Fetch Stick",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "4000G",
+        "effect": " A spear-type artificial regalia with a metal tip on a bamboo handle. It has unparalleled power against Undead.While [Equipped], when performing a [Physical Attack] against [Class: Undead], gain +2 [Physical Rank].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "d58254f5-6fcc-4b31-b7dc-a0fda3aa33b9",
+        "name": "Damascus Spear",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "2800G",
+        "effect": " An artificial regalia made from Wootz steel. It is tremendously sturdy.While [Equipped], reduce [Physical Damage] taken by 2.",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "389bf246-7015-4a51-a91e-79684962d946",
+        "name": "Sky Demon Claw",
+        "restrict": "Two Hand",
+        "mode": "Martial / Utility",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3100G",
+        "effect": " A spear-type Artificial Regalia with the claw of a sky demon as its tip.While [Equipped], once per round when making a [Physical Attack], targets that fail their [Reactive Check] are [Installed] up to 2 Sq away.",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "54284e5a-66a1-4432-856d-34acd6a0bb46",
+        "name": "Barzai's Crescent Moon Spear",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "8500G",
+        "effect": " A weapon wrapped in pallid spirit energy. Using black magic rituals, it confers the protection of Mars and Saturn.While [Equipped], when making a [Physical Attack], gain +1 [Rank] against [Class: Chaos].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "5ffa7d29-bcb6-4f8f-a555-bef9bb7c58ba",
+        "name": "Orichalcum Spear",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " An Orichalcum long spear, favored by Atlantis nobles. A rare regalia that has excellent power.While [Equipped], when making a [Physical Attack], gain +5 [Physical Damage] against non-[Boss] [Mononoke].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "1e3af2aa-f97c-4a54-9c75-33abec036e34",
+        "name": "Shining Trident",
+        "restrict": "Divine Soul - Heroic Spirit",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " A shining cane of a Great Old One converted into a three-pronged spear. Terrible spiritual light can be emitted from the tip.While [Equipped], once per round when making a [Physical Attack], gain [Element: Light] and change the [Attack Action] to [Range: 6 Sq].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "17d442f2-fa7c-4195-a47f-b246d93d4645",
+        "name": "Trapezohedron Magic Spear",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " A long spear with a sparkling black polyhedron at its trip. It has a terrible spiritual power.While [Equipped], when making a [Physical Attack], gain [Element: Magnet] and +1 [Physical Rank].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "9a209d3c-4ffc-4539-9f62-fb712a76f0a6",
+        "name": "Magic Machete",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 5,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1200G",
+        "effect": " A type of Artificial Regalia patterned after a forestry knife.While [Equipped], once per round, [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "47399a8d-a65a-4b47-901b-995ac1730f95",
+        "name": "Damascus Axe",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 10,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 2
+        },
+        "cost": "3800G",
+        "effect": " *A waraxe Artificial Regalia constructed from Wootz steel. Extremely sturdy and offers good defense.*While [Equipped], reduce [Physical Damage] received by 2.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "acff385d-88b6-4b37-a961-e00d35084433",
+        "name": "Remodelled Chainsaw",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A chainsaw Artifical Regalia that was tuned up with illegal modifications. It's difficult to handle, but boasts high power.*While [Equipped], once per combat, the [Target] of the user's [Physical Attack] [Halves] their [Armor].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "52c227fd-7df5-4af7-b830-85fe3b725fec",
+        "name": "Silver Bast Claws",
+        "restrict": "Darkstalker / Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5500G",
+        "effect": " *An Artificial Regalia that contains the protection of the cat god, Bast. Four claws attack to the back of each of the user's hands.*While [Equipped], treat as though [Equipped] with [Unarmed]. Additionally, [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "6e55d345-319d-4ba1-b5c5-3381542f3301",
+        "name": "Clouded Glass Axe",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5500G",
+        "effect": " *This battleaxe-type Artificial Regalia was built with a special glass. It features an aerodynamic design that can warp space.*While [Equipped], twice per combat, the user may force the [Target] to move up to 2 squares in any direction, ignoring Engagements.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "3dae1fcf-d063-42c5-8989-c15387c8fdb5",
+        "name": "Ansata Ankh ",
+        "restrict": "None",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A huge Ankh-Shaped Artificial Regalia. By projecting spirit energy into it, a blade of light appears that can cleave through mononoke.*While [Equipped], once per round, increase [Physical Damage] to non-[Boss] [Mononoke] by 5. (Name is a reference to Crux Ansata, the \"other name\" for an Ankh)",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "b7d15a89-04dc-4e00-8a0d-ad377ff7efe9",
+        "name": "Mortlan's Scythe ",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 17,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A small, sickle-shaped Artificial Regalia equipped with a special crystal in its blade.*While [Equipped], once per combat after performing [Damage Calculation] for a [Physical Attack], the [Target] gains a -5 modifier to [Initiative] until [Combat End].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "96f7d857-8940-4f0f-b32f-ddd34596b37f",
+        "name": "Orichalcum Axe",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 19,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "13000G",
+        "effect": " *An Orichalcum Axe used by warriors of Atlantis for executions. It boasts tremendous cutting power.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by 5.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "77102dd0-6d21-4272-923d-1c6bcf44efdd",
+        "name": "Spider God's Scythe",
+        "restrict": "Martial",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 21,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "16000G",
+        "effect": " *This sickle-shaped Artificial Regalia was created with the claws of a spider god. It boasts unparalleled sharpness*While [Equipped], once per round, the [Target] of a [Physical Attack] [Halves] their [Armor].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "54020384-1d42-49e3-85e4-8f062ed779c7",
+        "name": "Orichalcum Mace",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 17,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " A hammer made of Orichalcum used by Atlantis warriors on the battlefield. It has both high power and maneuverability.While [Equipped], reduce [Damage] from non-[Boss] [Mononoke] by 5.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "0c43c4d7-0608-4b69-821f-fc006282f450",
+        "name": "Great Silver Key",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 19,
+            "pd2": 20,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "17000G",
+        "effect": " A replica of the silver key owned by the space-time god. It has a shape that combines an ancient lance with a key.While [Equipped], once per session, change the [Range / Target] of an [Attack Action] to [Combat Zone].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "c22f83b4-6dbb-4fa0-8402-3dff538b4b2c",
+        "name": "Damascus Guard",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "1300G",
+        "effect": " Wootz steel knuckles or leg guards. It is extremely durable.While [Equipped], treat as if equipped with [Unarmed]. Additionally, reduce [Physical Damage] by 2.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "f362f2e5-472e-4df5-8054-1970fc67118d",
+        "name": "Albion Pillars",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "2600G",
+        "effect": " An artificial regalia made from the circular stones of ancient Albion.While [Equipped], once per round when making a [Physical Attack], move a target that fails their [Reactive Check] up to 1 Sq. away.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "b6a29d3c-dfc9-40ba-9f5e-f683bc6cf024",
+        "name": "Damascus Hammer",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "3400G",
+        "effect": " A hammer artificial regalia made of Wootz steel. It is extremely durable.While [Equipped], reduce [Physical Damage] by 2.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "0b7913fe-659b-4fe8-92c6-3b2e71ce2744",
+        "name": "Orichalcum Cestus",
+        "restrict": "God Hand",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "6800G",
+        "effect": " Orichalcum gloves or boots used by Atlantis warriors in the arena.While [Equipped], treated as though equipped with [Unarmed]. Additionally, reduce [Damage] from non-[Boss] [Mononoke] by 3.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "af88dc09-5a00-4e60-a078-c8975c04513d",
+        "name": "Crystal Hammer",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " A hammer created by the Old Ones, equipped with crystals that can store spiritual energy.While [Equipped], once per battle, add or subtract 1 to a [Spirit Dice] (Cannot go above 6 or below 1).",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "f9faa7f5-5874-4532-96fa-9543fa8bc354",
+        "name": "Black Pillar of Fallen Souls",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 16,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8,000G",
+        "effect": " An artificial black pillar worshipped by one of the largest evil cults as the body of an evil god. It is wreathed in powerful mystical energy.While [Equipped], when making a [Physical Attack] against [Class: Humanoid - Beast], gain +2 [Physical Rank].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "a1b2a054-124f-4e5d-89ae-04ffd24f2dc4",
+        "name": "Ptah God",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 18,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "14000G",
+        "effect": " A replica of the hammer of blacksmith god Ptah, which is said to have forged together the plates that support the world.While [Equipped], by spending x1 [Timing: Prep], the user may [Install] an [Obstacle] equal to a Large Building ([HP: 180 / [Armor: 10]) within [Range: 7 Sq.].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "d36d6203-fafa-4b8c-b1e5-67a54f34e976",
+        "name": "Denki-Shu",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A special device constructed by the interstellar creatures known as Yuggoths. This device is a small metal ball wrapped in steel wire, that can fire blue lightning bolts by tightening it.*While [Equipped], bestow [Element: Shock] on [Physical Attacks].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "cd0f5a4e-a46f-4d04-85dd-3918ef7f664d",
+        "name": "Mirror Spray",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "1500G",
+        "effect": " *A special device constructed by the interstellar creatures known as Yuggoths. This device is a twisted metal tube that can fire powerful blasts of cold air.*While [Equipped], bestow [Element: Cold] on [Physical Attacks].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "844bea77-265d-4af8-94c6-37cb075140dd",
+        "name": "Damascus Bow",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "2500G",
+        "effect": " *A large metal bow made of Wootz steel. Because it's string is also made from the same material, it is neccesary to have a high level of skill or tremendous power when firing it.*While [Equipped], reduce [Physical Damage] received by 2.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "0c0df0fc-9177-470c-9d66-b5dc3bac3ade",
+        "name": "Cat of Ulthar",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "3500G",
+        "effect": " *A monster cat native to a place called Ulthar.*While [Equipped], the user may make [Ranged Attacks] or [Magical Attacks] after a [Combat Move]. Also, change the [Range] of [Physical Attacks] to [Range: 7 Sq.].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "Charge 2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "7d3c8d58-58e5-4d56-8510-39bec9ee156f",
+        "name": "Night Gaunt",
+        "restrict": "Dragon Carrier",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3500G",
+        "effect": " *A combat-bike type Artificial Regalia created with alien technology. This living motorcycle feeds off of the spirit energy of it's owner, using it as power.*While [Equipped], the user may make [Ranged Attacks] or [Magical Attacks] after a [Combat Move]. ",
+        "attributes": {
+            "form": "Ranged",
+            "range": "Charge 4Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "85e13833-00f0-4f66-8c32-6816e308bf79",
+        "name": "※Electrostatic Cannon",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "4400G",
+        "effect": " *A powerful lightning rifle created by a tribe known for it's advanced technology. It's shape is reminiscent of a large, square hair dryer.*While [Equipped], bestow [Element: Shock] on [Physical Attacks]. Also, once per round, change [Target] to [Area].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "d6315b0a-f2d4-4019-9e6c-0028c5f9d9e6",
+        "name": "Nitocris's Mirror",
+        "restrict": "Arcane / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " *A bronze mirror-type Artificial Regalia with a demonic appearance. It can summon countless monsters that were sealed within it.*While [Equipped], bestow [Element: Phantom] on [Physical Attacks]. Also, [Targets] reduce their [Armor] by 3 (to a minimum of 0).",
+        "attributes": {
+            "form": "Ranged",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "5a9b5589-69f8-4474-8535-e7cd706e564f",
+        "name": "Orichalcum Greatbow",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A massive Orichalcum bow used by aristocrats from Atlantis. This rare weapon boasts unrivaled range.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "12Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "5e50fa55-2b85-4f3a-8997-abf90c09a0e6",
+        "name": "※ Atlantean Tablet",
+        "restrict": "Arcane / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 17,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "13000G",
+        "effect": " *A piece of technology used as a power source in Atlantis, repurposed into a weapon. It fires powerful flashes of heat.*While [Equipped], bestow [Element: Fire] onto [Physical Attacks], and gain +1 [Rank] at [Damage Calculation].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "57bc6204-37c9-4758-8bd3-e871c30232e8",
+        "name": "Golden Branch",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 2,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1000G",
+        "effect": " *A research grimoire about the myths, magics, and beliefs of an uncivilized society. These magic books are relatively easy to obtain.*While [Equipped], once per combat, gain +1 to a {Conjure} check.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "641d224f-5689-4025-b9f4-361759f2157c",
+        "name": "Emerald Tablet",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 3,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "1000G",
+        "effect": " *A magic implement created with the power of alchemy. It's fragile, but contains powerful magical energy.*While [Equipped], once per combat, [Halve] the [Barrier] of the target of a [Magic Attack].",
+        "attributes": {
+            "form": "Magic",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "9144741e-9316-4d20-8987-b28d167b282d",
+        "name": "Book of the Dead",
+        "restrict": "Arcane",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A heretical manuscript of a religion that performs human sacrifice and cannibalism.*While [Equipped], once per turn, increase the [Range] of a [Magical Attack] by +2 Sq.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "380b04d9-1869-457e-8655-2d24abb80837",
+        "name": "Stone Man Monument",
+        "restrict": "Divine Talker",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A collection of poems inside of a book with a red cover. You can inflict powerful hallucinations on an opponent by speaking the psalms within.*While [Equipped], once per turn, increase the [Target] of the user's [Magical Attacks] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Psychic",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "b6908ccb-2ff1-4dce-a9d9-bdb3d7fd178c",
+        "name": "Eltdown Shards",
+        "restrict": "Digital Sorcerer",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 6,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *An LCD tablet with a number of forbidden magical books installed. It describes experiments in Electroencephalography by a powerful race of mages that can manipulate spirit energy.*While [Equipped], once per session, change one [Spirit Dice] to \"1\".",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "65284a40-34c1-4213-a590-a3559cea8fd2",
+        "name": "Pohnpei Scripture",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 6,
+            "md2": 0,
+            "init": -5,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A manuscript that describes doctrines, discussions, and spells handed down by a south pacific tribe since ancient times. It contains powerful spirit energy.*While [Equipped], the user gains a +5 modifier to [Recovery] effects.",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "166db49d-dd6a-490f-a672-0c8cc64ce3a6",
+        "name": "Zanthu Pottery ",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 7,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A translation of the contents of mysterious black slabs found in ancient ruins. It details the wisdom of ancient civilizations.*While [Equipped], increase the [Magic Damage] of [Racial Talents] by 5.",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "cd5571a5-fce1-46c1-85c4-67c16121319b",
+        "name": "G'Harne Shard ",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 7,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A translated, decoded document of the characters written on mysterious clay slabs. It describes knowledge of the underground city of G'Harne and aliens.*While [Equipped], once per round, reduce the {Resist} check of the [Target] of a [Magical Attack] by 2.",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Force",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "718d7ae5-b7e9-4c24-92db-f0e2b0a15e89",
+        "name": "Golias Apocalypse",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 8,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *An infamous magical grimoire about evil mononoke. It has been described as a method of contact with organisms from different dimensions.*While [Equipped], reduce [Damage] received from non-[Boss] [Mononoke] by 5.",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Blight",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "a16d79ea-7ac2-4cc2-9f91-4c549ee9bd45",
+        "name": "Book of Unknown Spells ",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 11,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A copy of a spellbook about the avatar of ruin, written in an unknown language. Due to it's excessive power, care should be taken when handling it.*While [Equipped], once per combat, gain 1 [Overflow].",
+        "attributes": {
+            "form": "Magic",
+            "range": "9Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Psychic",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "d52c8b86-ca3e-4182-bf7e-76bfc5552a98",
+        "name": "The King in Yellow ",
+        "restrict": "Divine Talker",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 12,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A manuscript of a play, covered in ornate bindings. By chanting it's beautiful but haunting contents, you can draw spiritual power from a powerful, evil god.*While [Equipped], when making a [Magical Attack], the [Target] gains a -5 modifier to [Barrier] (Minimum 0).",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Wind",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "0424acc7-a9af-494b-9fd8-8313eab7b24c",
+        "name": "Celaeno Fragments",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 14,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A magic book about a stone, alien tablet. It explains knowledge about the avatar of ruin and it's allies.*While [Equipped], gain +10 to [Armor].",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Radiant",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "5b741494-2de0-444a-a046-773c82b9b119",
+        "name": "Seven Solar Secrets",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 15,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A collection of seven scrolls, written in ancient chinese, compiled into one book. It's written about the ancient gods.*While [Equipped], gain +10 to [Barrier].",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Flame",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "756b72ec-73bd-4d0c-9ac6-52bc59ef8103",
+        "name": "Secret of the Beast",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 17,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *A magical grimoire wrapped in metal restraints. It was written about the legends of ancient egypt, their magic, and their knowledge of evil gods.*While [Equipped], by consuming [Start], gain +5 to [Damage Calculation] until after [Timing: End] of the current round.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Force",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "c7dfd626-d0e2-4f3e-b139-2a1904ab57cd",
+        "name": "Spiral God Scroll",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 18,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *A collection of ancient ritual literature written during the Xia dynasty. It was written on human skin, and contains extensive knowledge of evil gods.*While [Equipped], once per combat, change 2 [Spirit Dice] to [Overflow].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Frost",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "9b9e7b6b-d49c-4ee8-ba40-2fbf12d1d583",
+        "name": "Necronomicon",
+        "restrict": "Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 19,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "18000G",
+        "effect": " *A legendary book, written by an insane godhunter. This book details complex and bizarre magic rituals and contains the truths of the world.*While [Equipped], once per session, gain 2 [Overflow].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Blight",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "439fb468-b2d0-4510-b7ed-8f53b2fe3078",
+        "name": "Book of Ivory",
+        "restrict": "Time Wizard",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 20,
+            "md2": 0,
+            "init": -5,
+            "init2": 0
+        },
+        "cost": "18000G",
+        "effect": " *This is a copy of a book written by the Great Mage known as the Devil of Hyperborea. It contains knowledge about terrible darkness.*While [Equipped], once per combat, gain +{Main Stat} to Initiative.",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Wind",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    },
+    {
+        "id": "2ac2d98a-6d54-46d5-96d2-911143d3e056",
+        "name": "Pnakotic Manuscript",
+        "restrict": "Elder Mage",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 21,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "18000G",
+        "effect": " *This rare book is the oldest grimoire in existence. It's rarely available.*While [Equipped], once per session, gain +5 to an {Identify} or [Conjure] check.",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "Shock",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex6"
+    }
+]

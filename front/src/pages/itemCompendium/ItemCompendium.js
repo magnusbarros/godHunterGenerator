@@ -19,6 +19,15 @@ import Expansion8Items from '../../data/items/expansion8.json';
 import Expansion10Items from '../../data/items/expansion10.json';
 import CharacterList from '../../data/characters/characters.json'
 import Expansion1Weapons from '../../data/weapons/expansion1.json';
+import Expansion2Weapons from '../../data/weapons/expansion2.json';
+import Expansion3Weapons from '../../data/weapons/expansion3.json';
+import Expansion4Weapons from '../../data/weapons/expansion4.json';
+import Expansion5Weapons from '../../data/weapons/expansion5.json';
+import Expansion6Weapons from '../../data/weapons/expansion6.json';
+import Expansion7Weapons from '../../data/weapons/expansion7.json';
+import Expansion8Weapons from '../../data/weapons/expansion8.json';
+import Expansion9Weapons from '../../data/weapons/expansion9.json';
+import Expansion10Weapons from '../../data/weapons/expansion10.json';
 import { ItemList } from "../../content/items/ItemList/ItemList";
 import { WeaponList } from "../../content/weapons/weaponList/WeaponList";
 
@@ -128,7 +137,16 @@ export const ItemCompendium = () => {
         let storedWeapons = localStorage.getItem("kg_weapons");
         if (storedWeapons === null) {
             let _weapons = [].concat(
-                Expansion1Weapons
+                Expansion1Weapons,
+                Expansion2Weapons,
+                Expansion3Weapons,
+                Expansion4Weapons,
+                Expansion5Weapons,
+                Expansion6Weapons,
+                Expansion7Weapons,
+                Expansion8Weapons,
+                Expansion9Weapons,
+                Expansion10Weapons
             );
             localStorage.setItem("kg_weapons", JSON.stringify(_weapons));
             setWeapons(_weapons);
@@ -181,7 +199,7 @@ export const ItemCompendium = () => {
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description">
-                <ItemCart character={character.id} items={items} />
+                <ItemCart character={character.id} items={items} weapons={weapons} />
             </Modal>
             <InputLabel id="select-character-label">Character</InputLabel>
             <Select

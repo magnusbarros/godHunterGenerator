@@ -18,6 +18,8 @@ export const ItemCart = React.forwardRef((props, ref) => {
         gold: 0
     });
     const [items, setItems] = useState();
+    const [weapons, setWeapons] = useState();
+    const [allItems, setAllItems] = useState();
     const [loading, setLoading] = useState(true);
     const [total, setTotal] = useState(0);
 
@@ -48,7 +50,9 @@ export const ItemCart = React.forwardRef((props, ref) => {
             });
         }
         setItems(props.items);
-        cartTotal(_character, props.items);
+        setWeapons(props.weapons);
+        setAllItems(props.items.concat(props.weapons));
+        cartTotal(_character, props.items.concat(props.weapons));
         setLoading(false);
     }, [props.character, props.items]);
 
@@ -57,7 +61,7 @@ export const ItemCart = React.forwardRef((props, ref) => {
         character.cart.items.splice(index, 1);
         save(character);
         setCharacter({ ...character });
-        cartTotal({ ...character }, items);
+        cartTotal({ ...character }, allItems);
     }
 
     const changeCartItemAmmount = (ev, itemId) => {
@@ -69,7 +73,7 @@ export const ItemCart = React.forwardRef((props, ref) => {
         } else {
             save(character);
             setCharacter({ ...character });
-            cartTotal({ ...character }, items);
+            cartTotal({ ...character }, allItems);
         }
     }
 
@@ -79,7 +83,7 @@ export const ItemCart = React.forwardRef((props, ref) => {
         } else {
             let value = 0;
             char.cart.items.forEach(cItem => {
-                value += (parseFloat(itemList.find(it => it.id === cItem.id).cost.replace("G", "")) * cItem.qty);
+                value += (parseFloat(itemList.find(it => it.id === cItem.id).cost.replace("G", "").replaceAll(": ", "").replaceAll(",", "")) * cItem.qty);
             });
             setTotal(value);
         }
@@ -90,12 +94,22 @@ export const ItemCart = React.forwardRef((props, ref) => {
             character.gold = character.gold - total;
             character.cart.items.forEach(item => {
                 let _item = items.find(listItem => listItem.id === item.id);
-                if (character.items.findIndex(it => it.id === item.id) !== -1) {
-                    character.items.find(it => it.id === item.id).qty += item.qty;
-
+                if (_item === undefined || _item === null) {
+                    let _weapon = weapons.find(listItem => listItem.id === item.id);
+                    if (character.weapons.findIndex(it => it.id === item.id) !== -1) {
+                        character.weapons.find(it => it.id === item.id).qty += item.qty;
+                    } else {
+                        _weapon.qty = item.qty;
+                        character.weapons.push(_weapon);
+                    }
                 } else {
-                    _item.qty = item.qty;
-                    character.items.push(_item);
+                    if (character.items.findIndex(it => it.id === item.id) !== -1) {
+                        character.items.find(it => it.id === item.id).qty += item.qty;
+
+                    } else {
+                        _item.qty = item.qty;
+                        character.items.push(_item);
+                    }
                 }
             })
             clearCart();
@@ -133,29 +147,29 @@ export const ItemCart = React.forwardRef((props, ref) => {
     ]
 
     return (
-    <Box {...props} ref={ref} >
-        {loading || character === undefined ? "Loading..." :
-            <Box sx={style}>
-                <Box>
-                    {character.cart !== undefined && character.cart !== null && character.cart.items.length !== 0 ?
-                            <List sx={{ overflowY: "scroll", height: "420px",  maxHeight: "420px" }}>
+        <Box {...props} ref={ref} >
+            {loading || character === undefined ? "Loading..." :
+                <Box sx={style}>
+                    <Box>
+                        {character.cart !== undefined && character.cart !== null && character.cart.items.length !== 0 ?
+                            <List sx={{ overflowY: "scroll", height: "420px", maxHeight: "420px" }}>
                                 {character.cart.items.map(cItem => {
                                     return (
                                         <ListItem className="cart-list" key={cItem.id} >
                                             <ListItemAvatar>
                                                 <div className="item-icon-cart"
                                                     style={{
-                                                        backgroundPositionX: items.find(lItem => lItem.id === cItem.id).icon.x + "px",
-                                                        backgroundPositionY: items.find(lItem => lItem.id === cItem.id).icon.y + "px"
+                                                        backgroundPositionX: allItems.find(lItem => lItem.id === cItem.id).icon.x + "px",
+                                                        backgroundPositionY: allItems.find(lItem => lItem.id === cItem.id).icon.y + "px"
                                                     }} />
                                             </ListItemAvatar>
                                             <ListItemText>
                                                 <Typography sx={{ fontSize: "14px", width: "110px" }}>
-                                                    {items.find(lItem => lItem.id === cItem.id).name}</Typography>
+                                                    {allItems.find(lItem => lItem.id === cItem.id).name}</Typography>
                                             </ListItemText>
                                             <ListItemText>
                                                 <Typography sx={{ fontSize: "12px", width: "50px" }}>
-                                                    {items.find(lItem => lItem.id === cItem.id).cost}</Typography>
+                                                    {allItems.find(lItem => lItem.id === cItem.id).cost}</Typography>
                                             </ListItemText>
                                             <ListItemText>
                                                 <Input sx={{ width: "30px", fontSize: "12px" }}
@@ -177,16 +191,16 @@ export const ItemCart = React.forwardRef((props, ref) => {
                                 <Typography>Your cart is empty</Typography>
                                 <Typography>{messages[Math.floor(Math.random() * 6)]}</Typography>
                             </Box>}
+                    </Box>
+                    <Box className="cart-menu">
+                        <Button onClick={() => clearCart()} ><RemoveShoppingCartIcon /> Clear </Button>
+                        <Button disabled={total === 0 || total > character.gold} onClick={() => checkout()} ><ShoppingCartIcon /> Checkout </Button>
+                        <Typography>Total: {total}G</Typography>
+                        <Typography>Your gold: {character.gold}G</Typography>
+                    </Box>
                 </Box>
-                <Box className="cart-menu">
-                    <Button onClick={() => clearCart()} ><RemoveShoppingCartIcon /> Clear </Button>
-                    <Button disabled={total === 0 || total > character.gold} onClick={() => checkout()} ><ShoppingCartIcon /> Checkout </Button>
-                    <Typography>Total: {total}G</Typography>
-                    <Typography>Your gold: {character.gold}G</Typography>
-                </Box>
-            </Box>
-        }
-    </Box>
+            }
+        </Box>
     )
 });
 

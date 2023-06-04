@@ -1,0 +1,3650 @@
+[
+    {
+        "id": "cd9bbb13-e935-41c3-aef7-00f888dfe7ec",
+        "name": "Alchemy / Spirit Blade",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A sharp sword produced by a Last Creator.*While [Equipped], once per round, gain +1 to an {Evasion} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "35beb2f4-dd26-4357-adad-e3ca51d6e7a2",
+        "name": "Alchemy / Spirit Sword",
+        "restrict": "None",
+        "mode": "Two Hands",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A huge, western-style sword produced by a Last Creator.*While [Equipped], once per combat, [Halve] the [Armor] of the [Target] of a [Physical Attack].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "c80deecb-7231-48b2-954f-703372dbbc9d",
+        "name": "High-Frequency Knife",
+        "restrict": "Cyborg",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "800G",
+        "effect": " *A knife-like high-frequency blade modified for high performance.*While [Equipped], once per round, [Targets] of the user's [Physical Attacks] reduce their [Armor] by 2 (to a minimum of 0).",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "fcfc9fe9-24af-4e05-9a99-d12305465ec7",
+        "name": "Black Wing Blade",
+        "restrict": "Soul Eater",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 6,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "2000G",
+        "effect": " *An unidentified Japanese sword with a jet-black blade.*While [Equipped], once per combat, make a [Weapon Attack] after [Damage Calculation].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "dd8c6377-0a00-40e9-827a-58647192c07d",
+        "name": "Lionheart",
+        "restrict": "Marebito",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *A gorgeously decorated magical broadsword. The blade's length is engraved with the language of another world, and has the motif of a lion.*While [Equipped], once per combat, gain +1 to an {Accuracy} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "9d13d414-3865-49ce-8261-54f906b6d3bc",
+        "name": "Haladie",
+        "restrict": "Dark Hunter",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "2250G",
+        "effect": " *A double-edged blade owned by members of an Indian warrior tribe. The handle also contains a blade, which makes the weapon a little difficult to handle.*While [Equipped], once per combat, make a [Weapon Attack] after [Damage Calculation].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "d9d8c21a-d49b-494e-ac18-34b9d350dd16",
+        "name": "Artisan's Blade",
+        "restrict": "Mastery",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 6,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "2300G",
+        "effect": " *An unnamed sword forged by a certain master, converted into an artificial regalia. It is difficult to handle due to the way it interacts with spirit energy.*While [Equipped], once per round, gain +1 to an {Accuracy} or {Evasion} check.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "a9ca9212-1ceb-4d65-9e58-73a0be42d23a",
+        "name": "Ring of Swords",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 2,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon blades. With them, you can create and control spirit swords.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "6e2908d5-0d7f-486f-a25c-db08727e1746",
+        "name": "Sword Shield",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 6,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "3400G",
+        "effect": " *A kite shield built for attack, with a blade on it's edge. It demonstrates considerable power when swung.*While [Equipped], gain +3 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "f014d0dd-48cb-48f9-9da1-53a929cd58ba",
+        "name": "Urumi",
+        "restrict": "God Hand",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A sword used in a martial art called Kalaripayattu. It requires high skill to operate.*While [Equipped], increase the [Range] of the user's [Physical Attacks] by 2 Sq. (If [Engaged], it becomes 3 Sq., if [Charge 2 Sq.], it becomes [Charge 4 Sq.]).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "cde0902c-cc94-4fe5-9566-8e3f69d3d937",
+        "name": "Black Flower's Thorn",
+        "restrict": "Soul Eater",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "5000G",
+        "effect": " *A slender longsword with a jet-black blade. At first glance it looks unreliable, but it's very sturdy.*While [Equipped], once per combat, make a [Weapon Attack] after [Damage Calculation].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "72e49976-70de-4049-b39f-4745550dabe9",
+        "name": "Sword Whip",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A slender sword forged by a mysterious alchemist. By swinging it at high speed, it becomes a whip.*While [Equipped], twice per turn, change the [Range] of [Physical Attacks] to [6 Sq].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "cc22db6d-a5f1-4b14-9aab-6cea2ed7d49c",
+        "name": "High-Frequency Sword",
+        "restrict": "Cyborg",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 11,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": -2
+        },
+        "cost": "5000G",
+        "effect": " *A normal sword that was converted into an Artificial Regalia. It has a mechanism within that allows the blade to vibrate at a special, high frequency.*While [Equipped], [Targets] reduce their [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "3a6db075-c167-42ee-9255-fd208013d12d",
+        "name": "Ring of the Holy Sword",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon holy swords. With them, you can create and control swords made from spirit energy.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "021b9475-a0e9-489c-9e07-a071bfcb027c",
+        "name": "Fallen Heavenly Sword",
+        "restrict": "Soul Eater",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A long japanese sword with a jet-black blade. It emits jet-black spiritual energy.*While [Equipped], once per combat, make a [Weapon Attack] after [Damage Calculation].",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "b38d4c38-440b-44c3-86a4-17463b107b97",
+        "name": "Ancestral Seven-Branched Sword",
+        "restrict": "Arc Slayer",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 13,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A seven-branched sword that was converted into an artificial regalia after being passed from generation to generation, hailing from ancient times. It contains extremely powerful spiritual energy.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by +10.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "e7daafbd-d34f-47f2-9872-71912ab1478b",
+        "name": "Avatar Urumi",
+        "restrict": "God Hand",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " *An Urumi with three blades. Attacks made with it are deadly, and resemble a kamaitachi.*While [Equipped], increase the [Range] of the user's [Physical Attacks] by 2 Sq. (If [Engaged], it becomes 3 Sq., if [Charge 2 Sq.], it becomes [Charge 4 Sq.]).",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "a910baff-2435-4b16-b597-f52d6bfd1700",
+        "name": "Divine Soul's Seven-Branched Sword",
+        "restrict": "Divine Soul",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 16,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "15000G",
+        "effect": " *A seven-branched sword created long ago during the time of the gods, converted into an artificial regalia. They contain a terrifying level of power.*While [Equipped], increase [Physical Damage] to non-[Boss] [Mononoke] by +10.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "6be95b84-eecc-49d1-8912-237cec5802b4",
+        "name": "Goujian Sword",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 17,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "15000G",
+        "effect": " *An artificial regalia replica of the famous sword possessed by Goujian, the king of Yue, which existed in the late spring and autumn period.*While [Equipped], reduce [Damage] received from [Mononoke - Godhunters] by 5.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "83147229-5b28-4254-bbe3-d95a91f5edd7",
+        "name": "Alchemy / Spirit Javelin",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 5,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "-",
+        "effect": " *A sharp longspear produced by a Last Creator.*Can be thrown as a [Ranged Attack]. When doing so, change [Physical Attack / Range / Target] to [Ranged Attack / {Agility}+3 Sq. / 1#].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "55f20f2c-0b24-40ae-bee7-edbd79b62b93",
+        "name": "Alchemy / Spirit Spear",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A longspear produced by a Last Creator.*While the [Weapon] is [Equipped], increase the [Range] of the user's [Physical Attacks] by +1 Sq. (If [Engaged], it becomes 2 Sq.; if [Charge 2 Sq] it becomes [Charge 3 Sq]).",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "f59a96e4-2262-4a62-8eb3-48a876da7c66",
+        "name": "Exorcist Vajra",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "1750G",
+        "effect": " A Vajra that was strengthened via spiritual energy. It can be launched at an opponent via one's own spirit energy. Can be thrown as a [Ranged Weapon]. When that happens, change [Physical Attack / Range / Target] to [Ranged Attack / {Agility} + 3 Sq. / 1#].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "33084c08-6e86-497b-ad70-5659905a6c1b",
+        "name": "Triple Dagger ",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "1750G",
+        "effect": " *This dagger contains a special, spirit-energy powered mechanism that allows the tip to expand in three directions. As such, it has excellent defensive capabilities.*While [Equipped], reduce [Damage] received from [Form: Sword / Axe] by 5.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "21b3c2f1-acbd-4412-9a57-6874c1624843",
+        "name": "Ring of Spears",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 1,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2800G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon spears. With them, you can create and control spirit spears.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "e6a4333f-3e0d-4f35-9d18-3e7b9dccfd24",
+        "name": "Kettu Kari",
+        "restrict": "God Hand",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2800G",
+        "effect": " *An artificial regalia created out of a long club used in a martial art called Kalaripayattu. The handle, carved from a sacred tree, is harder than steel.*While [Equipped], treat as though [Equipped] with [Unarmed]. Also, once per combat, make a [Weapon Attack] after [Damage Calculation].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "13be3fa6-12df-49aa-8153-136ac22f55be",
+        "name": "Magic Spear",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "2800G",
+        "effect": " *An enchanted spear that enhances it's own power by absorbing magical power from its user.*While [Equipped], by spending 1x [Start] and 3 {HP}, for the rest of combat the user gains +3 [Physical Damage].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "1710e0e2-8efc-4be4-9a34-b2550513ee6c",
+        "name": "Wheel Vajra",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3100G",
+        "effect": " *A wheel-shaped version of the Vajra. It has high power when thrown.* Can be thrown as a [Ranged Weapon]. When that happens, change [Physical Attack / Range / Target] to [Ranged Attack / {Agility} + 3 Sq. / 1#].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "490a1a57-06b4-41d6-a98d-a4050c9c15b9",
+        "name": "Beast Slayer",
+        "restrict": "Marebito",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "3100G",
+        "effect": " *This polearm runs the length of a shortsword and has a rainbow-colored tip.* While [Equipped], when making [Physical Attacks] against [Class: Beast - Mythical], gain +2 [Physical Rank].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "19df5289-5282-4a79-8393-9ed5cfaac61e",
+        "name": "High-Frequency Spear",
+        "restrict": "Cyborg",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 8,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "3100G",
+        "effect": " *A specialized spear-type regalia optimized for artificial bodies. It uses spirit energy to vibrate it's tip at an extremely high frequency, allowing it to penetrate the toughest of armor.*While [Equipped], reduce the [Target] of the user's [Physical Attack]'s [Armor] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Sword",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "81725b5a-d82e-4d9c-9849-782d873746d4",
+        "name": "Tri-Breaker ",
+        "restrict": "Martial, Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *An enhanced triple dagger. It boasts high power and excellent defense.*While [Equipped], reduce [Damage] received from [Form: Sword / Axe] by 5.",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "f2a88617-780e-4f6a-8ea4-5d6a07d93130",
+        "name": "Ancient Spear",
+        "restrict": "Mastery",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A spear of unknown origin that holds a long history. It's long grip and unstable spirit energy make it difficult to handle.*While [Equipped], increase the [Target] of the user's [Physical Attack] by 1#.",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "67b0961d-254d-4524-9def-bd30f4fa906a",
+        "name": "Black Fang Spear",
+        "restrict": "Soul Eater",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A spear with a jet-black tip and long handle. It emits black spirit energy from it's tip.*While [Equipped], increase the [Range] of the user's [Physical Attacks] by 2 Sq. (If [Engaged], it becomes 3 Sq., if [Charge 2 Sq.], it becomes [Charge 4 Sq.]).",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "c25101e3-831d-4c06-bacb-0b405275eeab",
+        "name": "Ring of the Magic Spear",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon magic spears. With them, you can create and control spears made from spirit energy.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "ad8441a3-2663-4494-a425-b16942a393e8",
+        "name": "Seven Vajra",
+        "restrict": "Martial, Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " *A Vajra with six extra blades and tips. It contains a tremendous power.* Can be thrown as a [Ranged Weapon]. When that happens, change [Physical Attack / Range / Target] to [Ranged Attack / {Agility} + 3 Sq. / 1#].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "ef7b7885-2fea-434d-9811-55f4e87b6d94",
+        "name": "Rune Spear",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "6000G",
+        "effect": " *A longspear used by ancient Celtic warriors. Runes of victory are engraved up and down it's length, granting it massive power.* While [Equipped], when making [Physical Attacks] against [Class: Humanoid - Beast - Mythical], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "da923023-1261-4622-82e9-4626ab36f0f0",
+        "name": "Nine Vajra",
+        "restrict": "Martial, Utility",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8500G",
+        "effect": " *A Vajra with eight extra blades and tips. It's spiritual power is close to that of the legendary sacred treasure, the original Vajra.* Can be thrown as a [Ranged Weapon]. When that happens, change [Physical Attack / Range / Target] to [Ranged Attack / {Agility} + 3 Sq. / 1#].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "169196a7-1d73-440d-8c2b-ad9acfd42f11",
+        "name": "Demon Vajra",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A nine-bladed Vajra with a demon's face etched onto the handle. When shaken, it exerts spiritual power equivalent to the words of a god.* Can be thrown as a [Ranged Weapon]. When that happens, change [Physical Attack / Range / Target] to [Ranged Attack / {Agility} + 3 Sq. / 1#].",
+        "attributes": {
+            "form": "Spear",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "3e2583ea-5d90-45fc-96fb-ada8b854f765",
+        "name": "Magus Halberd",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "12000G",
+        "effect": " *A powerful spear-type artificial regalia created by a high-ranking alchemist.*While [Equipped], increase the [Range] of the user's [Physical Attacks] by 2 Sq. (If [Engaged], it becomes 3 Sq., if [Charge 2 Sq.], it becomes [Charge 4 Sq.]).",
+        "attributes": {
+            "form": "Spear",
+            "range": "2Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 672
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "2850eb10-0cd8-4fe3-ad86-81c752d885f1",
+        "name": "Alchemy / Spirit Sickle",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 5,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": -1
+        },
+        "cost": "-",
+        "effect": " *A sharp combat sickle produced by a Last Creator.*While [Equipped], gain +2 to [Barrier].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "194f2f7e-5dd0-425d-af1f-1c58bd5d1889",
+        "name": "Alchemy / Spirit Battleaxe",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A double-headed axe made for combat, produced by a Last Creator.*While [Equipped], once per combat, increase [Physical Rank] by 1.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "bd461666-ca14-4885-82fb-deba87afd805",
+        "name": "Defender Axe",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "1800G",
+        "effect": " *A tomahawk made for hand-to-hand combat, created with modern technology. It features excellent defensive ability.*While [Equipped], gain +2 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "a40abc8d-49cb-420c-a4f5-c26ffc171d53",
+        "name": "Ring of Axes",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon axes. With them, you can create and control spirit axes.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "abc5d259-4b93-4ae3-9a24-b530da398ca9",
+        "name": "Magic Battleaxe",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A battleaxe forged with metal that is easily conductive to spiritual power. It is favored by magical warriors.*While [Equipped], when making a [Magical Attack], gain +3 to [Magical Damage].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "ac025722-fdfc-4e1b-be80-8ff0c3e166a5",
+        "name": "Axe Shield",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 7,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": -2
+        },
+        "cost": "3800G",
+        "effect": " *A special shield that can also be used in hand-to-hand combat as a weapon. The side of the shield features a huge blade.*While [Equipped], gain +3 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "e8e724f3-c118-483c-8db5-aab7b7038337",
+        "name": "Granite Axe",
+        "restrict": "Marebito",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3800G",
+        "effect": " *A mysterious granite battleaxe that holds a special magical power that lets it manipulate magnetic force.* While [Equipped], when making [Physical Attacks] against [Class: Mechanical], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "0f741a8f-26b5-40bb-ade7-3513129d04fd",
+        "name": "Double Axe",
+        "restrict": "God Hand",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 7,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 4
+        },
+        "cost": "5500G",
+        "effect": " *A small double-edged axe improved into a nunchaku-style. It is difficult to handle, but its power is enormous..*While [Equipped], treat as though [Equipped] with [Unarmed]. Additionally, once per combat, perform x1 [Weapon Attack] after [Damage Calculation].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "3aac7982-0243-4f95-a6b9-bef52fa7d6de",
+        "name": "Ring of the God Axe",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon powerful axes. With them, you can create and control axes made from spirit energy.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Sword",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 992
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "07a0512f-e180-4d10-b824-9ea609a6ef7f",
+        "name": "Magic Scythe",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A powerful warscythe-type artificial regalia favored by magical warriors.* While [Equipped], once per round, reduce [Physical Damage] received from a [Range: Engaged] target by 10.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "4523073b-7edf-4ea9-8b34-4f53a26cc910",
+        "name": "Blade Spinner",
+        "restrict": "Dark Hunter",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 4
+        },
+        "cost": "7500G",
+        "effect": " *A special, bladed weapon that rotates rapidly when infused with spirit energy. The rotation also allows protection against ranged attacks.* While [Equipped], once per round, reduce [Physical Damage] received from a target outside of [Range: Engaged] by 10.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "88976713-e1e7-4c20-a3e1-a67127daafc8",
+        "name": "Black Ronin",
+        "restrict": "Legion",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A tomahawk-style artificial regalia made for close-quarters-combat typically used by special forces.*While [Equipped], reduce [Physical Damage] received from a [Range: Engaged] target by 5.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "9525d2b4-5f28-47b1-baac-948685c49bae",
+        "name": "Funeral",
+        "restrict": "Marebito",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A battlescythe with a blade enchanted with multiple layers of spells, allowing it to easily slice through human bodies.* While [Equipped], when making [Physical Attacks] against [Class: Humanoid], gain +1 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "825fc832-52b2-4748-804c-12998579dea1",
+        "name": "Heat Claw",
+        "restrict": "Cyborg",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A close combat weapon optimized for artificial bodies. This burning blade is mounted on the elbow or back of the hand.*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "562b9e45-ad49-47e3-8d75-12ff993492cf",
+        "name": "Artisan Chainsaw",
+        "restrict": "Mastery",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "7500G",
+        "effect": " *A modified, chainsaw-type artificial regalia empowered with the concept to cut plant-based mononoke.* While [Equipped], when making [Physical Attacks] against [Class: Plant], gain +2 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "490fa679-f0c1-40a1-8885-ff0230284012",
+        "name": "Black Godscythe",
+        "restrict": "Soul Eater",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *This warscythe constantly releases dark spirit energy from it's jet-black blade.* While [Equipped], when making [Physical Attacks] against [Class: Humanoid / Plant], gain +2 [Physical Rank].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "6d7bfd41-c2d7-4486-a9b9-7c2213b0314f",
+        "name": "Genocide Pendulum",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 3,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A reinforced leather pendulum. The jet-black blade has terrifying power..*While [Equipped], once per round, change an [Attack Action] to [Range: 5 Sq].",
+        "attributes": {
+            "form": "Axe",
+            "range": "3Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "328899df-c46b-4956-9848-7d7e4109bbf2",
+        "name": "Crusade",
+        "restrict": "Martial",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 12,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "10000G",
+        "effect": " *A further improved variant of the Axe Shield. The name comes from it's huge, distinctive cross shape.*While [Equipped], gain +4 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "4904aafe-6b7b-4ddf-a251-44890fa3d494",
+        "name": "Blade Monsoon",
+        "restrict": "Dark Hunter",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 14,
+            "pd2": 15,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "12000G",
+        "effect": " *An enhanced version of the Blade Spinner. The name comes from the fact that it emits a tremendous wind each time it's used.* While [Equipped], once per round, reduce [Physical Damage] received from a target outside of [Range: Engaged] by 10.",
+        "attributes": {
+            "form": "Axe",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 928
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "ef4681d6-6be9-4912-be24-5b18949b89e8",
+        "name": "Alchemy / Spirit Sledge",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 4,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A rugged sledgehammer produced by a Last Creator.*While [Equipped], gain +2 to [Armor].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "121c8bf8-0770-44a9-9b67-19ddc136573f",
+        "name": "Alchemy / Spirit Guards",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *Powerful leg and hand protection, produced by a Last Creator.*While [Equipped], treat as though [Equipped] with [Unarmed]. ",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Charge 1Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "65fc41b9-bb8c-4c71-84e2-5a38067f6ced",
+        "name": "Jitte",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "1300G",
+        "effect": " *An artificial regalia made from an iron club, with a small hook attached. Defends well against weapons with blades..*While [Equipped], once per round, reduce [Form: Sword - Axe] [Physical Damage] by 5.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "3db85e91-1ef1-41f6-96ac-e83bc4c6cf23",
+        "name": "Remodeled Tekkou",
+        "restrict": "Mastery",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *The back of the hand and leg are uniquely modified with artificial regalia.*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "bd313619-242d-4241-ad97-7c765b7fba5e",
+        "name": "Battering Ram",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -8,
+            "init2": 0
+        },
+        "cost": "2300G",
+        "effect": " *A heavy iron club used to destroy castle gates, originally used by mounting it on a cart..*While [Equipped], when making a [Physical Attack], reduce the [Targets] [Armor] by 5 (To a minimum of 0).",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "901fc53e-4676-4515-a2d8-fdc0405cc1b8",
+        "name": "Spirit Nunchaku",
+        "restrict": "God Hand",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 5,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "3400G",
+        "effect": " *A nunchaku that has been improved with spiritual power that permeates the entire weapon. It is beautifully decorated.*While [Equipped], treat as though [Equipped] with [Unarmed]. Additionally, once per combat, the user may perform x1 [Weapon Attack] after [Damage Calculation].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "365a1c4a-7142-4e1b-9dfd-b8d22028af0c",
+        "name": "Block Shield",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "3400G",
+        "effect": " *A modified shield-type artificial regalia specialized in defense, but modified to be used offensively.*While [Equipped], gain +4 [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "ea3d3522-5396-44d6-b735-d6d7469bb0f7",
+        "name": "Ring of Hammers",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 2,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "4100G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon Hammers. With them, you can create and control spirit Hammers.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "7d8ce152-569b-40c4-8cf4-d9d3b073f38e",
+        "name": "Chain-Weight Jitte",
+        "restrict": "Martial",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "4100G",
+        "effect": " *A jitte with weighted chains attacked. Using them, it's possible to make long-range attacks.*While [Equipped], once per round, reduce [Form: Sword - Axe] [Physical Damage] by 5.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "3Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "616ffd2d-2070-438b-bc60-5bbe7bb54953",
+        "name": "Five-Pointed Star Gloves",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "4100G",
+        "effect": " *White gloves with a pentagram symbol on the back of the hand.*While [Equipped], treat as though [Equipped] with [Unarmed]. Additionally, gain +5 [Magical Damage].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "fcb3c35f-f5ef-477e-b355-c88a9f29f355",
+        "name": "Demon Tekkou",
+        "restrict": "Soul Eater",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "4100G",
+        "effect": " *Open-finger gloves with a terrifying visage on the back of the hand.*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "99f3543c-20f1-4e11-b67d-6f72648a5679",
+        "name": "Ring of Smashing Hammers",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "6800G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon powerful hammers. With them, you can create and control hammers made from spirit energy.*While [Equipped], the target can [Equip] [Alchemy /○○] [Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "eb5147a4-94f1-477d-9359-bb0fd0d2af26",
+        "name": "Historic Tekkou",
+        "restrict": "Mastery",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "6800G",
+        "effect": " *A tekkou that has been strengthened after many years of battle. It takes great skill to wield.*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "0c623cfe-e430-4362-9ccc-301a5616c7f9",
+        "name": "Silver Sledgehammer",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 10,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "6800G",
+        "effect": " *A large sledgehammer coated in silver. It takes strength to wield, but its power is tremendous.*While [Equipped], the [Target] of the user's [Attack Actions] reduce [Armor] by 6 (to a minimum of 0).",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "cd33e066-b8b1-47d4-9977-66913a141a10",
+        "name": "Combat Power Arm",
+        "restrict": "Cyborg",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "6800G",
+        "effect": " *A humanoid heavy weapons platform operated by mechanized soldiers on board.*While [Equipped], treat as though [Equipped] with [Unarmed]. Additionally, increase  [Armor] and [Barrier] by 2.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "78e6ab46-24fc-4b28-9b81-4d555eb5741b",
+        "name": "Monk Guard",
+        "restrict": "Marebito",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 2,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 5,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *An arm and leg covering that has the blessing of the earth. It is both sturdy and light..*While [Equipped], treat as though [Equipped] with [Unarmed].",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "10e3f48c-dd41-4747-bd44-03fecbe365ca",
+        "name": "Invincible Shield",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A block shield which has been further strengthened. In addition to being usable as a weapon, it has high defensive ability.*While [Equipped], increase [Armor] and [Barrier] by 5.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "165705b6-596c-4d19-b598-3fd45720e2c8",
+        "name": "Undead Masher",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 15,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A further refined silver sledgehammer. It has engravings on the head which are especially effective against undead enemies.*While [Equipped], when performing an [Attack Action] on [Class: Undead], increase [Rank] by 2.",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "97d54039-fc8d-4225-b20e-c54f16af2419",
+        "name": "Warlord Battering Ram",
+        "restrict": "Martial",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 17,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "14000G",
+        "effect": " *A superior version of the battering ram. The wielder may play a vital role in combat, like a legendary warlord themselves.*While [Equipped], once per session when making a [Physical Attack], reduce the [Armor] of the [Target] by 20 (to a minimum of 0).",
+        "attributes": {
+            "form": "Hammer",
+            "range": "Engaged",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 480,
+            "y": 2976
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "f7c59661-8e9b-442b-908c-ec75c6ab19e8",
+        "name": "※ Alchemy / Spirit Pistol",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *An automatic pistol of various shape or size produced by a Last Creator.*While [Equipped], once per combat, gain +1 to an {Accuracy} check.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "edeee972-dabb-48ed-b383-7730488b5c2c",
+        "name": "※ Alchemy / Spirit Gun",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 6,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "-",
+        "effect": " *A powerful large pistol or rifle produced by a Last Creator.*While [Equipped], increase [Physical Damage] to [Mononoke] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "10e5c016-49a7-4fa3-80e9-b41157d102f2",
+        "name": "※ Alchemy / Spirit Artillery",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 7,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *Heavy weapons-type Artificial Regalia produced by a Last Creator.*While [Equipped], once per combat while making a [Physical Attack], increase [Physical Rank] by 1.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "b6d15dae-7b94-4a93-8ad4-8615bc5cdfa0",
+        "name": "Alchemy / Spirit Bow",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A strong bow created by a Last Creator.*While [Equipped], once per round by spending [Timing: Prep], increase [Physical Damage] dealt to [Aramitama] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "0c3b2580-0457-4c3b-9149-7d7ba1ddcc69",
+        "name": "※ Armeekorps",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 4,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *An automatic pistol-type Artificial Regalia produced by a Last Creator, based on the Sig Sauer.*While [Equipped], once per combat, the [Range] of the user's [Physical Attacks] gets +2 Sq. .",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "6343d3c8-b09c-4d80-9e76-2f418f93e06a",
+        "name": "※ Armor-Piercing Gun",
+        "restrict": "Cyborg",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": -1,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 6,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "2000G",
+        "effect": " *An AI-equipped assault rifle designed for mechanized soldiers.*While [Equipped], once per round, increase the [Target] of a [Physical Attack] by 1#.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "736e7d9d-adf6-4404-b021-930adbb21116",
+        "name": "※Cervena",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 5,
+            "pd2": 6,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "2500G",
+        "effect": " *A Vz61 submachine gun based off the 'Scorpion' converted to an artificial regalia.*While [Equipped], once per round, increase the [Target] of a [Ranged Attack] by 2#.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "51327731-f0a8-4450-843f-fa01c1a185a4",
+        "name": "Ring of Arrows",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 2,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "3500G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon arrows. With them, you can attack with your spiritual power.*While [Equipped], the target can [Alchemy /○○] [Ranged Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "bf715537-f788-4b3f-a20e-a4d8a8034268",
+        "name": "※ Horse of Legend",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3500G",
+        "effect": " *A legendary horse from traditions and folklore that appears in a spiritual form. It mainly appears before summoners.*While [Equipped], the user may make [Ranged Attacks] and [Magical Attacks] after a [Combat Move].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "Charge 4Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "202db8eb-3a0f-48b5-8baf-9c814169de66",
+        "name": "※ Technical Arts Gun",
+        "restrict": "Magus",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 6,
+            "pd2": 7,
+            "md": 0,
+            "md2": 0,
+            "init": 1,
+            "init2": 2
+        },
+        "cost": "3500G",
+        "effect": " *A firearm-type regalia that fires shots using various magical reagents instead of regular bullets. Its form varies.*While [Equipped], once per round when using a Talent to make an [Attack Action], increase the [Damage] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "2232683a-790f-4ed6-a563-9a2fe785430f",
+        "name": "※Killer's Handgun",
+        "restrict": "Soul Eater",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "4400G",
+        "effect": " *An extra-large pistol that converts negative spiritual energy into a bullet.*While [Equipped], reduce the [Armor] of the [Target] of the user's [Physical Attack] by 5 (to a minimum of 0).",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "a7ac802c-8ec8-4165-80fc-0e00789a3868",
+        "name": "※Verrat",
+        "restrict": "Martial / Utility",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 9,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "4400G",
+        "effect": " *A sniper-class artificial regalia based on the PSG-1.*While [Equipped], when making a [Physical Attack] on a [Target] that is more than [Range: 5 Sq] away, increase [Physical Damage] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "4bb75e3f-ad86-484e-9ad3-d3663e4d377a",
+        "name": "※ Schleien",
+        "restrict": "Martial / Utility",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": -1
+        },
+        "cost": "6000G ",
+        "effect": " *A machine gun-class artificial regalia based on the MG43.*While [Equipped], once per round, increase the [Target] of a [Physical Attack] by 2#.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "5ffa689e-d1f6-4f9a-94bb-a35a55df814a",
+        "name": "※ Curse Gun",
+        "restrict": "Magus",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 8,
+            "pd2": 9,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "6000G",
+        "effect": " *A technique-based gun that fires curses themselves instead of bullets. It has many possible forms.*While [Equipped], once per round when using a Talent to make an [Attack Action], increase the [Damage] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "7734b9ac-72d7-47ab-89c8-b0531522499e",
+        "name": "Ring of the Magic Bow",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 3,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 2,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A set of six rings, engraved with alchemic spells that summon magic bows. With them, you can attack with your spiritual power.*While [Equipped], the target can [Alchemy /○○] [Ranged Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "41fe77e7-cab0-4cad-925d-c021f8d85ef7",
+        "name": "※Freischutz",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 11,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A magical hunting gun blessed by the devil.*While [Equipped], when the user succeeds at an [Active Check], they gain +1 at [Damage Calculation], however when the [Active Check] is a failure, they instead lose 10 {HP].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "fc0c9510-4b76-410b-94e8-247e61c7ba3b",
+        "name": "※ Master Rifle",
+        "restrict": "Mastery",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 12,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A sniper rifle-class regalia used during World War II. It is difficult to handle, but its power and accuracy are high.*While [Equipped], by spending [Timing: Start], the user gains +1 [Rank] on [Damage Calculation].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "10Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "ad701a1e-3ea1-465d-9361-234885f0c5be",
+        "name": "※ Contracted Phantom Beast",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 0,
+            "md": 0,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A mythical creature that has been summoned, and has a close bond with the soul. It is an extremely powerful existence.*While [Equipped], the user may make [Ranged Attacks] and [Magical Attacks] after a [Combat Move].",
+        "attributes": {
+            "form": "Ranged",
+            "range": "Charge 4Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 1,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "e73385ec-e53e-486b-b327-2e4606ee86bf",
+        "name": "※Exorcism Gun",
+        "restrict": "Magus",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 1,
+            "ivc": 0,
+            "pd": 13,
+            "pd2": 14,
+            "md": 0,
+            "md2": 0,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "10000G",
+        "effect": " *A special gun that fires brutal spirit energy instead of bullets. It comes in many forms.*While [Equipped], once per round when using a Talent to make an [Attack Action], increase the [Damage] by 5.",
+        "attributes": {
+            "form": "Ranged",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "",
+            "element": "",
+            "rank": ""
+        },
+        "type": 2,
+        "icon": {
+            "x": 96,
+            "y": 832
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "147a080a-93f0-451e-ab31-4d335cf1af09",
+        "name": "Alchemy / Spirit Jewel",
+        "restrict": "None",
+        "mode": "One Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 3,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A colorful, jewel-type implement produced by a Last Creator.*While [Equipped], once per combat, increase the [Target] of the user's [Magical Attack] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "9253775b-77ad-46b6-afc6-09db2381d255",
+        "name": "Alchemy / Spirit Book",
+        "restrict": "None",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 5,
+            "init": -2,
+            "init2": -1
+        },
+        "cost": "-",
+        "effect": " *A replica of various types of spellbooks, produced by a Last Creator.*While [Equipped], once per combat, the [Target] of the user's [Magical Attack] [Halves] their [Barrier].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 4,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "4a71d8ab-193d-4a55-b827-a2fe5fdf7f39",
+        "name": "Alchemy / Spirit God",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": " *A spirit animal-type shikigami or golem produced by a Last Creator.*While [Equipped], gain +2 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "6a115737-76d8-4887-90eb-957b967134d2",
+        "name": "Alchemy / Spirit Staff",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 7,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "-",
+        "effect": "*A powerful magic wand or gun produced by a Last Creator.*While [Equipped], once per combat while making a [Magical Attack], increase [Magical Rank] by 1.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "50d308e5-9147-48b1-b9bd-2218254c6514",
+        "name": "Spirit Tree Wand",
+        "restrict": "None",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *A wand-type artificial regalia created from the wood of a tree that held spiritual power.*While [Equipped], once per round, increase the [Target] of the user's [Magical Attack] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "dc560a0f-98e5-493f-9d4f-acdf8c268b6c",
+        "name": "Unique Grimoire",
+        "restrict": "Mastery",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 5,
+            "md2": 0,
+            "init": -4,
+            "init2": 0
+        },
+        "cost": "2000G",
+        "effect": " *A spellbook-type artificial regalia that contains the secrets of a magical clan, created over generations.*While [Equipped], once per round, grain +3 to [Magical Damage].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "610c9d81-e969-46d9-b579-dce4c5904c40",
+        "name": "Small Golem",
+        "restrict": "Magus / Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A human-sized golem tuned for combat. Tougher and more agile than it looks.*While [Equipped], gain +2 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Magic",
+            "range": "5Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "fd5aaea2-213b-4b7d-87d9-ff43ab372842",
+        "name": "Book of Shadows",
+        "restrict": "Soul Eater",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 4,
+            "md2": 5,
+            "init": 0,
+            "init2": 1
+        },
+        "cost": "3000G",
+        "effect": " *A replica of a grimoire which describes the secrets of magic wielded by witches and demons*While [Equipped], once per combat when performing a [Magical Attack], gain +1 [Magical Rank].",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 4,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "93bbd78b-e034-4f4f-af24-3f9b7746d7af",
+        "name": "Ring of Cups",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 1,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "3000G",
+        "effect": " *A set of six rings, engraved with alchemic spells and diagrams of sake cups.*While [Equipped], the target can [Alchemy /○○] [Magic Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "497403a4-8d9a-4d30-a4fc-72f4a0f0bdbc",
+        "name": "Anti-Mystery Manipulator",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 6,
+            "md2": 0,
+            "init": -3,
+            "init2": 0
+        },
+        "cost": "4000G",
+        "effect": " *A special metal exoskeleton created by magic. It greatly enhances the physical ability of the wearer.*While [Equipped], gain +2 to the [Speed] of [Simple Moves].",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "102a3b0f-7bd7-4c6a-8e6e-b77dbe68797e",
+        "name": "Combat Golem",
+        "restrict": "Magus / Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 7,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "5000G",
+        "effect": " *A combat golem with a total height exceeding 3 meters. It has excellent fighting ability and defense..*While [Equipped], gain +3 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "a30734f3-2393-41aa-9ddc-eaa43433c461",
+        "name": "Spirit Sword",
+        "restrict": "Magus / Arcane",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 8,
+            "md2": 9,
+            "init": -3,
+            "init2": -2
+        },
+        "cost": "5000G",
+        "effect": " *A sword with powerful enhancements. It exerts tremendous power in the hands of a skilled user..*While [Equipped], When making an [Attack Action] against [Class: Undead - Chaos], gain +1 [Rank].",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 4,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "11a820d3-e258-4f4b-a70f-d1c5f0bfbdbd",
+        "name": "Ring of the Holy Grail",
+        "restrict": "Last Creator",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 3,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A set of six rings, engraved with alchemic spells and diagrams of the Holy Grail.*While [Equipped], the target can [Alchemy /○○] [Magic Weapons] or [Protectors] (→p48-p63). Also, the target also gains +[100G] to the [Cost] limit of the [Consumables] created with <<Tool Refinement>>.",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancel",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "8345f0f7-86a4-4cb4-b0fd-965ca1d892c2",
+        "name": "Rune Tablet",
+        "restrict": "Magus / Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 8,
+            "md2": 0,
+            "init": 0,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A mysterious lithograph with various engraved runes. The traced areas shine with spiritual power.*While [Equipped], once per round, the target of a [Magical Attack] gains -2 to the [Result] of their [Reaction Check].",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "8e4947e2-68d9-4b21-9450-0d0280331b3b",
+        "name": "Brazen Magical Creature",
+        "restrict": "Magus / Arcane",
+        "mode": "Switch Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 8,
+            "md2": 9,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A magical creature with a strong personality. Its power is great, but it is a little rebellious towards its master.*While [Equipped], once per round, increase the [Target] of the user's [Magical Attack] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 4,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "0d835924-7bc8-47ef-89d9-1573cedf7eed",
+        "name": "Black Lacquer Wand",
+        "restrict": "Soul Eater",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 9,
+            "md2": 0,
+            "init": -1,
+            "init2": 0
+        },
+        "cost": "8000G",
+        "effect": " *A special wand made of obsidian.*While [Equipped], once per round, increase the [Target] of the user's [Magical Attack] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "7Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "e00ae0dc-1407-4f42-93d0-536ca601062d",
+        "name": "Anti-Evil God Manipulator",
+        "restrict": "Magus",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 9,
+            "md2": 0,
+            "init": 1,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A manipulator designed for combat against evil gods. Dramatically enhances the use of magic by the wearer.*While [Equipped], gain +2 to the [Speed] of [Simple Moves].",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "Shock",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "b5a6d0b9-dc4d-48a9-8000-c6aed42865cf",
+        "name": "Unique Upanishad",
+        "restrict": "Mastery",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 10,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A collection of esoteric writing that describes the origins of a unique magic.*While [Equipped], once per round, increase the [Target] of the user's [Magical Attack] by 1#.",
+        "attributes": {
+            "form": "Magic",
+            "range": "8Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    },
+    {
+        "id": "37dcb9e3-0eae-4067-aba4-9a203d53453d",
+        "name": "Large Golem",
+        "restrict": "Magus / Arcane",
+        "mode": "Two Hand",
+        "bonus": {
+            "acc": 0,
+            "ivc": 0,
+            "pd": 0,
+            "pd2": 0,
+            "md": 12,
+            "md2": 0,
+            "init": -2,
+            "init2": 0
+        },
+        "cost": "10000G",
+        "effect": " *A large golem with a height of around 5 meters which can only be controlled by high-ranking magic users. It's said that a single one can level a small town..*While [Equipped], gain +3 to [Armor] and [Barrier].",
+        "attributes": {
+            "form": "Magic",
+            "range": "6Sq.",
+            "target": "1#",
+            "resist": "Cancels",
+            "element": "None",
+            "rank": "2"
+        },
+        "type": 3,
+        "icon": {
+            "x": 512,
+            "y": 864
+        },
+        "source": "ex9"
+    }
+]
