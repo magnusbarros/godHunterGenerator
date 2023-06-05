@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './weaponList.css';
-import { Box, Pagination } from "@mui/material";
+import { Box, Input, Pagination, Typography } from "@mui/material";
 import { WeaponCard } from "../weaponCard/WeaponCard";
 
 export const WeaponList = (props) => {
@@ -8,6 +8,7 @@ export const WeaponList = (props) => {
     const [weapons, setWeapons] = useState();
     const [loading, setLoading] = useState(true);
     const [position, setPosition] = useState(0);
+    const [itemsPerPage, setItemsPerPage] = useState(60);
     const [offset, setOffset] = useState(60);
     const [page, setPage] = useState(1);
     const [character, setCharacter] = useState({
@@ -86,29 +87,37 @@ export const WeaponList = (props) => {
 
     const handlePageChange = (event, value) => {
         setPage(value);
-        setPosition(30 * (value - 1));
-        setOffset((30 * value) + 30);
+        setPosition(itemsPerPage * (value - 1));
+        setOffset(itemsPerPage * value);
     };
 
     useEffect(() => {
         setWeapons(props.data);
         setCharacter(props.character);
         setLoading(false);
-    }, [props.character, props.data, page])
+    }, [props.character, props.data, page, itemsPerPage])
 
     return (loading ? "" :
-        <Box>
+        <Box >
             <Box sx={{ display: "flex", flexWrap: "wrap" }}>
                 {
                     weapons.map((weapon, index) => {
-                        if (index > position && index < position + offset) {
+                        if (index > position && index < offset) {
                             return <WeaponCard key={weapon.id} data={weapon} character={character} />
                         }
+                        return "";
                     })
                 }
             </Box>
-            <Box>
-                <Pagination sx={{ margin: "auto" }} count={parseInt(weapons.length / 30)} page={page} onChange={handlePageChange} />
+            <Box sx={{ display: "flex", flexWrap: "wrap" }}>
+                <Box sx={{ margin: "auto", display: "flex", flexWrap: "wrap" }}>
+                    <Pagination count={Math.round(weapons.length / itemsPerPage)} page={page} onChange={handlePageChange} />
+                    <Box sx={{ display: "flex", flexWrap: "wrap" }}>
+                        <Typography sx={{ fontSize: "14px", marginTop: "6px", marginRight: "5px" }}>Items per page: </Typography>
+                        <Input sx={{ width: "40px" }} type="number" value={itemsPerPage} onChange={(ev) => setItemsPerPage(ev.target.value)} />
+                    </Box>
+                </Box>
+
             </Box>
         </Box>
     )
