@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import './itemList.css';
 import {
     Box, Select, MenuItem, InputLabel, TextField, Autocomplete, Divider,
-    Button, Input
+    Button, Input, Pagination, Typography
 } from "@mui/material";
 import { ItemCard } from "../ItemCard/ItemCard";
 import SearchIcon from '@mui/icons-material/Search';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
+import RemoveIcon from '@mui/icons-material/Remove';
 import { ItemSource } from "../../../data/constants/ItemConstants";
 
 export const ItemList = (props) => {
@@ -83,46 +84,49 @@ export const ItemList = (props) => {
         "bonds": []
     });
     const [loading, setLoading] = useState(true);
-    const [name, setName] = useState("");
-    const [description, setDescription] = useState("");
-    const [effect, setEffect] = useState("");
-    const [source, setSource] = useState("*");
-    const [cost, setCost] = useState(0);
+
+    const defaultFilter = {
+        description: "",
+        effect: "",
+        source: "*",
+        costMin: "0",
+        costMax: "0",
+        name: ""
+    }
+    const [filter, setFilter] = useState(defaultFilter);
     const [itemNames, setItemNames] = useState([]);
+    const [position, setPosition] = useState(0);
+    const [itemsPerPage, setItemsPerPage] = useState(60);
+    const [offset, setOffset] = useState(60);
+    const [page, setPage] = useState(1);
 
     useEffect(() => {
         setItems(props.data);
-        setFilteredItems(props.data);
+        if (filteredItems.length === 0) {
+            setFilteredItems(props.data);
+        }
         setCharacter(props.character);
-
         let _itemNames = [];
         props.data.forEach(item => {
             _itemNames.push(item.name);
         });
-        setItemNames(_itemNames);
-
+        setItemNames(_itemNames.filter((value, index, array) => {
+            return array.indexOf(value) === index;
+        }));
         setLoading(false);
-    }, [props.character, props.data]);
+    }, [props.character, props.data, page, itemsPerPage]);
 
-    const changeFilter = (ev, value, field) => {
-        switch (field) {
-            case "item-name":
-                setName(value);
-                break;
-            case "item-description":
-                setDescription(ev.target.value);
-                break;
-            case "item-cost":
-                setCost(ev.target.value);
-                break;
-            case "item-effect":
-                setEffect(ev.target.value);
-                break;
-            case "item-source":
-                setSource(ev.target.value);
-                break;
-            default:
-                break;
+    const handlePageChange = (event, value) => {
+        setPage(value);
+        setPosition(itemsPerPage * (value - 1));
+        setOffset(itemsPerPage * value);
+    };
+
+    const changeFilter = (ev) => {
+        if (ev !== null) {
+            let _filter = { ...filter };
+            _filter[ev.target.name] = ev.target.value;
+            setFilter(_filter);
         }
     }
 
@@ -133,32 +137,38 @@ export const ItemList = (props) => {
         let filterSource = true;
         let filterCost = true;
 
-        if (name !== "" && name !== null) {
-            if (item.name.toLowerCase().includes(name.toLowerCase())) {
+        if (filter.name !== "" && filter.name !== null) {
+            if (item.name.toLowerCase().includes(filter.name.toLowerCase())) {
                 filterName = true;
             } else filterName = false;
         }
 
-        if (effect !== "" && effect !== null) {
-            if (item.effect.toLowerCase().includes(effect.toLowerCase())) {
+        if (filter.effect !== "" && filter.effect !== null) {
+            if (item.effect.toLowerCase().includes(filter.effect.toLowerCase())) {
                 filterEffect = true;
             } else filterEffect = false;
         }
 
-        if (description !== "" && description !== null) {
-            if (item.description.toLowerCase().includes(description.toLowerCase())) {
+        if (filter.description !== "" && filter.description !== null) {
+            if (item.description.toLowerCase().includes(filter.description.toLowerCase())) {
                 filterDescripton = true;
             } else filterDescripton = false;
         }
 
-        if (source !== "" && source !== null) {
-            if (item.source.toLowerCase() === source.toLowerCase() || source === "*") {
+        if (filter.source !== "" && filter.source !== null) {
+            if (item.source.toLowerCase() === filter.source.toLowerCase() || filter.source === "*") {
                 filterSource = true;
             } else filterSource = false;
         }
 
-        if (cost !== "" && cost !== null) {
-            if (parseInt(item.cost.replace("G", "")) >= parseInt(cost)) {
+        if (filter.costMin !== "0" && filter.costMin !== null) {
+            let cost = isNaN(item.cost.replace("G", "").replaceAll(": ", "").replaceAll(",", ""))
+                ? 0 : parseFloat(item.cost.replace("G", "").replaceAll(": ", "").replaceAll(",", ""));
+
+            if ((cost >= parseInt(filter.costMin)) &&
+                (cost <= parseInt(
+                    parseInt(filter.costMax) < parseInt(filter.costMin)
+                        ? cost : filter.costMax))) {
                 filterCost = true;
             } else filterCost = false;
         }
@@ -170,16 +180,13 @@ export const ItemList = (props) => {
             filterCost
     }
 
-    const filter = () => {
+    const doFilter = () => {
         setFilteredItems([]);
         setFilteredItems(items.filter(filterOptions));
     }
 
     const clearFilter = () => {
-        setName("");
-        setDescription("");
-        setCost(0);
-        setSource("*");
+        setFilter(defaultFilter);
         setFilteredItems(items);
     }
 
@@ -193,9 +200,9 @@ export const ItemList = (props) => {
                         id="item-name"
                         options={itemNames}
                         sx={{ width: 300 }}
-                        value={name}
-                        renderInput={(params) => <TextField {...params} />}
-                        onInputChange={(event, value) => changeFilter(event, value, "item-name")}
+                        value={filter.name}
+                        renderInput={(params) => <TextField name="name" {...params} />}
+                        onInputChange={(event) => changeFilter(event)}
                     />
                 </Box>
                 <Box className="item-filter-box">
@@ -203,8 +210,9 @@ export const ItemList = (props) => {
                     <TextField
                         id="item-effect"
                         sx={{ width: 300 }}
-                        value={effect}
-                        onChange={(event, value) => changeFilter(event, value, "item-effect")}
+                        name="effect"
+                        value={filter.effect}
+                        onChange={(event) => changeFilter(event)}
                     />
                 </Box>
                 <Box className="item-filter-box">
@@ -212,8 +220,9 @@ export const ItemList = (props) => {
                     <TextField
                         id="item-description"
                         sx={{ width: 300 }}
-                        value={description}
-                        onChange={(event, value) => changeFilter(event, value, "item-description")}
+                        name="description"
+                        value={filter.description}
+                        onChange={(event) => changeFilter(event)}
                     />
                 </Box>
                 <Box className="talent-filter-box">
@@ -221,10 +230,11 @@ export const ItemList = (props) => {
                     <Select
                         labelId="item-source-label"
                         id="item-source"
-                        value={source}
+                        name="source"
+                        value={filter.source}
                         label="Source"
                         className="item-select"
-                        onChange={(event, value) => changeFilter(event, value, "item-source")}
+                        onChange={(event) => changeFilter(event)}
                     >
                         <MenuItem value="*">All</MenuItem>
                         <MenuItem value={ItemSource.CORE}>Core</MenuItem>
@@ -237,25 +247,48 @@ export const ItemList = (props) => {
                     </Select>
                 </Box>
                 <Box className="item-filter-box">
-                    <InputLabel id="item-cost-label" className="item-cost">Cost (G)</InputLabel>
-                    <Input sx={{ width: 100, height: "56px" }}
-                        id="item-cost"
-                        type="number"
-                        value={cost}
-                        onChange={(event, value) => changeFilter(event, value, "item-cost")} />
+                    <Box sx={{ width: 300 }}>
+                        <InputLabel id="item-cost-label">Cost (G)</InputLabel>
+                        <Input sx={{ width: 130, height: "56px" }}
+                            id="item-cost-min"
+                            type="number"
+                            name="costMin"
+                            value={filter.costMin}
+                            onChange={(ev) => changeFilter(ev)} />
+                        <RemoveIcon sx={{ position: "relative", top: "10px", marginLeft: "5px", marginRight: "5px" }} />
+                        <Input sx={{ width: 130, height: "56px" }}
+                            id="item-cost-max"
+                            type="number"
+                            name="costMax"
+                            value={filter.costMax}
+                            onChange={(ev) => changeFilter(ev)} />
+                    </Box>
                 </Box>
                 <Box className="item-filter-box">
                     <Box className="talent-filter-button-box">
-                        <Button className="talent-filter-button" onClick={() => filter()}><SearchIcon className="talent-icon-label" />Search</Button>
+                        <Button className="talent-filter-button" onClick={() => doFilter()}><SearchIcon className="talent-icon-label" />Search</Button>
                         <Button className="talent-filter-button" onClick={() => clearFilter()}><ClearAllIcon className="talent-icon-label" />Clear Filter</Button>
                     </Box>
                 </Box>
                 <Divider sx={{ width: "100%", marginBottom: "15px" }} />
             </Box>
             <Box className="item-list">
-                {filteredItems.map((item) => {
-                    return <ItemCard key={item.id} data={item} character={character} />
+                {filteredItems.map((item, index) => {
+                    if (index >= position && index < offset) {
+                        return <ItemCard key={item.id} data={item} character={character} />
+                    }
+                    return "";
                 })}
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap" }}>
+                <Box sx={{ margin: "auto", display: "flex", flexWrap: "wrap" }}>
+                    <Pagination count={Math.round(filteredItems.length / itemsPerPage)} page={page} onChange={handlePageChange} />
+                    <Box sx={{ display: "flex", flexWrap: "wrap" }}>
+                        <Typography sx={{ fontSize: "14px", marginTop: "6px", marginRight: "5px" }}>Items per page: </Typography>
+                        <Input sx={{ width: "40px" }} type="number" value={itemsPerPage} onChange={(ev) => setItemsPerPage(ev.target.value)} />
+                    </Box>
+                </Box>
+
             </Box>
         </Box>
     )

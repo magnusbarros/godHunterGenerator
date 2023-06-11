@@ -1,0 +1,35 @@
+.weapon-filter {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.weapon-select {
+    width: 100%;
+    min-width: 200px;
+}
+
+.weapon-filter-box {
+    margin: 5px;
+    flex: 1;
+}
+
+.weapon-filter-box.disabled {
+    display: none;
+}
+
+.weapon-filter-button-box {
+    flex: 1;
+}
+
+.weapon-filter-button {
+    color: #0e8a85;
+}
+
+.weapon-stat-icon-select {
+    background-image: url(../../../resources/sprites/all_alt.png);
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
+    transform: scale(0.5);
+}

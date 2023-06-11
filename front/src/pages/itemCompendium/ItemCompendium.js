@@ -7,6 +7,7 @@ import {
 } from "@mui/material";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SaveIcon from '@mui/icons-material/Save';
+import PersonIcon from '@mui/icons-material/Person';
 import { ItemCart } from "../../content/items/ItemCart/ItemCart";
 import { save } from '../../api/characters/CharacterAPI'
 import TabPanel from "../../content/tables/TabPanel";
@@ -107,10 +108,14 @@ export const ItemCompendium = () => {
         },
         "bonds": []
     });
-    const [open, setOpen] = useState(false);
+    const [cartOpen, setCartOpen] = useState(false);
+    const [characterOpen, setCharacterOpen] = useState(false);
     const [tab, setTab] = useState(0);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+
+    const handleCartOpen = () => setCartOpen(true);
+    const handleCartClose = () => setCartOpen(false);
+    const handleCharacterOpen = () => setCharacterOpen(true);
+    const handleCharacterClose = () => setCharacterOpen(false);
     const handleTabSwitch = (ev, newTab) => {
         setTab(newTab);
     };
@@ -195,27 +200,44 @@ export const ItemCompendium = () => {
                 </Breadcrumbs>
             </Box>
             <Modal
-                open={open}
-                onClose={handleClose}
+                open={cartOpen}
+                onClose={handleCartClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description">
                 <ItemCart character={character.id} items={items} weapons={weapons} />
             </Modal>
-            <InputLabel id="select-character-label">Character</InputLabel>
-            <Select
-                id="select-character"
-                value={character.id}
-                labelId="select-character-label"
-                label="Character"
-                className="select-character"
-                defaultValue={0}
-                onChange={(event, value) => changeCharacter(event, value)}
-            >
-                <MenuItem key={0} value={0} disabled>Select a character</MenuItem>
-                {characterList.map((item) => {
-                    return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
-                })}
-            </Select>
+            <Modal
+                open={characterOpen}
+                onClose={handleCharacterClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description">
+                <Box sx={{
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    bgcolor: 'background.paper',
+                    border: '2px solid #000',
+                    boxShadow: 24,
+                    p: 4,
+                }}>
+                    <InputLabel id="select-character-label">Character</InputLabel>
+                    <Select
+                        id="select-character"
+                        value={character.id}
+                        labelId="select-character-label"
+                        label="Character"
+                        className="select-character"
+                        defaultValue={0}
+                        onChange={(event, value) => changeCharacter(event, value)}
+                    >
+                        <MenuItem key={0} value={0} disabled>Select a character</MenuItem>
+                        {characterList.map((item) => {
+                            return <MenuItem key={item.id} value={item.id}>{item.name}</MenuItem>
+                        })}
+                    </Select>
+                </Box>
+            </Modal>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }} >
                 <Tabs value={tab} onChange={handleTabSwitch} aria-label="Item Compendium">
                     <Tab sx={{ color: "#0e8a85" }} label="Consumables" {...tabProps(0)} />
@@ -257,7 +279,13 @@ export const ItemCompendium = () => {
                         key="cart"
                         icon={<ShoppingCartIcon />}
                         tooltipTitle="Cart"
-                        onClick={handleOpen}
+                        onClick={handleCartOpen}
+                    />
+                    <SpeedDialAction
+                        key="character"
+                        icon={<PersonIcon />}
+                        tooltipTitle="Character"
+                        onClick={handleCharacterOpen}
                     />
                 </SpeedDial>
             </Box>
